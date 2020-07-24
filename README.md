@@ -1,68 +1,27 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 42 Silicon Valley Info
 
-## Available Scripts
+Hello, this is a single page application website specifically for
+accumulating all known information for 42 Silicon Valley, located in Fremont, California.
 
-In the project directory, you can run:
+My reason for creating this project was that there wasn't much known about 42 SV, so I had
+to spend hours and hours looking through the internet to find any relevant information.
+Hopefully I've made it just a little bit easier for anyone who might come across this website.
 
-### `yarn start`
+It's a work in progress.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Built with Create React App.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### TODO:
 
-### `yarn test`
+:negative_squared_cross_mark: Polish up CSS and switch over to SASS
+    
+:negative_squared_cross_mark: Rework some components
+    
+:negative_squared_cross_mark: Rewrite content to make it more concise, add more information about Norm, etc.
+    
+:negative_squared_cross_mark: Add React Transition Group animations for component transitions
+    
+:negative_squared_cross_mark: Finish up portfolio website and add proper links
+    
+:negative_squared_cross_mark: Make own cards
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
