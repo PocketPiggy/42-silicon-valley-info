@@ -1,27 +1,30 @@
-# 42 Silicon Valley Info
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Hello, this is a single page application website specifically for
-accumulating all known information for 42 Silicon Valley, located in Fremont, California.
+## Getting Started
 
-My reason for creating this project was that there wasn't much known about 42 SV, so I had
-to spend hours and hours looking through the internet to find any relevant information.
-Hopefully I've made it just a little bit easier for anyone who might come across this website.
+First, run the development server:
 
-It's a work in progress.
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-Built with Create React App.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-### TODO:
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-:negative_squared_cross_mark: Polish up CSS and switch over to SASS
-    
-:negative_squared_cross_mark: Rework some components
-    
-:negative_squared_cross_mark: Rewrite content to make it more concise, add more information about Norm, etc.
-    
-:negative_squared_cross_mark: Add React Transition Group animations for component transitions
-    
-:negative_squared_cross_mark: Finish up portfolio website and add proper links
-    
-:negative_squared_cross_mark: Make own cards
+## Learn More
 
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
