@@ -7,6 +7,21 @@ export default ({ content }) => (
     <br />
     <br />
     <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <p> Yes, I bought your colgate toothpaste. </p>
+    <p> The one with Tartar control. </p>
     <p>{content.p1}</p>
   </div>
 );
@@ -16,8 +31,8 @@ export async function getStaticProps(content) {
   return {
     props: {
       content: {
-        title: "42 Silicon Valley information",
-        p1: "What about this one? I'm not sure, I'd like to think...no.",
+        title: "Contact",
+        p1: "This is the   page.",
       },
     },
   };
