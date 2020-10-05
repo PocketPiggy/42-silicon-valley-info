@@ -1,0 +1,90 @@
+Kanban @: https://github.com/PocketPiggy/42-Silicon-Valley-Information-Trove/projects/2
+
+Structure of the website
+
+*   0 - / (root/index/home page)
+    |
+    \--> 1 - /Preparation
+    |    |
+    |    \--> 1a - /Before_the_Piscine
+    |         1b - /CLI_and_Bash
+    |         1c - /Text_editor
+    |         1d - /Git
+    |         1e - /The_C_programming_language
+    |         1f - /Putting_it_all_together
+    |
+    \--> 1 - /Info_and_Sources
+    |    |
+    |    \--> 1a - /Prep_Sources
+    |         1b - /Blogs_reviews_and_testimonals
+    |         1c - /Negatives
+    |         1d - /Differences_between_campuses
+    |         1e - /Interviews
+    |         1f - /Dorms
+    |
+    \--> 1 - /Pros_and_Cons
+    |
+    \--> 1 - /Updates
+    |
+    \--> 1 - /History_of_42
+    |
+    \--> 1 - /About
+    |
+    \--> 1 - /Contact
+
+
+Components needed:
+    -Navbar
+    -Mobile navbar
+    -Footer
+    -Cards
+    -Scrolling side bar
+    -Contact form
+    -Loading animation
+
+
+
+Pages:
+
+Home
+    -Add landing page information
+    -Add marvin image
+
+
+Preparation
+    *Before_the_Piscine
+        -Have what's to be expected
+        -Give brief overview of Piscine
+        -Add links to each prep part
+
+    *CLI_and_Bash
+        -Add CLI information
+
+    *Text_editor
+
+    *Git
+
+    *The_C_programming_language
+
+    *Putting_it_all_together
+
+
+Info_and_Sources
+    *Prep_Sources
+
+    *Blogs_reviews_and_testimonals
+
+    *Negatives
+
+    *Differences_between_campuses
+
+    *Interviews
+
+    *Dorms
+
+
+Pros_and_Cons
+Updates
+History_of_42
+About
+Contact
