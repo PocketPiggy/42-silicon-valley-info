@@ -14,11 +14,13 @@ export default function NavigationBar() {
     return (
         <div>
             <Navbar bg="dark" expand="lg">
-                <Navbar.Brand href="/" passHref>
-                    <p>
-                        <FontAwesomeIcon icon={faHome} /> Home
-                    </p>
-                </Navbar.Brand>
+                <Link href="/" passHref>
+                    <Navbar.Brand href="/">
+                        <p>
+                            <FontAwesomeIcon icon={faHome} /> Home
+                        </p>
+                    </Navbar.Brand>
+                </Link>
 
                 <Navbar.Toggle />
 
@@ -98,6 +100,10 @@ export default function NavigationBar() {
                                 <NavDropdown.Item>Dorms</NavDropdown.Item>
                             </Link>
                         </NavDropdown>
+
+                        <Link href="/History_of_42" passHref>
+                            <Nav.Link>History of 42</Nav.Link>
+                        </Link>
 
                         <Link href="/Updates" passHref>
                             <Nav.Link>Updates</Nav.Link>
