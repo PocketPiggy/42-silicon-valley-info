@@ -1,0 +1,65 @@
+{
+  "Kristofk": {
+    "imgSrc": "/Images/infosources/blogreview/kristofk.png",
+    "imgAlt": "Article with sidebar on right side for quick navigation.",
+    "links": {
+      "one": "https://kristofk.com/posts/s42-survival-guide"
+    }
+  },
+  "Skunz": {
+    "imgSrc": "/Images/infosources/blogreview/skunz.jpg",
+    "imgAlt": "Youtube thumbnail of tim and eric show, mind blown explosion.",
+    "links": {
+      "one": "https://www.youtube.com/watch?v=NZZo114BSnY"
+    }
+  },
+  "Gcamerli": {
+    "imgSrc": "/Images/infosources/blogreview/gcamer.png",
+    "imgAlt": "Landing page with picture from hitch hiker's guide to the galaxy; with marvin watching the sunset.",
+    "links": {
+      "one": "https://42boot.gcamer.li/getting-started/"
+    }
+  },
+  "MBrave": {
+    "imgSrc": "/Images/infosources/blogreview/mbrave.png",
+    "imgAlt": "Medium article post with authors face underneath title.",
+    "links": {
+      "one": "https://medium.com/@themichaelbrave/why-im-taking-a-chance-on-42-222a698761d3",
+      "two": "https://medium.com/@themichaelbrave/i-have-a-place-in-the-dorms-at-42-3b1fc9c4e2c0",
+      "three": "https://medium.com/@themichaelbrave/my-piscine-experience-all-in-one-post-85671e0bf307",
+      "four": "https://medium.com/@themichaelbrave/lessons-learned-after-a-month-of-code-at-42s-piscine-679afb17fb",
+      "five": "https://medium.com/@themichaelbrave/life-as-a-cadet-at-42-silicon-valley-8-months-in-9d86204bf078"
+    }
+  },
+  "VNguyen": {
+    "imgSrc": "/Images/infosources/blogreview/vnguyen.png",
+    "imgAlt": "Medium article post with authors face underneath title; screencap of 42 silicon valley website landing page.",
+    "links": {
+      "one": "https://medium.com/my-journey-at-42-silicon-valley-as-a-non-cs-major/applying-to-42-silicon-valley-e79eaf56e375",
+      "two": "https://medium.com/my-journey-at-42-silicon-valley-as-a-non-cs-major/42-silicon-valley-piscines-dorm-application-process-3d167846255d",
+      "three": "https://medium.com/my-journey-at-42-silicon-valley-as-a-non-cs-major/from-acceptance-to-42-silicon-valleys-piscine-what-should-you-know-f2427efd8034",
+      "four": "https://medium.com/my-journey-at-42-silicon-valley-as-a-non-cs-major/acceptance-into-42-silicon-valley-from-pisciner-to-cadet-418b092fb464"
+    }
+  },
+  "Codinggirl": {
+    "imgSrc": "/Images/infosources/blogreview/codinggirl.jpg",
+    "imgAlt": "Youtube thumbnail of girl looking exhausted, captions saying day 1 42, I feel exhausted.",
+    "links": {
+      "one": "https://www.youtube.com/playlist?list=PLXNyxVNLAY_0G-hPCOzl5R0G_N_Rp0sLo"
+    }
+  },
+  "Zedechariaz": {
+    "imgSrc": "/Images/infosources/blogreview/zedechariaz.png",
+    "imgAlt": "Screenshot of the reddit thread, lots of text.",
+    "links": {
+      "one": "https://old.reddit.com/r/learnprogramming/comments/caxa2g/i_went_to_42_free_coding_school_ama/"
+    }
+  },
+  "Ekaterina": {
+    "imgSrc": "/Images/infosources/blogreview/ekaterina.png",
+    "imgAlt": "Blog formatted website with author touching behind her hair and smiling.",
+    "links": {
+      "one": "https://getawayposts.com/category/42-piscine-insider-day-to-day-chronics"
+    }
+  }
+}

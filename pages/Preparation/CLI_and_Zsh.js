@@ -1,13 +1,28 @@
 import React from "react";
+import Data from "../../data/pages/preparation/cli_zsh.json";
 
 export default function CLIAndZsh({ content }) {
   return (
     <div>
       <h1>{content.title}</h1>
       <p>{content.p1}</p>
+      <div>
+        <img
+          src={Data.Zsh.imgSrc}
+          alt={Data.Zsh.imgAlt}
+          title={Data.Zsh.title}
+        />
+      </div>
       <h3>{content.p2Header}</h3>
       <p>{content.p2}</p>
       <p>{content.p3}</p>
+      <div>
+        <img
+          src={Data.Bash.imgSrc}
+          alt={Data.Bash.imgAlt}
+          title={Data.Bash.title}
+        />
+      </div>
       <h3>{content.p4Header}</h3>
       <p>{content.p4}</p>
       <ul>
@@ -16,6 +31,14 @@ export default function CLIAndZsh({ content }) {
         <li>{content.li1.three}</li>
         <li>{content.li1.four}</li>
       </ul>
+
+      <div>
+        <img
+          src={Data.Cygwin.imgSrc}
+          alt={Data.Cygwin.imgAlt}
+          title={Data.Cygwin.title}
+        />
+      </div>
 
       <p>
         I highly recommend option one, installing Ubuntu. It's the easiest and
@@ -60,7 +83,8 @@ export async function getStaticProps(content) {
           four: "Install a virtual machine",
         },
         p5Header: "Learning materials",
-        p5: "Here are some resources that are a good place to start. Rmember, if you ever have trouble with someting, either look it up on the internet or use the man pages. Your goal should be at a bare minimum, being familiar with the basics."
+        p5:
+          "Here are some resources that are a good place to start. Rmember, if you ever have trouble with someting, either look it up on the internet or use the man pages. Your goal should be at a bare minimum, being familiar with the basics. Don't forget about the man pages!",
       },
     },
   };

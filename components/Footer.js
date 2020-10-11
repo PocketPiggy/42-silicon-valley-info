@@ -26,7 +26,7 @@ export default function Footer() {
                         rel="noopener noreferrer"
                     >
                         <img
-                            src="/nextjs.svg"
+                            src="/images/footer/nextjs.svg"
                             height="30"
                             width="80"
                             alt="Next.js Logo"
@@ -39,7 +39,7 @@ export default function Footer() {
                         rel="noopener noreferrer"
                     >
                         <img
-                            src="/react.svg"
+                            src="/images/footer/react.svg"
                             height="30"
                             width="80"
                             alt="React.js Logo"

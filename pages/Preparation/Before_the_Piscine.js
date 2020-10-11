@@ -1,19 +1,41 @@
 import React from "react";
+import Data from "../../data/pages/preparation/before_the_piscine.json";
 
 export default function BeforeThePiscine({ content }) {
   return (
     <div>
       <h1>{content.title}</h1>
+      <div>
+        <img
+          src={Data.Students.imgSrc}
+          alt={Data.Students.imgAlt}
+          title={Data.Students.title}
+        />
+      </div>
       <p>{content.p1}</p>
       <p>{content.p2}</p>
       <p>{content.p3}</p>
       <p>{content.p4}</p>
+      <div>
+        <img
+          src={Data.ParisLabs.imgSrc}
+          alt={Data.ParisLabs.imgAlt}
+          title={Data.ParisLabs.title}
+        />
+      </div>
       <p>{content.p5}</p>
       <li>CLI or command line interface. Specifically *nix stuff. </li>
       <li>Text editor. Vim or eMacs.</li>
       <li>Git. Version control.</li>
       <li>C Language. A low level programming language.</li>
       <p>{content.p6}</p>
+      <div>
+        <img
+          src={Data.ParisNiel.imgSrc}
+          alt={Data.ParisNiel.imgAlt}
+          title={Data.ParisNiel.title}
+        />
+      </div>
     </div>
   );
 }

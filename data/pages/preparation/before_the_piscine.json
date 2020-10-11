@@ -1,0 +1,17 @@
+{
+  "Students": {
+    "imgSrc": "/Images/preparation/before_the_piscine/42sv-labs-piscine.jpg",
+    "imgAlt": "A bunch of people, Pisciners, crowding around computers during the piscine.",
+    "title": "Looks like fun, eh?"
+  },
+  "ParisLabs": {
+    "imgSrc": "/Images/preparation/before_the_piscine/42-paris-labs.jpg",
+    "imgAlt": "Hundreds of iMacs with lots of students using them in the 42 Paris lab.",
+    "title": "That's a lot of iMacs..."
+  },
+  "ParisNiel": {
+    "imgSrc": "/Images/preparation/before_the_piscine/42-paris-niel-labs.jpeg",
+    "imgAlt": "Lots of students crowding around 42 founder Xavier Niel.",
+    "title": "All those people there, to learn how to code."
+  }
+}

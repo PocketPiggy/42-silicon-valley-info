@@ -6,7 +6,7 @@ import Loading from '../components/Loading';
 
 import "../styles/style.scss";
 
-function MyApp({ Component, pageProps }) {
+export default function MyApp({ Component, pageProps }) {
   //    Loading state; toggles state if link is clicked/route change started,
   //    conditional rendering if loading is true, renders loading screen.
   //    Else, renders rest of app. Also handles possible user error/multi
@@ -48,5 +48,3 @@ function MyApp({ Component, pageProps }) {
     </>
   );
 }
-
-export default MyApp;

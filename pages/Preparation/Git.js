@@ -1,12 +1,28 @@
 import React from "react";
+import Data from "../../data/pages/preparation/git.json";
 
 export default function Git({ content }) {
   return (
     <div>
       <h1>{content.title}</h1>
+      <div>
+        <img
+          src={Data.GitLogo.imgSrc}
+          alt={Data.GitLogo.imgAlt}
+          title={Data.GitLogo.title}
+        />
+      </div>
       <p>{content.p1}</p>
       <p>{content.p2}</p>
       <p>{content.p3}</p>
+      <div>
+        <img
+          src={Data.GitExample.imgSrc}
+          alt={Data.GitExample.imgAlt}
+          title={Data.GitExample.title}
+        />
+      </div>
+
       <p>{content.p4}</p>
       <p>{content.p5}</p>
     </div>

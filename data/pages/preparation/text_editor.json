@@ -1,0 +1,12 @@
+{
+  "Default": {
+    "imgSrc": "/Images/preparation/text_editor/vim_default.png",
+    "imgAlt": "Default splash screen of vim, information about version and simple keybind instructions.",
+    "title": ":q!"
+  },
+  "Tweaked": {
+    "imgSrc": "/Images/preparation/text_editor/vim_tweaked.png",
+    "imgAlt": "A sample of code with some vim plugins enabled.",
+    "title": "My vim setup with some plugins."
+  }
+}

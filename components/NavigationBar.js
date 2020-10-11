@@ -68,9 +68,9 @@ export default function NavigationBar() {
                         </NavDropdown>
 
                         <NavDropdown title="Info & Sources">
-                            <Link href="/InfoSources/Prep_sources" passHref>
+                            <Link href="/InfoSources/TownHalls" passHref>
                                 <NavDropdown.Item>
-                                    Prep Sources
+                                    Town Halls
                                 </NavDropdown.Item>
                             </Link>
                             <Link
@@ -101,20 +101,8 @@ export default function NavigationBar() {
                             </Link>
                         </NavDropdown>
 
-                        <Link href="/History_of_42" passHref>
-                            <Nav.Link>History of 42</Nav.Link>
-                        </Link>
-
                         <Link href="/Updates" passHref>
                             <Nav.Link>Updates</Nav.Link>
-                        </Link>
-
-                        <Link href="/History_of_42" passHref>
-                            <Nav.Link></Nav.Link>
-                        </Link>
-
-                        <Link href="/Pros_and_Cons" passHref>
-                            <Nav.Link>Pros and Cons</Nav.Link>
                         </Link>
 
                         <Link href="/About" passHref>

@@ -1,12 +1,21 @@
 import React from "react";
+import Data from '../../data/pages/preparation/text_editor.json'
 
 export default function TextEditor({ content }) {
   return (
     <div>
       <h1>{content.title}</h1>
       <p>{content.p1}</p>
+      <img src={Data.Default.imgSrc}
+           alt={Data.Default.imgAlt}
+           title={Data.Default.title}
+      />
       <p>{content.p2}</p>
       <p>{content.p3}</p>
+            <img src={Data.Tweaked.imgSrc}
+           alt={Data.Tweaked.imgAlt}
+           title={Data.Tweaked.title}
+      />
       <p>{content.p4}</p>
     </div>
   );

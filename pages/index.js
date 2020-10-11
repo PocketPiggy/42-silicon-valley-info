@@ -1,4 +1,5 @@
 import React from "react";
+import Data from '../data/pages/home.json';
 
 export default function Index({ content }) {
   return (
@@ -7,11 +8,7 @@ export default function Index({ content }) {
       <p>{content.p1}</p>
       <p>{content.p2}</p>
       <span>
-        <img
-          src="/images/home/Marvin.jpg"
-          alt="Marvin the android, looking depressed."
-          title="DON'T PANIC!"
-        />
+        <img src={Data.Marvin.imgSrc} alt={Data.Marvin.imgAlt} title={Data.Marvin.title}/>
       </span>
     </div>
   );

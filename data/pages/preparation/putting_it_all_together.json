@@ -1,0 +1,27 @@
+{
+  "Exam": {
+    "imgSrc": "/images/preparation/putting_it_all_together/42examlogin.jpg",
+    "imgAlt": "A student in the labs of 42 silicon valley taking the exam, with the instructions on the computer screen.",
+    "title": "Glad that the instructions are easy to find now."
+  },
+  "Campus": {
+    "imgSrc": "/images/preparation/putting_it_all_together/42campus.jpeg",
+    "imgAlt": "Entrance of the 42 silicon valley campus.",
+    "title": ""
+  },
+  "Moulinette": {
+    "imgSrc": "/images/preparation/putting_it_all_together/Moulinette.png",
+    "imgAlt": "Score results w/ peer reviews from the moulinette from day 8 of the piscine.",
+    "title": "Example results from Piscine corrections."
+  },
+  "Students": {
+    "imgSrc": "/images/preparation/putting_it_all_together/students.jpg",
+    "imgAlt": "A group of students crowding around a computer and collaborating.",
+    "title": "Be polite, social and study hard!"
+  },
+  "Stress": {
+    "imgSrc": "/images/preparation/putting_it_all_together/stress.jpg",
+    "imgAlt": "A programmer in front of three computers holding his head in his hands in frustration.",
+    "title": "Programming is difficult, make sure to manage your stress."
+  }
+}

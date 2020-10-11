@@ -1,0 +1,696 @@
+Home
+****
+
+
+"Welcome. If you found this website, chances are you're looking for information
+about the school 42 Silicon Valley. This website is dedicated to putting out all
+pubically known information about it and how 42 itself operates. Within this
+website, you'll find what the Piscine is, how to prepare for it and more.
+
+If you already know about the Piscine, head on over to "Before the Piscine". If
+you're looking for more information in general, I have sourced everything I've
+found. You'll find interviews, articles, reviews, the curriculum and even
+current up to date information about 42SV."
+
+"The 42 program, especially the Piscine, is very tough and requires some tenacity
+to get through it. Hopefully with the information I've gathered here, it'll be
+at least of some help for you regardless if you're on the fence about the whole
+thing or if you want to prepare as much as possible for the piscine.
+
+And with that out of the way, here's a quote from Marvin:
+
+'Well I wish you'd just tell me rather than try to engage my enthusiasm.'"
+
+****
+
+
+
+About
+****
+
+A brief introduction of myself: I was waiting for the April 2020 Piscine but it was
+cancelled in February due to 42SV needing to update 'update their techinical
+infrastructure.' This lead to all Piscines being cancelled for 2020 until further notice.
+Then Covid-19 shortly after and the campus was shut down in March.
+
+In the meantime, I've decided to continue self teaching, moving away from C and
+towards web development. I'm currently eagerly waiting on news for the next
+Piscine, which hopefully will be early next year.
+
+****
+
+
+
+Before the Piscine
+****
+
+So, you hear about this place called 42 but you're not sure what it's all about?
+Well, no worries, this section should help shed some light on what 42 is and the
+mysterious "Piscine" and what to expect.
+
+42 works like this: Before becoming a student, you must go through a 1 month long
+"bootcamp" of sorts called the Piscine. It's like a try out period to see if you have what they're
+looking for. While it's currently unknown 100% exactly what they want in a student,
+I've found lots of information that seems to correlate with the types of people
+they're looking for.
+
+The Piscine, or "swimming pool" in French, is all about hands on programming and
+a glimpse on how most learning and activities will be done at 42 but ramped up
+at a fast pace and turned up to 11. The style of learning relies on self teaching
+and peer-to-peer teaching. There are no teachers, courses or classes: its all
+self-paced. This is extremely different than what almost everyone has experienced
+before, which can be a good or bad thing depending on the person.
+
+To give an exmaple of an average day in the Piscine: Wake up, look at the exercises
+that are assigned for that day, then attempt them. If you don't know how to do
+something, you have to get out of your comfort zone. Ask the person on your left,
+your right. Neither of them know? Time to start googling for more information.
+Share, collaborate and improve, that's the 42 experience.
+
+That's an average day of the Piscine; like its namesake swimming pool, being
+thrown in without knowing how to swim (code), you'll struggle and feel
+uncomfortable. That's a good thing because getting outside your comfort zone,
+understanding how to fail and striving to get past those failures and move on
+is a very important part of life that applies to everything.
+
+In my research, I've found lots of people saying that 'you can't prepare for
+for the Piscine'. I don't quite agree with that, especially since the Piscine curriculum
+is freely available on the internet if you know where to look. So you know exactly what to expect.
+There are 4 main things you can prepare for which are what the Piscine will ask of you to
+learn anyways. They are:
+
+- CLI or command line interface. Specifically *nix stuff, like bash/zsh.
+- Text editor. Vim or eMacs.
+- Git. Version control.
+- C language. A low level programming language.
+
+
+How you prepare for the Piscine is up to you, you can go in blind, you can prep
+a little or you can just start learning now. In my opinion, if I wanted to learn
+another language, I would start now to help alleviate some of the hard parts now,
+rather than during a time sensitive event. I've compiled a list of learning
+material as a starter, you don't have to follow it and you can use any material
+you want. This is just what I used in my path to learning all of these topics.
+
+
+
+****
+
+
+CLI and Zsh
+****
+
+For the first couple of days, before even starting programming, the Piscine will
+go over the Command Line Interface (CLI). A CLI is basically a way to interact
+with the computer to make it do things, similar to using a mouse and clicking
+things to start programs or basic navigation, like going back to a different folder.
+Focus will be on basic navigation, creating files, manipluating files and making
+scripts. Being familiar with unix/unix-like commands is extremly helpful in
+advance.
+
+Currently, Mac OS uses Zsh, an extension from Bash. It doesn't really matter
+which one you use since Zsh is backwards compatible with Bash for the most part.
+So anything you learn using Bash, should be valid for the most part in Zsh.
+
+Mac & GNU/Linux
+
+To start, if you have a Mac, you are already using a unix-like system, so you
+can open up the terminal and start right away; same applies if you're using
+GNU/linux.
+
+Windows/Windows 10
+
+If you're using Windows, you have a couple of options:
+-You can install WSL or WSL2 (Windows Subsystem for Linux) *Windows 10 only*
+-Download a terminal emulator like cygwin
+-Run a linux distro like Ubuntu off of a USB stick
+-Install a linux to your hard drive and dual boot
+-Install a virtual machine
+
+For more information, check out The Odin Project in getting set up.
+https://www.theodinproject.com/courses/web-development-101/lessons/prerequisites
+
+
+****
+
+
+
+Text Editor
+***
+
+Similar to writing a document in a program like Microsoft Word, when programming
+you need to use a program to, well, program. Such text editors include, Sublime Text,
+Notepad, VSCode and Atom. At 42, you have two options: Vim or Emacs. You can't
+use anything else, only those two. Everyone has their own preference, but I will
+only go over Vim since that's the one I chose and it's much simpler to start with
+and get into. Vim is installed on pretty much every Unix-like system, it's lightweight
+and fast, and it's keyboard centric meaning, it's to be used without using a mouse.
+
+Vim has two modes: An insert mode and normal (command) mode. Insert mode, is like
+using any other program to type stuff, writing an email on outlook/gmail, Microsoft
+Word, etc. When you push keys, text appears. Normal mode, is different, in that it
+allows you to navigate around a document, manipluate text and much more complex
+hings. As an example, basic navigation is bound to HJKL, left down up right, respectively.
+Pressing the "i" key while in normal mode, will switch you over to insert mode.
+It takes a little getting used to and it may seem confusing at first, but don't worry.
+I have plenty ofl learning resources and direct examples of people using Vim.
+
+I'd strongly suggest watching the Piscine video for Vim as well as doing Vimtutor.
+
+To exit out of vim, make sure you're in normal mode. You can check
+by looking at the bottom left of the terminal window. If it says insert, then you're in
+insert mode. Get out of insert mode by pressing the "esc" key. Once in normal mode,
+type the ":" key, followed by "q". So it should look like this in the window :q.
+Then, press enter. You can also do :exit or qa!. To save, type :w or :wq to save, then
+quit.
+
+With Vim, it can be a stuggle to go from the normal way of typing into a program that
+has only one mode, to two modes. I'd suggest as a tip, try to do all of your typing
+within Vim if you can, try to learn the basic verb, modifier and noun keys. Verbs,
+meaning actions like deleting, selecting, copying and pasting. Modifiers, like start
+inserting text here or find this word. Noun, more navigation skipping around words,
+going forwards, backwards and going to the end or beginning of a line.
+
+
+
+****
+
+
+
+Git
+****
+
+One of the most important tools you'll be using during the Piscine, Git, is a
+version control system. What is version control? It's put simply, a way to manage
+and control changes within programs and other files. Git also allows you to take
+projects in different directions, while always keeping a backup of different versions.
+
+An example could be a program, a camera app. Version 1.0 (master branch), you can take pictures.
+In version 1.5 you can now record video but it doesn't have sound. Someone might want
+to add sound, so they take a copy of version 1.5 (fork or clone) and implement it themselves
+and make their own version 1.6 that can record video with sound. This is all while
+till having access to version 1.5. They also have the choice of being able to add those
+new changes to the older 1.5.
+
+Another example would be instead of saving a file like, 'project.txt, project2.txt,
+final_project.txt, final_final_project.txt, final_final_done_project.txt', you could
+save changes of a file, without having to make a new file with a new name everytime.
+All of that, while being able to see what changes you've made, as well as reverse
+them.
+
+The Vogsphere, is how you will be turning in your assignments, which uses git. Below,
+I have the video from the Piscine which not only explains it in more detail but will
+go through a walkthrough on how to use it.
+
+
+As a final note, the commands you'll use most ofter are: init, status, add, push, pull
+and commit. There are many more features of git, but knowing how to use these as well
+as understanding what branches are, is the bare minimum to get started successfully.
+
+
+
+****
+
+
+The C Programming Language
+****
+
+This is the big one, the main focus taking up the majority of the Piscine and 42's
+curriculum, as well as being 42's main programming language. There's lots of resources
+out there but for the most part, there are three main big ones that are useful. I
+won't go into much detail about C since every learning resouce will go over it in
+better and more detail.
+
+Whichever resource you choose, it's very important to not go to another tutorial unless
+that previous tutorial wasn't working at all. It's best to find a learning resource that
+works for you, then practice, practice, practice. Make programs, simple ones, big ones,
+little ones, whatever. Just keep making things.
+Similar to getting stronger by lifting weights, or getting more endurance with distance
+running, you need to practice to strengthn those neural conenctions and also to solidfy
+your understanding of the fundamentals.
+
+
+CS50x
+
+This is probably the most useful resource for someone looking to learn C first, especially
+without any background or previous experience in programming. It's a free online course
+from Harvard, an Introduction to Computer Science. It teaches the fundamentals and
+starts off with some abstractions that C doesn't give you but very quickly gets complicated,
+fast. I would suggest at a bare minimum, do the parts with Scratch and C. After that,
+it's up to you to continue since they use other languages.
+
+
+Check out their forums & social media for more information and if you have any
+questions or need help.
+
+
+C: A modern Approach
+
+A very verbose programming book, it covers both the C89 & C99 standards. It's
+extremely thorough and has lots of exercises, so if you do most or all of them,
+it will really help solidfy your understanding. I found the explanations to be
+very helpful; it's really good for using as reference material.
+
+
+K&R's: The C Programming Language
+
+This is basically the bible for C programmers, straight from the creator's mouth
+and has his original documentation. It's recommended a lot on the internet for people
+new to C but do keep in mind who this book's primary audience was for when it was created.
+It was written the 70s/80s mostly for established programmers coming from different
+languages, who didn't have access to other types of learning material like we do today.
+
+While it is possible to use this book to start off learning how to program in general,
+I wouldn't advise it due to the amount of time you'd spend googling basic things that
+other materials will explain more clearly. (e.g. Look at the chapter 1 histogram exercise)
+If you do decide to use this resource, consider definitely using it before the Piscine or after
+to help solidfy the fundamentals. Otherwise, this is an excellent reference guide and should
+be read by anyone interested in C in general.
+
+
+Miscellaneous resources
+
+Here are some random resources to start you off with if you learn differently. I would
+suggest watching the Computerphile videos about Recursion and Pointers if you might
+need a more illustrated example of how they work. I've heard good things about the other
+two C programming tutorial videos, but haven't personally watched them in entirety.
+There's also a stack overflow post on a list of different C books if none that I've
+shown so far interest you.
+
+
+
+****
+
+
+Putting it all together
+****
+
+
+
+So, now you know what to expect in regards to what the Piscine covers but there's still
+some more things, rather meta, that needs to be addressed. This will be very long,
+feel free to skip this as this page is mostly about the meta stuff from talking to past and
+current students, listening and reading about peoples experiences and observations and
+other little details about 42.
+
+
+Tests and group projects
+
+There are group projects which require collaboration, as well as making the person
+who is the 'least experience/weakest' answer for everyone's code and you'll be graded based
+on that person's explanation for example. There are about three group projects, three
+solo projects and four exams. The exams at the main 42 Paris campus are different,
+in the sense of you do not get instructions on how to even start the exam, so many people fail
+the first one. At 42 SV, I've heard from students that so many people failed that they
+had to change policy and now have the exam login instructions as the desktop wallpaper background.
+
+
+The Norm & Moulinette
+
+The Norminette is 42's coding standards. At every job, project or even programming language,
+there are certain conventions, like camelCase or snake_case. At 42, it's very specific,
+you must abide by all rules or you will get a 0 for that assignment, project or exam.
+There are a couple of things before you read what the standard are. Keep in mind, all
+of these standards are good rules for the most part but taken all together, it can be
+very limiting and create bad habits. So my advice is to learn and understand the norm but
+dont form your programming habits around it strictly when coding for non-related 42 things.
+
+The Moulinette is what grades your work. So if the Norminette checks it for spelling and
+grammar errors, the Moulinette grades the actual content of your work. The Moulinette
+is notorious for being fickle and the staff at 42 say that it has the final say. So if you
+have a small bug or you get the desired end result but Moulinette gives you a 0, you get
+a zero. There are github repos of people who claim to have gotten a working version to
+test for assignments, but it may or may not work. Also with the curriculum update,
+it will not work with some things most likely. Use at your own risk.
+
+
+
+What they're looking for
+
+This is one thing that no matter how much research anyone does, no one can find a clear
+answer even the students & possibly bocal. At 42 Paris, the competition is much more
+fierce for example, so many people who get accepted tend to have a background in programming
+or improved dramatically over the course of the Piscine.
+
+At 42 SV, I'll be honest, through my research I've found from both students, previous employees
+and even current ones (from what they've said publically) that 42 SV is lacking in
+enrollement. The barrier to entry at 42 SV and other 42/21 schools is much lower, they're
+more focused on just keeping the people who stay throughout the Piscine it seems like.
+So if a full Piscine is 300 people, about a quarter usually drops out within the first week.
+From 42 SV's numbers in interviews and hearing past students experiences, not only is that true,
+but about 1/2 of people drop out before the Piscine is completed and even fewer pass most
+assignemnts and exams. So what are they really looking for?
+
+Well, we can make an educated guess based on how their school is structured: They require
+people to teach themselves as well as teach each other. If you're not really compatabile with
+this type of pedagogy or you're anti-social, you probably won't be accepted since, if
+they accepted people like that en masse, it would be an unsustainable model and it wouldn't
+last long. So the people that they pick tend to have a couple of qualities that overlap:
+
+They don't give up easy, they see things through to the end, they're somewhat socialable,
+they can work with others and they're resourceful. 
+
+In my honest opinion, some of types of people, would succeed regardless of 42, especially since
+a lot of these types of people have STEM backgrounds but maybe haven't ever programmed before. 
+While I don't want to necesarially fall into survivorship bias, I'm just looking at the type 
+of people who were selected and giving a possible reason as to why.
+
+How can you be one of those people? A couple of past students have told me that since they
+monitor your login location, as anyone can see who is logged in where at the lab, it's good
+to move seats a lot, sit near other people and try to make friends with everyone. At 42 Paris,
+there's even a day or two where you get to select two other Pisciners who you believe deserve
+to get in. I don't think there's anything like that in 42 SV, but it does show that being social
+is a possible metric. One more thing is is hours in the lab. Most people have suggested
+spending at least 8 hours, just purely logged in and working everyday as another possible metric.
+
+TL;DR
+
+Be be social, put in the hours & work, most importantly don't give up and stick with it
+until the end.
+
+
+
+
+Stress and time management is important. While most people who get accepted do not pass
+a majority of the assignments and tests, a somewhat other metric to consider is how you
+spend your time while at the Piscine. You'll need to study, sleep, eat as well as talk to
+other people. There's even a specific day in the Piscine where,
+there's an assignement given out every hour, which was intentionally designed to
+make people burnout and fail the exam.
+
+
+
+
+I haven't put much emphasis on how hard the Piscine actually is, it's really difficult.
+The average person who actually gets accepted tends to put in a bare minimum of 8 hours
+a day, everyday during the Piscine. Most people who are new to programming can spend
+12-16 hours everyday on average but everyone is different. The most important things you
+an do during the Piscine are: Don't give up, help others but also don't forget about yourself,
+sleep and eat well and be expected to fail a lot.
+
+Keep in mind you shouldn't compare yourself to others during the Piscine; a better metric
+and one that they select for is total improvent. How much you've improved since the day before.
+So, if you have to compare yourself to something or someone,
+compare yourself to your past self from a couple days ago, or even at the beginning of the Piscine,
+because that's what you're really up against, constant improvement, learn from failures
+and growing despite them.
+
+
+
+****
+
+
+Info & Sources
+****
+
+Townhalls
+
+Before Covid, 42SV used to have townhalls for all the students, especially the ones living
+in the dorms, where they could bring up questions and concerns and receive some answers.
+The Bocal have compoiled some of those into notes hosted on github for the public. Since the current
+(at this time of writing) pandemic, they have resorted to virtual townhalls instead.
+Reading and listening through these made it more clear about the day to day experiences
+of cadets, both positive and negative. Sadly, the last town hall was June 12th, 2020 and
+there hasn't been another public one at least, since.
+
+
+Blogs & Reviews
+
+A good chunk of my research comes from these sources and others, but I've found these
+ones to be the most enlightening about 42. Some of them are quite detailed, others are more
+about what the authors felt as well as what was going on and what to expect during the Piscine.
+If you have to look at any, I'd suggest Skunz's 5 minute video as well as Kristofk's survival
+guide. Most of all the others are more for if you want to know more about the in's and out's of
+42 SV and 42 Paris.
+
+****
+
+
+Negatives
+****
+
+"To talk specifically about the negatives about the system, 42 relies on
+students self teaching and teaching each other. The curriculums are kind
+of outdated and aren't the best for the types of jobs students could even apply
+to after leaving 42. Not many jobs will hire someone without a CS/CE/EE
+degree using C, like embedded work. The Norm is really bad when combining all
+of the rules. In isolation, most rules are actually good but when forced together,
+it makes some seriously bad coding practices & habits.
+
+There are also things like, not being able to use switch statements,
+for loops, do while loops, goto, variable length arrays and ternary operators.
+I personally think this is a bad idea but these concepts aren't hard to pick up
+regardless. There's also the fact that a good chunk of time is spent recreating
+the wheel and allegedly the other Piscines for different languages you can take as
+a student, are really bad and outdated. So bad that, while I don't know if this is still
+true, the web development Piscine was focusing only on PHP...in 2018/18 last I heard.
+
+Nothing against PHP but not even going into Javascript kinda brings up red flags for me.
+Some of the other language Piscines are written by students as well so YMMV with those.
+Personally, I think the C Piscine and most of the recreating the wheel stuff is more
+than enough to learn the basics of programming fundamentals. Once you have that,
+you can self teach or use other resources rather than relying on student made Piscines.
+
+There is also the fact that since it's not a proper school, they can't help with Visas.
+This goes for pretty much any 42/21 campus in any country. If you're a foreigner,
+and you want to come to 42SV, you need to find a way to stay. Apparently many students
+took classes at a community college for cheap to stay on a student visa, but I have no
+actual knowledge about this. If you are one of those people, consider asking 42SV directly
+for more information.
+
+There is also no degree or really, any certification worth anything. Most of what you get
+is experience, which you could get from self teaching but not everyone has the willpower
+and ability to self teach.
+
+An important note is that, many students don't stay at 42 for long. At 42 SV, people tend
+to fall in two camps: Those who stay for 3-12 months then leave for full time jobs,
+and those that stay for longer then eventually leave without finishing the program.
+This leads to the exceptional people going through 42 like a revolving door, not staying
+long enough to really help people as well as losing all those experienced people in general.
+
+For funding, 42 SV is seeded and funded for the first 10 years since it's founding. It was
+established in 2016 and as of writing this, it's 2020. So it's almost halfway through its
+alloted money. I've heard from past students that the security guards that work there since the
+beginning, say that it's funded. The person who funded it, Xavier Niel hasn't really
+said much about 42 SV that I can find after opening. It's definitely not as successful
+as 42 Paris or even the other 42/21 places around the world. I should add that Mr. Niel
+did say that he wanted continued funding to be done by previous students donating back
+to the school. I haven't actually found many cases of this happening...so time will tell.
+
+I should also mention that one of the founders, Kwame Yamnane might be a bit of a fishy
+character. This is just speculation but from what I've gathered, he's created another
+school, though this one costs money. It's called QwasarSV and seems to follow the same
+Epitech/42 curriculum. The only reason I bring this up is because he seems to hop
+around a lot and their website makes a lot of promises, specifcally getting a job
+at a FAANG without a CS degree, which sets off some red flags for me personally.
+
+There are also rumors that previous Bocal when 42 first started, had embezzled money
+and since then, funding is allgedly more strict from 42 Paris. A recent hiring of a
+new Executive Director with a background in non-profit organizations and community
+out reach. He's been there for a year and some things have changed, like updating
+the curriculum finally after 2 years of being behind the other campuses, but time will tell
+if he can make 42 SV as successful as 42 Paris.
+
+
+
+
+
+
+
+
+****
+
+
+Dorms
+****
+
+
+There isn't much information about the dorms sadly. There are very, very few videos about
+42 SV's dorms. The only information I could find is that, there is a $42 deposit for the Piscine,
+which you will be given back assuming you do not cause damage to the dorms during your stay. You will
+receive the money back after the Piscine is over, regardless if you are accepted or not.
+
+After the Piscine and as a Cadet, there is a $82 deposit, which again, will be refunded after you
+check out of the dorms. They have some rules like smoking and a zero tolerance policy for alcohol,
+since there could be people 18-20 in the dorms. Other than that, the dorms are basically free,
+other than the deposit. The requirement for dorms called CYD, or check your dorms has had an overhaul
+since April 2020. To stay in the dorms, you now are given points that translate into days.
+You get points by turning in assignments and tests. From what I've seen from the town hall video,
+it's not as generous as the previous policy but assuming you do at least 20 hours a week,
+it should be doable to stay in the dorms without worry.
+
+You are also given 3 opportunities to freeze your time, so you can leave the dorms and come back
+another time.
+
+All in all, I think these policy changes are for the best. Talking to previous students who
+were there before and during Covid, there were lots of people doing the bare minimum to stay
+in the dorms, who'd loaf around. Some were people who were there since near the beginning. These
+new policies will allow more fresh students as well as give a little more incentive to
+studying. How many people per room changes depending on how many current students are there.
+I've heard sometimes there are 3 people or even 4 per room but other times, some people
+have a room all to themselves. Students can switch rooms apparently whenever they want.
+
+There are some rules when it comes to what you're allowed to bring. From what I can gather,
+no animals, alcohol, hot plates, or anything that could be considered a fire hazard. Rice cookers
+and tea kettles, I couldn't get a straight answer. Some students said they weren't allowed,
+others said they were. It seems like anyone who had one, would hide them if faculty came into
+their rooms. Although, it seems like mini fridges are ok. There is a microwave somewhere near
+the labs and for food, you can always go to Cantina, though it's about $5 a meal on average.
+There is a grocery store within walking distance, maybe 1-2 miles away. There
+is a gas station and some fast food place very close. Just a heads up, you aren't allowed
+to cook in the dorms and there is no kitchen available either.
+
+For more information such as needing to bring your own bedsheets, check out:
+https://dorms.42.us.org/faq
+
+The cantina: https://cantina.42.us.org/users/sign_in
+
+Below are the only two decent quality videos I could find with clear visuals of the dorms
+at 42 SV. IMO, they seem to be okay for what they are: a place to sleep. Like a college dorm,
+don't expect anything fancy. The beds seem to be bunk, there's a bathroom and there's usually
+a single desk in every room. A quick reminder that the 42 SV campus was bought from
+DeVry university around the time when they were having monetary problems.
+
+
+
+****
+
+
+
+Interviews
+****
+
+There's not many interviews in regards to 42 SV that are really worth watching. Most
+are very short and don't have many views. The ones that I think that have at least a little
+value are linked below. They're not necessary and they don't really give any insight or
+new information that I haven't already found from other primary & secondary resources.
+All three of these interviews were given by then COO Brittany Bir.
+
+
+
+****
+
+
+Campus differences
+****
+
+What is 42 exactly?
+
+42 is a tuition free school that was created in 2013 in Paris, France. There are
+two "official" campuses, the original 2013 one in Paris and 42 SV located in
+Fremont, California that opened up in 2016. Other than the two original ones,
+the other campuses such as Codam in the Netherlands, or 21 in Russia are liscensed
+and follow the same curriculum & pedagogy as the two main campuses.
+
+Is 42 Paris the same as 42 SV?
+
+No. 42 Paris operates quite differently than 42 SV. For starters, it has way more
+applicants and active students compared to 42 SV. The competition is much more fierce
+they are at least somewhat known in Paris. They operate quite differently though, with
+the Bocal being more clique and well known for having trolling behavior during some
+events. 42 Paris, for their Piscine, also has these weird rules and events that are
+pretty eccentric, such as battleship game which kicks people out during exams.
+There's also the rule that if a phone rings during
+an exam, they shut down everyone's computers in that row. 42 SV doesn't really
+have any of that shenanigans coming from the Bocal.
+
+In fact, 42 SV was actually quite behind, with a revamp in the curriculum sometime in
+2018/2019, all other liscensed schools and 42 Paris had upgraded to it. 42 SV was actually
+behind for 2 years before the decision to finally update was made in early 2020.
+
+
+Living situation
+
+42 Paris doesn't have dorms for either Pisciners or students. They require you to
+provide housing for yourself though in the past many Pisciners did sleep within the
+campus on the ground or in the labs. 42 SV has free dorms after a refundable security deposit
+of $42 for the Piscine and $84 for accepted students. There is also WiFi in the dorms
+but I've heard many problems about it being spotty or not working occassionally. Since
+both cities are somewhat expensive, 42 Silicon Valley makes it a bit easier for
+more frugal-type people to have an opportunity to learn. At both campuses,
+the labs are open 24 hours a day, 7 days a week. Though some restrictions might
+be in place currently due to Covid.
+
+
+How many people actually finish the program?
+
+At 42 Paris, there's been at least some amount of people who finish the program while
+at 42 Silicon Valley, only one known person has finished. As an important side note however,
+most people leave in around a year for jobs or other interests. Speaking pragmatically,
+there really isn't a use for a certificate that holds no weight compared to an actual
+STEM degree, let alone a CS/CE degree. It takes about 3-5 years to finish the curriculum
+on average but since it's self paced it can be done faster.
+
+
+
+
+****
+
+
+
+
+Updates
+****
+
+Feb 27 2020
+
+After getting accepted into the Piscine and paying the security deposit, 4
+weeks later I was sent a refund on my deposit and an email saying that my
+Piscine was cancelled. Here's the email:
+
+'
+Dear Pisciners,
+
+This is to inform you that as we are preparing to roll out the new 42 curricula, as well as make necessary upgrades to our technical infrastructure, we have decided to cancel the upcoming April 6, 2020 piscine to allow us to make these upgrades and changes to better serve all of our student population. 
+
+
+Similarly, during this transition period, we will be suspending the application/admission process until we finalize the roll out of our new curricula and complete our technical infrastructure improvements. We strongly encourage all student applicants to consider applying to another 42 campus, or another coding school. We will continue to be committed to the success of our current student population at 42 Silicon Valley, ensuring they have the most success possible, and maximize the use of all resources available to them. The success of our students will always be our top priority. 
+
+
+If you have any questions, or need any specific assistance, especially if you have already purchased airline tickets to attend the piscine please reach out to us at contact@42.us.org.
+'
+
+Which is interesting and makes sense, since months before I was talking to someone
+in the Netherlands who was at CODAM doing their own Piscine. Apparently their Piscine
+was one of the last using the old curriculum as well and they're updating too. It's
+unfortunate and bad timing.
+
+
+
+March 11 2020
+
+Covid-19 is really starting to take affect in the United States, especially the Bay
+Area and New York at the moment. 42 Silicon Valley has decided to shut their campus
+down immediately.
+
+Source:
+
+https://twitter.com/42SiliconValley/status/1237872224570228737
+
+
+
+April 14 2020
+
+Covid is really starting to ramp up, to take precautions, 42 Silicon Valley has
+decided to close not only the campus until May 4th, but also cancelled the July
+start date & Piscine.
+
+Source:
+
+https://twitter.com/42SiliconValley/status/1250137361335201792
+
+
+
+August 5 2020
+
+Whelp, due to the skyrocketing cases in the United States, 42 Silicon Valley has
+decided to cancel the October Piscine & start dates as well as the rest for 2020.
+With schools still kinda closed in California, this isn't looking too good for early
+2020 in my opinion. There are no set future date for anything and again, they say
+to keep an eye out on their social media channels.
+
+Source:
+
+https://twitter.com/42SiliconValley/status/1291110169347145728
+
+

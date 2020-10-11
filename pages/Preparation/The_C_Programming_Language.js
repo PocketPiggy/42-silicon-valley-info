@@ -1,4 +1,5 @@
 import React from "react";
+import Data from '../../data/pages/preparation/clang.json'
 
 export default function Clang({ content }) {
   return (
@@ -6,6 +7,12 @@ export default function Clang({ content }) {
       <h1>{content.title}</h1>
       <p>{content.p1}</p>
       <p>{content.p2}</p>
+      <div>
+        <img src={Data.Dennis.imgSrc}
+             alt={Data.Dennis.imgAlt}
+             title={Data.Dennis.title}
+        />
+      </div>
       <h3>{content.p3Header}</h3>
       <p>{content.p3}</p>
       <h3>{content.p4Header}</h3>
