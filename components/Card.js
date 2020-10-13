@@ -15,35 +15,32 @@ import React from "react";
 //  *<Card cardData={SelectCard("PageCategory", array, card)}/>*
 
 export default function Card(props) {
-    console.log("LOL YOU FORGOT TO ADD ARGUMENT!", props)
+    console.log("LOL YOU FORGOT TO ADD ARGUMENT!", props);
     const fillCard = (props) => {
         return (
             <div className="card-container">
-                <div className="card-content">
-                    <span className="card-img">
-                        <img src={props.imgSrc} alt={props.alt} />
-                    </span>
-                    <span className="card-title">
-                        <p className="card-title">{props.title}</p>
-                    </span>
-                    <hr className="card-text-seperator" />
-                    <span className="card-description">
-                        <p className="card-description">{props.description}</p>
-                    </span>
-                    <span className="card-link">
-                        <a
-                            href={props.link}
-                            target="blank"
-                            rel="noopener noreferrer"
-                            className="card-link"
-                        >
-                            {props.linkIcon}
-                        </a>
-                    </span>
-                </div>
+                <a
+                    href={props.aHref}
+                    target="blank"
+                    rel="noopener noreferrer"
+                    className="card-link"
+                >
+                    <div className="card-content">
+                        <div className="card-img">
+                            <img src={props.imgSrc} alt={props.alt} />
+                        </div>
+                        <div className="card-title">
+                            <p className="card-title">{props.title}</p>
+                        </div>
+                        <hr className="card-text-seperator" />
+                        <div className="card-description">
+                            <p className="card-description">{props.text}</p>
+                        </div>
+                    </div>
+                </a>
             </div>
         );
     };
 
-    return (<div>{fillCard(props.cardData)}</div>);
+    return <div>{fillCard(props.cardData)}</div>;
 }

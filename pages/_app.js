@@ -4,6 +4,7 @@ import NavigationBar from "../components/NavigationBar";
 import Footer from "../components/Footer";
 import Loading from "../components/Loading";
 
+
 import "../styles/style.scss";
 
 export default function MyApp({ Component, pageProps }) {

@@ -1,8 +1,7 @@
-@import '../../_variables.scss';
-
 .git-logo {
+    border: 1px solid green;
     height: calc(#{$img-c} - 17rem);
-    margin: 1rem 0 3rem 0;
+    margin: $img-c-margin;
     display: inline-block;
     img {
         object-fit: contain;

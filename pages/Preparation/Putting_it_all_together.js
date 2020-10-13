@@ -1,28 +1,32 @@
 import React from "react";
-import Data from '../../data/preparation/putting_it_all_together.json'
+import Data from "../../data/preparation/putting_it_all_together.json";
+import Button from "react-bootstrap/Button";
 
 export default function PuttingItAllTogether({ content }) {
   return (
-    <div>
+    <>
       <h1>{content.title}</h1>
-      <div>
+      <span className="img-container">
         <img
           src={Data.Campus.imgSrc}
           alt={Data.Campus.imgAlt}
           title={Data.Campus.title}
         />
-      </div>
-
+      </span>
+      <sub>Maybe the beginning of your coding journey.</sub>
       <p>{content.p1}</p>
       <h3>{content.p2Header}</h3>
       <p>{content.p2}</p>
-      <div>
+      <span className="img-container">
         <img
           src={Data.Exam.imgSrc}
           alt={Data.Exam.imgAlt}
           title={Data.Exam.title}
         />
-      </div>
+      </span>
+      <sub>
+        1. Open iTerm 2. kinit [intra login] 3. Type examshell 4. Start the exam
+      </sub>
       <h3>{content.p3Header}</h3>
       <p>{content.p3}</p>
       <p>
@@ -30,14 +34,17 @@ export default function PuttingItAllTogether({ content }) {
           Here's a link to the Piscine's pdf about the Norm.
         </a>
       </p>
-      <div>
+      <span className="img-container">
         <img
           src={Data.Moulinette.imgSrc}
           alt={Data.Moulinette.imgAlt}
           title={Data.Moulinette.title}
         />
-      </div>
-
+      </span>
+      <sub>
+        Code review and group projects, awesome things to be exposed to while
+        learning.
+      </sub>
       <p>{content.p4}</p>
       <h3>{content.p5Header}</h3>
       <p>{content.p5}</p>
@@ -52,28 +59,37 @@ export default function PuttingItAllTogether({ content }) {
       </ul>
       <p>{content.p8}</p>
       <p>{content.p9}</p>
-      <div>
+      <span className="img-container">
         <img
           src={Data.Students.imgSrc}
           alt={Data.Students.imgAlt}
           title={Data.Students.title}
         />
-      </div>
-
-      <p>{content.p10}</p>
+      </span>
+      <sub>{content.p10}</sub>
       <h3>{content.p11Header}</h3> <p>{content.p11}</p>
       <p>{content.p12}</p>
       <p>{content.p13}</p>
-      <div>
+      <span className="img-container">
         <img
           src={Data.Stress.imgSrc}
           alt={Data.Stress.imgAlt}
           title={Data.Stress.title}
         />
-      </div>
-
+      </span>
+      <sub>When learning to program, everyone will experience this.</sub>
       <p>{content.p14}</p>
-    </div>
+
+      <span className='holdr'>
+      </span>
+
+      <a href="https://42.us.org" target="blank" rel="noopener noreferrer">
+        <Button variant="primary" className="btn-next">
+          The meaning of life.
+        </Button>
+      </a>
+      <span className="buffy-the-buffer"></span>
+    </>
   );
 }
 

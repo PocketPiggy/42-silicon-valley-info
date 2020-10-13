@@ -1,19 +1,24 @@
 div #nav-container {
-
     .dropdown-item {
-        color: #ececec;
+        color: $text-color;
+        &:hover {
+            color: $background-color;
+            background-color: $hover-color;
+        }
     }
 
     .nav-link {
-        color: #ececec;
+        color: $text-color;
+        &:hover {
+            color: $hover-color;
+        }
     }
 
     .dropdown-menu {
-        background-color: #30475e;
+        background-color: $menu-color;
     }
 
     .navbar-brand {
-        color: #ececec;
+        color: $text-color;
     }
-
 }

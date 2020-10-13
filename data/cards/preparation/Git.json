@@ -1,42 +1,42 @@
 {
     "Card-1": {
         "title": "Net Ninja - git",
-        "imgSrc": "/Images/Pages/Preparation/GIT/netninja-git.jpg",
+        "imgSrc": "/Images/preparation/git/netninja-git.jpg",
         "imgAlt": "Github cat logo and fork/branch icon.",
         "text": "A very thorough tutorial and walkthrough explaining the basic usage of git. Recommended.",
         "aHref": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9goXbgTDQ0n_4TBzOO0ocPR"
     },
     "Card-2": {
         "title": "Freecodecamp: git",
-        "imgSrc": "/Images/Pages/Preparation/GIT/fcc-git.png",
+        "imgSrc": "/Images/preparation/git/fcc-git.png",
         "imgAlt": "Another thorough explanation and example of git in use.",
         "text": "Article with a picture of a forrest in the background.",
         "aHref": "https://www.freecodecamp.org/news/what-is-github-what-is-git-and-how-to-use-these-developer-tools/"
     },
     "Card-3": {
         "title": "Pro git",
-        "imgSrc": "/Images/Pages/Preparation/GIT/git-book.png",
-        "imgAlt": "",
-        "text": "",
+        "imgSrc": "/Images/preparation/git/progit.png",
+        "imgAlt": "Bookcover of pro git, with author names; Second edition",
+        "text": "A free eBook on the offcial git website. Good resource.",
         "aHref": "https://git-scm.com/book/en/v2"
     },
     "Card-4": {
         "title": "Learn git Branching",
-        "imgSrc": "/Images/Pages/Preparation/GIT/gitbranching.png",
-        "imgAlt": "",
-        "text": "",
+        "imgSrc": "/Images/preparation/git/gitbranching.png",
+        "imgAlt": "Landing page of git branching, showing game instructions.",
+        "text": "An excellent way to learn about git & branching by playing a game. Recommended.",
         "aHref": "https://learngitbranching.js.org/"
     },
     "Card-5": {
         "title": "Github cheetsheet",
-        "imgSrc": "/Images/Pages/Preparation/GIT/github-cs.png",
-        "imgAlt": "",
-        "text": "",
+        "imgSrc": "/Images/preparation/git/github-cs.png",
+        "imgAlt": "Github cheatsheet; has a table with two github cats and a laptop.",
+        "text": "A 2 page cheatsheet with the frequently most used git commands.",
         "aHref": "https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf"
     },
     "Card-6": {
         "title": "The Odin Project: git",
-        "imgSrc": "/Images/Pages/Preparation/GIT/top-git.png",
+        "imgSrc": "/Images/preparation/git/top-git.png",
         "imgAlt": "Beginning of the lesson for the git basics; has odin logo top left, and sidebar for current progress.",
         "text": "A lesson with many backed resources, examples and exercises. Highly recommended.",
         "aHref": "https://www.theodinproject.com/courses/web-development-101/lessons/introduction-to-git"

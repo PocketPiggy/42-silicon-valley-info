@@ -1,42 +1,70 @@
 import React from "react";
+import Link from 'next/link';
+import Button from 'react-bootstrap/Button'
 import Data from "../../data/preparation/before_the_piscine.json";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowAltCircleRight } from "@fortawesome/free-solid-svg-icons";
+
 
 export default function BeforeThePiscine({ content }) {
   return (
-    <div>
+    <>
       <h1>{content.title}</h1>
-      <div>
+      <span className="img-container">
         <img
           src={Data.Students.imgSrc}
           alt={Data.Students.imgAlt}
           title={Data.Students.title}
         />
-      </div>
+      </span>
+      <sub>
+        This is where it all begins: The Piscine.
+      </sub>
+
       <p>{content.p1}</p>
       <p>{content.p2}</p>
       <p>{content.p3}</p>
       <p>{content.p4}</p>
-      <div>
+      <span className="img-container">
         <img
           src={Data.ParisLabs.imgSrc}
           alt={Data.ParisLabs.imgAlt}
           title={Data.ParisLabs.title}
         />
-      </div>
+      </span>
+      <sub>
+        That's a lot of iMacs...
+      </sub>
+
       <p>{content.p5}</p>
-      <li>CLI or command line interface. Specifically *nix stuff. </li>
-      <li>Text editor. Vim or eMacs.</li>
-      <li>Git. Version control.</li>
-      <li>C Language. A low level programming language.</li>
+      <ul>
+        <li>CLI or command line interface. Specifically Unix stuff. </li>
+        <li>Text editor. Vim or eMacs.</li>
+        <li>Git. Version control.</li>
+        <li>C Language. A low level programming language.</li>
+      </ul>
       <p>{content.p6}</p>
-      <div>
+      <span className="img-container">
         <img
           src={Data.ParisNiel.imgSrc}
           alt={Data.ParisNiel.imgAlt}
           title={Data.ParisNiel.title}
         />
-      </div>
-    </div>
+      </span>
+      <sub>
+        The founder, Xavier Niel at 42 Paris.
+      </sub>
+
+      <Link href='./CLI_and_Zsh' passHref>
+        <Button variant='primary' className='btn-next'>
+          CLI & Zsh {" "}
+          <FontAwesomeIcon icon={faArrowAltCircleRight} />
+        </Button>
+      </Link>
+
+      <span className='buffy-the-buffer'>
+      </span>
+    </>
   );
 }
 

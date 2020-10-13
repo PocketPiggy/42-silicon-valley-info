@@ -1,38 +1,34 @@
 //  Global file for app.
 
-@import "~bootstrap/scss/bootstrap";
-@import "./page/home.scss";
-@import "./page/about.scss";
-@import "./page/updates.scss";
-@import "./page/contact.scss";
+@import "_variables.scss";
 
-@import "./components/scrollingsidebar.scss";
-@import "./components/footer.scss";
-@import "./components/card.scss";
-@import "./components/loading.scss";
-@import "./components/navigationbar.scss";
+//  Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+//  Bundled pages & components
+@import "./components/component.scss";
+@import "./page/page.scss";
 
 html {
 }
 
 body {
-    //min-height: 100vh;
     min-height: 100vh;
     position: relative;
-    background-color: #222831;
+    background-color: $background-color;
 }
 
 div {
+
     .page-container {
         position: relative;
         min-height: 100vh;
-        //margin-bottom: 4rem;
     }
+
     .page-content {
         width: 70%;
         display: flex;
         flex-direction: column;
-        justify-content: middle;
         justify-content: center;
         text-align: left;
         align-items: center;
@@ -40,29 +36,72 @@ div {
         padding-bottom: 5vh;
     }
 
-    h1 {
-        font-size: 3rem;
+    h1, h3 {
         font-weight: bold;
         text-align: center;
-        margin: 2rem;
-        color: #ececec;
+        margin: $header-margin;
+        color: $text-color;
     }
 
+    h1 {
+        font-size: $h1-size;
+    }
+
+    h3 {
+        font-size: $h3-size;
+    }
+
+
+
     p, li {
-        font-size: 1.32rem;
-        color: #ececec;
+        font-size: $p-size;
+        color: $text-color;
         white-space: normal;
         width: 75rem;
     }
 
     li {
-    }
 
+    }
 
 }
 
-@media screen and (min-width: 1440px) {
-    p {
-        font-size: 5rem;
+.buffer {
+    margin-bottom: 5rem;
+}
+
+.img-container {
+    height: $img-c;
+    margin: $img-c-margin;
+    display: inline-block;
+    img {
+        object-fit: contain;
+        height: $img-c;
+        width: auto;
     }
 }
+
+.buffy-the-buffer {
+    margin: $buffy;
+}
+
+sub {
+    color: $text-color;
+    font-size: $sub-size;
+    font-style: italic;
+    margin: 1rem 0 3rem 0;
+}
+
+ul {
+    margin: 1.5rem 0 2.5rem 5rem;
+}
+
+//@media sceen and (min-width): 900px) {
+
+//}
+
+//@media screen and (min-width: 1440px) {
+    //p {
+        //font-size: 5rem;
+    //}
+//}

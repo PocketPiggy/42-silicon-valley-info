@@ -1,29 +1,68 @@
 import React from "react";
 import Data from "../../data/preparation/text_editor.json";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Card from "../../components/Card";
+import SelectCard from "../../components/SelectCard";
+import Link from "next/link";
+import Button from "react-bootstrap/Button";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowAltCircleRight } from "@fortawesome/free-solid-svg-icons";
 
 export default function TextEditor({ content }) {
   return (
-    <div>
+    <>
       <h1>{content.title}</h1>
       <p>{content.p1}</p>
-      <div>
+      <span className="img-container">
         <img
           src={Data.Default.imgSrc}
           alt={Data.Default.imgAlt}
           title={Data.Default.title}
         />
-      </div>
+      </span>
+
+      <sub>The vim splash screen.</sub>
+
       <p>{content.p2}</p>
       <p>{content.p3}</p>
-      <div>
+      <span className="img-container">
         <img
           src={Data.Tweaked.imgSrc}
           alt={Data.Tweaked.imgAlt}
           title={Data.Tweaked.title}
         />
-      </div>
+      </span>
+      <sub>Vim with some addons and theme color changes.</sub>
+
       <p>{content.p4}</p>
-    </div>
+      <p>{content.p5}</p>
+
+      <Container className="holdr">
+        <Row className="rbs-row">
+          <Card cardData={SelectCard("TextEditor", "Card-1")} />
+          <Card cardData={SelectCard("TextEditor", "Card-2")} />
+          <Card cardData={SelectCard("TextEditor", "Card-3")} />
+        </Row>
+        <Row className="rbs-row">
+          <Card cardData={SelectCard("TextEditor", "Card-4")} />
+          <Card cardData={SelectCard("TextEditor", "Card-5")} />
+          <Card cardData={SelectCard("TextEditor", "Card-6")} />
+        </Row>
+        <Row className="rbs-row-2">
+          <Card cardData={SelectCard("TextEditor", "Card-7")} />
+          <Card cardData={SelectCard("TextEditor", "Card-8")} />
+        </Row>
+      </Container>
+
+      <Link href="./Git" passHref>
+        <Button variant="primary" className="btn-next">
+          Git <FontAwesomeIcon icon={faArrowAltCircleRight} />
+        </Button>
+      </Link>
+
+      <span className="buffy-the-buffer"></span>
+    </>
   );
 }
 
@@ -41,6 +80,8 @@ export async function getStaticProps(content) {
           "I'd strongly suggest watching the Piscine video for Vim as well as doing Vimtutor. To exit out of vim, make sure you're in normal mode. You can check by looking at the bottom left of the terminal window. If it says insert, then you're in insert mode. Get out of insert mode by pressing the 'esc' key. Once in normal mode, type the ':' key, followed by 'q'. So it should look like this in the window :q.  Then, press enter. You can also do :exit or qa!. To save, type :w or :wq to save, then quit.",
         p4:
           "With Vim, it can be a stuggle to go from the normal way of typing into a program that has only one mode, to two modes. I'd suggest as a tip, try to do all of your typing within Vim if you can, try to learn the basic verb, modifier and noun keys. Verbs, meaning actions like deleting, selecting, copying and pasting. Modifiers, like start inserting text here or find this word. Noun, more navigation skipping around words, going forwards, backwards and going to the end or beginning of a line.",
+        p5:
+          "Below are some starter resources for Vim. Just like man pages for the command line, you can use :help for vim while in the editor.",
       },
     },
   };
