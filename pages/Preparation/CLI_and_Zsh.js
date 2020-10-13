@@ -1,5 +1,5 @@
 import React from "react";
-import Data from "../../data/pages/preparation/cli_zsh.json";
+import Data from "../../data/preparation/cli_zsh.json";
 
 export default function CLIAndZsh({ content }) {
   return (

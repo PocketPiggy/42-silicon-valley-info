@@ -30,7 +30,9 @@ export default function About({ content }) {
       <h1>{content.title}</h1>
       <p>{content.p1} </p>
       <p>{content.p2} </p>
-      <FiveHead />
+      <div className='fivehead'>
+        <FiveHead />
+      </div>
     </div>
   );
 }

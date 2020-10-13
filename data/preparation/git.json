@@ -1,11 +1,11 @@
 {
   "GitLogo": {
-    "imgSrc": "/images/preparation/git/git_logo.png",
+    "imgSrc": "/Images/preparation/git/git_logo.png",
     "imgAlt": "The git logo.",
     "title": ""
   },
   "GitExample": {
-    "imgSrc": "/images/preparation/git/git_branches.png",
+    "imgSrc": "/Images/preparation/git/git_branches.png",
     "imgAlt": "A diagram example of how git branching works represented in lines. Master branch, your branch and someone elses, then all lines merging.",
     "title": "Branching is really cool."
   }

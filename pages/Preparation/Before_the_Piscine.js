@@ -1,5 +1,5 @@
 import React from "react";
-import Data from "../../data/pages/preparation/before_the_piscine.json";
+import Data from "../../data/preparation/before_the_piscine.json";
 
 export default function BeforeThePiscine({ content }) {
   return (

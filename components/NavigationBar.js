@@ -12,13 +12,11 @@ import { faHome } from "@fortawesome/free-solid-svg-icons";
 
 export default function NavigationBar() {
     return (
-        <div>
+        <div id="nav-container">
             <Navbar bg="dark" expand="lg">
                 <Link href="/" passHref>
                     <Navbar.Brand href="/">
-                        <p>
                             <FontAwesomeIcon icon={faHome} /> Home
-                        </p>
                     </Navbar.Brand>
                 </Link>
 
@@ -31,7 +29,7 @@ export default function NavigationBar() {
                                 href="/Preparation/Before_the_Piscine"
                                 passHref
                             >
-                                <NavDropdown.Item>
+                                <NavDropdown.Item >
                                     Before the Piscine
                                 </NavDropdown.Item>
                             </Link>

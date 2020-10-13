@@ -1,5 +1,5 @@
 import React from "react";
-import Data from '../../data/pages/preparation/clang.json'
+import Data from '../../data/preparation/clang.json'
 
 export default function Clang({ content }) {
   return (

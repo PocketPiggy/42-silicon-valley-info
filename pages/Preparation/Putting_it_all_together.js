@@ -1,5 +1,5 @@
 import React from "react";
-import Data from '../../data/pages/preparation/putting_it_all_together.json'
+import Data from '../../data/preparation/putting_it_all_together.json'
 
 export default function PuttingItAllTogether({ content }) {
   return (

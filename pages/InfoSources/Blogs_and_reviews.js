@@ -1,5 +1,5 @@
 import React from "react";
-import Data from "../../data/pages/infosources/blogreviews.json";
+import Data from "../../data/infosources/blogreviews.json";
 
 export default function BlogsAndReviews({ content }) {
   return (

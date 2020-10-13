@@ -1,8 +1,8 @@
-import { useEffect, useState } from 'react';
-import { useRouter } from 'next/router';
+import { useEffect, useState } from "react";
+import { useRouter } from "next/router";
 import NavigationBar from "../components/NavigationBar";
 import Footer from "../components/Footer";
-import Loading from '../components/Loading';
+import Loading from "../components/Loading";
 
 import "../styles/style.scss";
 
@@ -36,15 +36,20 @@ export default function MyApp({ Component, pageProps }) {
 
   return (
     <>
-      { loading
-        ? (<Loading />)
-        : (
-          <div>
-            <NavigationBar />
-            <Component {...pageProps} />
-            <Footer />
+      {loading ? (
+        <Loading />
+      ) : (
+        <div className="page-container">
+          <NavigationBar />
+          <div className="page-content">
+            <Component
+              {...pageProps}
+              className="d-flex flex-column min-vh-100"
+            />
           </div>
-        )}
+          <Footer />
+        </div>
+      )}
     </>
   );
 }

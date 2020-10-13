@@ -1,5 +1,5 @@
 import React from "react";
-import Data from "../../data/pages/preparation/git.json";
+import Data from "../../data/preparation/git.json";
 
 export default function Git({ content }) {
   return (
