@@ -1,18 +1,4 @@
-import Link from "next/link";
-//import {
-//Navbar,
-//Nav,
-//NavDropdown,
-//Form,
-//FormControl,
-//Button,
-//} from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPortrait, faCodeBranch } from "@fortawesome/free-solid-svg-icons";
-import {
-    faGithubSquare,
-    faTwitterSquare,
-} from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer() {
     return (
@@ -50,17 +36,16 @@ export default function Footer() {
 
                 <span>
                     <a
-                        href="https://github.com/PocketPiggy/42-Silicon-Valley-Information-Trove"
+                        href="https://twitter.com/Pocket_Piggy"
                         target="blank"
                         rel="noopener noreferrer"
                     >
                         <FontAwesomeIcon
-                            icon={faCodeBranch}
+                            icon={['fab', 'twitter-square']}
                             className="footer-icon"
                         />
                     </a>
                 </span>
-
 
                 <span>
                     <a
@@ -69,7 +54,7 @@ export default function Footer() {
                         rel="noopener noreferrer"
                     >
                         <FontAwesomeIcon
-                            icon={faGithubSquare}
+                            icon={['fab', 'github-square']}
                             className="footer-icon"
                         />
                     </a>
@@ -77,12 +62,12 @@ export default function Footer() {
 
                 <span>
                     <a
-                        href="https://twitter.com/Pocket_Piggy"
+                        href="https://github.com/PocketPiggy/42-Silicon-Valley-Information-Trove"
                         target="blank"
                         rel="noopener noreferrer"
                     >
                         <FontAwesomeIcon
-                            icon={faTwitterSquare}
+                            icon='code-branch'
                             className="footer-icon"
                         />
                     </a>

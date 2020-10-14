@@ -7,76 +7,89 @@ import SelectCard from "../../components/SelectCard";
 import Link from "next/link";
 import Button from "react-bootstrap/Button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowAltCircleRight } from "@fortawesome/free-solid-svg-icons";
+import ScrollingSideBar from "../../components/ScrollingSideBar";
 
-export default function Clang({ content }) {
+export default function Clang({ content, scroll }) {
   return (
     <>
-      <h1>{content.title}</h1>
-      <p>{content.p1}</p>
-      <p>{content.p2}</p>
-      <span className="img-container">
-        <img
-          src={Data.Dennis.imgSrc}
-          alt={Data.Dennis.imgAlt}
-          title={Data.Dennis.title}
-        />
-      </span>
-      <sub>
-        Dennis Ritchie, creator of the C language and co-developer of Unix.
-      </sub>
+      <section className="scroll-block" id="block-1">
+        <h1>{content.title}</h1>
+        <p>{content.p1}</p>
+        <p>{content.p2}</p>
+        <span className="img-container">
+          <img
+            src={Data.Dennis.imgSrc}
+            alt={Data.Dennis.imgAlt}
+            title={Data.Dennis.title}
+          />
+        </span>
+        <sub>
+          Dennis Ritchie, creator of the C language and co-developer of Unix.
+        </sub>
+      </section>
 
-      <h3>{content.p3Header}</h3>
-      <p>{content.p3}</p>
+      <section className="scroll-block" id="block-2">
+        <h3>{content.p3Header}</h3>
+        <p>{content.p3}</p>
 
-      <Container>
-        <Row className="rbs-row-2">
-          <Card cardData={SelectCard("CLang", "Card-1")} />
-          <Card cardData={SelectCard("CLang", "Card-2")} />
-        </Row>
-      </Container>
+        <Container>
+          <Row className="rbs-row-2">
+            <Card cardData={SelectCard("CLang", "Card-1")} />
+            <Card cardData={SelectCard("CLang", "Card-2")} />
+          </Row>
+        </Container>
+      </section>
 
-      <h3>{content.p4Header}</h3>
-      <p>{content.p4}</p>
+      <section className="scroll-block" id="block-3">
+        <h3>{content.p4Header}</h3>
+        <p>{content.p4}</p>
 
-      <Container>
-        <Row className="rbs-row-2">
-          <Card cardData={SelectCard("CLang", "Card-3")} />
-        </Row>
-      </Container>
+        <Container>
+          <Row className="rbs-row-2">
+            <Card cardData={SelectCard("CLang", "Card-3")} />
+          </Row>
+        </Container>
+      </section>
 
-      <h3>{content.p5Header}</h3>
-      <p>{content.p5}</p>
+      <section className="scroll-block" id="block-4">
+        <h3>{content.p5Header}</h3>
+        <p>{content.p5}</p>
 
-      <Container>
-        <Row className="rbs-row-2">
-          <Card cardData={SelectCard("CLang", "Card-4")} />
-        </Row>
-      </Container>
+        <Container>
+          <Row className="rbs-row-2">
+            <Card cardData={SelectCard("CLang", "Card-4")} />
+          </Row>
+        </Container>
+      </section>
 
-      <h3>{content.p6Header}</h3>
-      <p>{content.p6}</p>
+      <section className="scroll-block" id="block-5">
+        <h3>{content.p6Header}</h3>
+        <p>{content.p6}</p>
 
-      <Container className="holdr">
-        <Row className="rbs-row">
-          <Card cardData={SelectCard("CLang", "Card-5")} />
-          <Card cardData={SelectCard("CLang", "Card-6")} />
-          <Card cardData={SelectCard("CLang", "Card-7")} />
-        </Row>
-        <Row className="rbs-row">
-          <Card cardData={SelectCard("CLang", "Card-8")} />
-          <Card cardData={SelectCard("CLang", "Card-9")} />
-          <Card cardData={SelectCard("CLang", "Card-10")} />
-        </Row>
-      </Container>
+        <Container className="holdr">
+          <Row className="rbs-row">
+            <Card cardData={SelectCard("CLang", "Card-5")} />
+            <Card cardData={SelectCard("CLang", "Card-6")} />
+            <Card cardData={SelectCard("CLang", "Card-7")} />
+          </Row>
+          <Row className="rbs-row">
+            <Card cardData={SelectCard("CLang", "Card-8")} />
+            <Card cardData={SelectCard("CLang", "Card-9")} />
+            <Card cardData={SelectCard("CLang", "Card-10")} />
+          </Row>
+        </Container>
+      </section>
 
-      <Link href="./Putting_it_all_together" passHref>
-        <Button variant="primary" className="btn-next">
-          Putting it all Together{" "}
-          <FontAwesomeIcon icon={faArrowAltCircleRight} />
-        </Button>
-      </Link>
+      <section className="scroll-block" id="block-6">
+        <Link href="./Putting_it_all_together" passHref>
+          <Button variant="primary" className="btn-next">
+            Putting it all Together{" "}
+            <FontAwesomeIcon icon="arrow-alt-circle-right" />
+          </Button>
+        </Link>
+      </section>
 
+      <ScrollingSideBar data={scroll} />
       <span className="buffy-the-buffer"></span>
     </>
   );
@@ -105,6 +118,14 @@ export async function getStaticProps(content) {
         p6:
           "Here are some random resources to start you off with if you learn differently. I would suggest watching the Computerphile videos about Recursion and Pointers if you're still not understanding them after a while. I've heard good things about the other two C programming tutorial videos, but haven't personally watched them in entirety.  There's also a stack overflow post on a list of different C books if none that I've shown so far interest you.",
       },
+      scroll: [
+        { stop: "1", title: "The C Language" },
+        { stop: "2", title: "CS50x" },
+        { stop: "3", title: "C: A Modern Approach" },
+        { stop: "4", title: "The C Programming Language" },
+        { stop: "5", title: "Miscellaneous resources" },
+        { stop: "6", title: "Putting it all together" },
+      ],
     },
   };
 }

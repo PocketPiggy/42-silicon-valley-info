@@ -8,7 +8,6 @@ import {
     Button,
 } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHome } from "@fortawesome/free-solid-svg-icons";
 
 export default function NavigationBar() {
     return (
@@ -16,7 +15,7 @@ export default function NavigationBar() {
             <Navbar bg="dark" expand="lg">
                 <Link href="/" passHref>
                     <Navbar.Brand href="/">
-                            <FontAwesomeIcon icon={faHome} /> Home
+                        <FontAwesomeIcon icon='home' />{" "}Home
                     </Navbar.Brand>
                 </Link>
 
@@ -29,7 +28,7 @@ export default function NavigationBar() {
                                 href="/Preparation/Before_the_Piscine"
                                 passHref
                             >
-                                <NavDropdown.Item >
+                                <NavDropdown.Item>
                                     Before the Piscine
                                 </NavDropdown.Item>
                             </Link>
@@ -67,9 +66,7 @@ export default function NavigationBar() {
 
                         <NavDropdown title="Info & Sources">
                             <Link href="/InfoSources/TownHalls" passHref>
-                                <NavDropdown.Item>
-                                    Town Halls
-                                </NavDropdown.Item>
+                                <NavDropdown.Item>Town Halls</NavDropdown.Item>
                             </Link>
                             <Link
                                 href="/InfoSources/Blogs_and_reviews"
@@ -110,7 +107,6 @@ export default function NavigationBar() {
                         <Link href="/Contact" passHref>
                             <Nav.Link>Contact</Nav.Link>
                         </Link>
-
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

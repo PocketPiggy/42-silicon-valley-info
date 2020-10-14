@@ -5,7 +5,32 @@ import Footer from "../components/Footer";
 import Loading from "../components/Loading";
 
 
-import "../styles/style.scss";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import {
+  faPortrait,
+  faCodeBranch,
+  faHome,
+  faChevronRight,
+  faArrowAltCircleRight,
+  faArrowAltCircleLeft,
+} from "@fortawesome/free-solid-svg-icons";
+import {
+  faGithubSquare,
+  faTwitterSquare,
+} from "@fortawesome/free-brands-svg-icons";
+
+library.add(
+  faPortrait,
+  faCodeBranch,
+  faHome,
+  faChevronRight,
+  faArrowAltCircleRight,
+  faArrowAltCircleLeft,
+  faGithubSquare,
+  faTwitterSquare
+);
+
+import "../styles/styles.scss";
 
 export default function MyApp({ Component, pageProps }) {
   //    Loading state; toggles state if link is clicked/route change started,

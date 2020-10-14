@@ -7,34 +7,40 @@ import SelectCard from "../../components/SelectCard";
 import Link from "next/link";
 import Button from "react-bootstrap/Button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowAltCircleRight } from "@fortawesome/free-solid-svg-icons";
+import ScrollingSideBar from "../../components/ScrollingSideBar";
 
-export default function CLIAndZsh({ content }) {
+export default function CLIAndZsh({ content, scroll }) {
   return (
     <>
-      <h1>{content.title}</h1>
-      <p>{content.p1}</p>
+      <section className="scroll-block" id="block-1">
+        <h1>{content.title}</h1>
+        <p>{content.p1}</p>
 
-      <span className="img-container">
-        <img
-          src={Data.Zsh.imgSrc}
-          alt={Data.Zsh.imgAlt}
-          title={Data.Zsh.title}
-        />
-      </span>
-      <sub>Example of customized Zsh.</sub>
-      <h3>{content.p2Header}</h3>
-      <p>{content.p2}</p>
+        <span className="img-container">
+          <img
+            src={Data.Zsh.imgSrc}
+            alt={Data.Zsh.imgAlt}
+            title={Data.Zsh.title}
+          />
+        </span>
+        <sub>Example of customized Zsh.</sub>
+      </section>
 
-      <span className="img-container">
-        <img
-          src={Data.Bash.imgSrc}
-          alt={Data.Bash.imgAlt}
-          title={Data.Bash.title}
-        />
-      </span>
-      <sub>A default setup for bash.</sub>
+      <section className="scroll-block" id="block-2">
+        <h3>{content.p2Header}</h3>
+        <p>{content.p2}</p>
 
+        <span className="img-container">
+          <img
+            src={Data.Bash.imgSrc}
+            alt={Data.Bash.imgAlt}
+            title={Data.Bash.title}
+          />
+        </span>
+        <sub>A default setup for bash.</sub>
+      </section>
+
+      <section className="scroll-block" id="block-3">
       <h3>{content.p3Header}</h3>
       <p>{content.p3}</p>
       <ul>
@@ -66,7 +72,9 @@ export default function CLIAndZsh({ content }) {
         </a>{" "}
         Highly recommended.
       </p>
+      </section>
 
+      <section className="scroll-block" id="block-4">
       <h3> {content.p4Header} </h3>
       <p>{content.p4}</p>
 
@@ -82,15 +90,18 @@ export default function CLIAndZsh({ content }) {
           <Card cardData={SelectCard("CLI", "Card-6")} />
         </Row>
       </Container>
+      </section>
 
+      <section className="scroll-block" id="block-5">
       <Link href="./Text_Editor" passHref>
         <Button variant="primary" className="btn-next">
-          Text Editor {" "}
-          <FontAwesomeIcon icon={faArrowAltCircleRight} />
+          Text Editor <FontAwesomeIcon icon="arrow-alt-circle-right" />
         </Button>
       </Link>
 
+      <ScrollingSideBar data={scroll} />
       <span className="buffy-the-buffer"></span>
+      </section>
     </>
   );
 }
@@ -119,6 +130,13 @@ export async function getStaticProps(content) {
         p4:
           "Here are some resources that are a good place to start. Rmember, if you ever have trouble with someting, either look it up on the internet or use the man pages. Your goal should be at a bare minimum, being familiar with the basics. Don't forget about the man pages!",
       },
+        scroll: [
+          {stop: "1", title: "CLI & Zsh"},
+          {stop: "2", title: "Mac & GNU/Linux"},
+          {stop: "3", title: "Windows"},
+          {stop: "4", title: "Learning materials"},
+          {stop: "5", title: "Text Editor"},
+        ],
     },
   };
 }

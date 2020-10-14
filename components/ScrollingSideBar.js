@@ -10,68 +10,36 @@ import {
 } from "react-scroll";
 
 export default function ScrollingSideBar(props) {
-    //console.log(Object.values(props));
-    let ok = Object.values(props);
+    let kk = Object.values(props);
+    let ok = [];
+    //  O(reeeeeee)
+    //  Prop comes in as object of an array of objects or object of
+    //  Top of my head, easiest  way for this to work, might change later
+    //  for more efficiency but only 10 items max so probably ok for this
+    //  use case.
+
+    kk.map((arr) => arr.map((item) => ok.push(item)));
 
     const showItems = () => {
-        //console.log(okfuckyou)
-        console.log(props);
-        console.log(ok);
         return (
-            <div>
+            <>
                 <ul className="sidebar-items">
-                    <li className="sidebar-item">
-                        <Link
-                            activeClass="active"
-                            className="block2"
-                            to="block1"
-                            spy={true}
-                            smooth={true}
-                            duration={500}
-                        >Block 1</Link>
-                    </li>
-                    <li className="sidebar-item">
-                        <Link
-                            activeClass="active"
-                            className="block2"
-                            to="block2"
-                            spy={true}
-                            smooth={true}
-                            duration={500}
-                        >Block 2</Link>
-                    </li>
-                    <li className="sidebar-item">
-                        <Link
-                            activeClass="active"
-                            className="block3"
-                            to="block3"
-                            spy={true}
-                            smooth={true}
-                            duration={500}
-                        >Block 3</Link>
-                    </li>
-                    <li className="sidebar-item">
-                        <Link
-                            activeClass="active"
-                            className="block4"
-                            to="block4"
-                            spy={true}
-                            smooth={true}
-                            duration={500}
-                        >Block 4</Link>
-                    </li>
-                    <li className="sidebar-item">
-                        <Link
-                            activeClass="active"
-                            className="block5"
-                            to="block5"
-                            spy={true}
-                            smooth={true}
-                            duration={500}
-                        >Block 5</Link>
-                    </li>
+                    {ok.map((item, i) => (
+                        <li className="sidebar-item" key={`${item}-${i}`}>
+                            <Link
+                                activeClass="active"
+                                className={"block-" + item["stop"].toString()}
+                                to={"block-" + item["stop"].toString()}
+                                spy={true}
+                                smooth={true}
+                                duration={500}
+                            >
+                                {item.title}
+                            </Link>
+                        </li>
+                    ))}
                 </ul>
-            </div>
+            </>
         );
     };
 

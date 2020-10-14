@@ -1,69 +1,69 @@
 import React from "react";
-import Link from 'next/link';
-import Button from 'react-bootstrap/Button'
+import Link from "next/link";
+import Button from "react-bootstrap/Button";
 import Data from "../../data/preparation/before_the_piscine.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowAltCircleRight } from "@fortawesome/free-solid-svg-icons";
+import ScrollingSideBar from "../../components/ScrollingSideBar";
 
-
-export default function BeforeThePiscine({ content }) {
+export default function BeforeThePiscine({ content, scroll }) {
   return (
     <>
-      <h1>{content.title}</h1>
-      <span className="img-container">
-        <img
-          src={Data.Students.imgSrc}
-          alt={Data.Students.imgAlt}
-          title={Data.Students.title}
-        />
-      </span>
-      <sub>
-        This is where it all begins: The Piscine.
-      </sub>
+      <section className="scroll-block" id="block-1">
+        <h1>{content.title}</h1>
+        <span className="img-container">
+          <img
+            src={Data.Students.imgSrc}
+            alt={Data.Students.imgAlt}
+            title={Data.Students.title}
+          />
+        </span>
+        <sub>This is where it all begins: The Piscine.</sub>
+      </section>
 
-      <p>{content.p1}</p>
-      <p>{content.p2}</p>
-      <p>{content.p3}</p>
-      <p>{content.p4}</p>
-      <span className="img-container">
-        <img
-          src={Data.ParisLabs.imgSrc}
-          alt={Data.ParisLabs.imgAlt}
-          title={Data.ParisLabs.title}
-        />
-      </span>
-      <sub>
-        That's a lot of iMacs...
-      </sub>
+      <section className="scroll-block" id="block-2">
+        <p>{content.p1}</p>
+        <p>{content.p2}</p>
+        <p>{content.p3}</p>
+        <p>{content.p4}</p>
+        <span className="img-container">
+          <img
+            src={Data.ParisLabs.imgSrc}
+            alt={Data.ParisLabs.imgAlt}
+            title={Data.ParisLabs.title}
+          />
+        </span>
+        <sub>That's a lot of iMacs...</sub>
+      </section>
 
-      <p>{content.p5}</p>
-      <ul>
-        <li>CLI or command line interface. Specifically Unix stuff. </li>
-        <li>Text editor. Vim or eMacs.</li>
-        <li>Git. Version control.</li>
-        <li>C Language. A low level programming language.</li>
-      </ul>
-      <p>{content.p6}</p>
-      <span className="img-container">
-        <img
-          src={Data.ParisNiel.imgSrc}
-          alt={Data.ParisNiel.imgAlt}
-          title={Data.ParisNiel.title}
-        />
-      </span>
-      <sub>
-        The founder, Xavier Niel at 42 Paris.
-      </sub>
+      <section className="scroll-block" id="block-3">
+        <p>{content.p5}</p>
+        <ul>
+          <li>CLI or command line interface. Specifically Unix stuff. </li>
+          <li>Text editor. Vim or eMacs.</li>
+          <li>Git. Version control.</li>
+          <li>C Language. A low level programming language.</li>
+        </ul>
+        <p>{content.p6}</p>
+        <span className="img-container">
+          <img
+            src={Data.ParisNiel.imgSrc}
+            alt={Data.ParisNiel.imgAlt}
+            title={Data.ParisNiel.title}
+          />
+        </span>
+        <sub>The founder, Xavier Niel at 42 Paris.</sub>
+      </section>
 
-      <Link href='./CLI_and_Zsh' passHref>
-        <Button variant='primary' className='btn-next'>
-          CLI & Zsh {" "}
-          <FontAwesomeIcon icon={faArrowAltCircleRight} />
-        </Button>
-      </Link>
+      <section className="scroll-block" id="block-4">
+        <Link href="./CLI_and_Zsh" passHref>
+          <Button variant="primary" className="btn-next">
+            CLI & Zsh <FontAwesomeIcon icon="arrow-alt-circle-right" />
+          </Button>
+        </Link>
+      </section>
 
-      <span className='buffy-the-buffer'>
-      </span>
+  <ScrollingSideBar data={scroll} />
+      <span className="buffy-the-buffer"></span>
     </>
   );
 }
@@ -86,6 +86,12 @@ export async function getStaticProps(context) {
         p6:
           "How you prepare for the Piscine is up to you, you can go in blind, you can prep a little or you can just start learning now. In my opinion, if I wanted to learn another language, I would start now to help alleviate some of the hard parts now, rather than during a time sensitive event. I've compiled a list of learning material as a starter, you don't have to follow it and you can use any material you want. This is just what I used in my path to learning all of these topics.",
       },
+      scroll: [
+        { stop: "1", title: "Before the Piscine" },
+        { stop: "2", title: "What's the Piscine?" },
+        { stop: "3", title: "Piscine Material" },
+        { stop: "4", title: "Command Line" },
+      ],
     },
   };
 }

@@ -7,60 +7,68 @@ import SelectCard from "../../components/SelectCard";
 import Link from "next/link";
 import Button from "react-bootstrap/Button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowAltCircleRight } from "@fortawesome/free-solid-svg-icons";
+import ScrollingSideBar from "../../components/ScrollingSideBar";
 
-export default function TextEditor({ content }) {
+export default function TextEditor({ content, scroll }) {
   return (
     <>
-      <h1>{content.title}</h1>
-      <p>{content.p1}</p>
-      <span className="img-container">
-        <img
-          src={Data.Default.imgSrc}
-          alt={Data.Default.imgAlt}
-          title={Data.Default.title}
-        />
-      </span>
+      <section className="scroll-block" id="block-1">
+        <h1>{content.title}</h1>
+        <p>{content.p1}</p>
+        <span className="img-container">
+          <img
+            src={Data.Default.imgSrc}
+            alt={Data.Default.imgAlt}
+            title={Data.Default.title}
+          />
+        </span>
+        <sub>The vim splash screen.</sub>
+      </section>
 
-      <sub>The vim splash screen.</sub>
+      <section className="scroll-block" id="block-2">
+        <p>{content.p2}</p>
+        <p>{content.p3}</p>
+        <span className="img-container">
+          <img
+            src={Data.Tweaked.imgSrc}
+            alt={Data.Tweaked.imgAlt}
+            title={Data.Tweaked.title}
+          />
+        </span>
+        <sub>Vim with some addons and theme color changes.</sub>
+      </section>
 
-      <p>{content.p2}</p>
-      <p>{content.p3}</p>
-      <span className="img-container">
-        <img
-          src={Data.Tweaked.imgSrc}
-          alt={Data.Tweaked.imgAlt}
-          title={Data.Tweaked.title}
-        />
-      </span>
-      <sub>Vim with some addons and theme color changes.</sub>
+      <section className="scroll-block" id="block-3">
+        <p>{content.p4}</p>
+        <p>{content.p5}</p>
 
-      <p>{content.p4}</p>
-      <p>{content.p5}</p>
+        <Container className="holdr">
+          <Row className="rbs-row">
+            <Card cardData={SelectCard("TextEditor", "Card-1")} />
+            <Card cardData={SelectCard("TextEditor", "Card-2")} />
+            <Card cardData={SelectCard("TextEditor", "Card-3")} />
+          </Row>
+          <Row className="rbs-row">
+            <Card cardData={SelectCard("TextEditor", "Card-4")} />
+            <Card cardData={SelectCard("TextEditor", "Card-5")} />
+            <Card cardData={SelectCard("TextEditor", "Card-6")} />
+          </Row>
+          <Row className="rbs-row-2">
+            <Card cardData={SelectCard("TextEditor", "Card-7")} />
+            <Card cardData={SelectCard("TextEditor", "Card-8")} />
+          </Row>
+        </Container>
+      </section>
 
-      <Container className="holdr">
-        <Row className="rbs-row">
-          <Card cardData={SelectCard("TextEditor", "Card-1")} />
-          <Card cardData={SelectCard("TextEditor", "Card-2")} />
-          <Card cardData={SelectCard("TextEditor", "Card-3")} />
-        </Row>
-        <Row className="rbs-row">
-          <Card cardData={SelectCard("TextEditor", "Card-4")} />
-          <Card cardData={SelectCard("TextEditor", "Card-5")} />
-          <Card cardData={SelectCard("TextEditor", "Card-6")} />
-        </Row>
-        <Row className="rbs-row-2">
-          <Card cardData={SelectCard("TextEditor", "Card-7")} />
-          <Card cardData={SelectCard("TextEditor", "Card-8")} />
-        </Row>
-      </Container>
+      <section className="scroll-block" id="block-4">
+        <Link href="./Git" passHref>
+          <Button variant="primary" className="btn-next">
+            Git <FontAwesomeIcon icon="arrow-alt-circle-right" />
+          </Button>
+        </Link>
+      </section>
 
-      <Link href="./Git" passHref>
-        <Button variant="primary" className="btn-next">
-          Git <FontAwesomeIcon icon={faArrowAltCircleRight} />
-        </Button>
-      </Link>
-
+      <ScrollingSideBar data={scroll} />
       <span className="buffy-the-buffer"></span>
     </>
   );
@@ -83,6 +91,12 @@ export async function getStaticProps(content) {
         p5:
           "Below are some starter resources for Vim. Just like man pages for the command line, you can use :help for vim while in the editor.",
       },
+      scroll: [
+        { stop: "1", title: "Text Editor" },
+        { stop: "2", title: "Modeless vs Modal?" },
+        { stop: "3", title: "Learning materials" },
+        { stop: "4", title: "Git" },
+      ],
     },
   };
 }

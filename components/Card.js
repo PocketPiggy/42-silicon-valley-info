@@ -15,7 +15,6 @@ import React from "react";
 //  *<Card cardData={SelectCard("PageCategory", array, card)}/>*
 
 export default function Card(props) {
-    console.log("LOL YOU FORGOT TO ADD ARGUMENT!", props);
     const fillCard = (props) => {
         return (
             <div className="card-container">

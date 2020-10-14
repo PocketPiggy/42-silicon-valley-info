@@ -7,11 +7,12 @@ import SelectCard from "../../components/SelectCard";
 import Link from "next/link";
 import Button from "react-bootstrap/Button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowAltCircleRight } from "@fortawesome/free-solid-svg-icons";
+import ScrollingSideBar from "../../components/ScrollingSideBar";
 
-export default function Git({ content }) {
+export default function Git({ content, scroll }) {
   return (
     <>
+      <section className="scroll-block" id="block-1">
       <h1>{content.title}</h1>
       <span className="git-logo">
         <img
@@ -31,7 +32,9 @@ export default function Git({ content }) {
         />
       </span>
       <sub>A diagram of branching in action.</sub>
+      </section>
 
+      <section className="scroll-block" id="block-2">
       <p>{content.p4}</p>
       <p>{content.p5}</p>
 
@@ -47,13 +50,18 @@ export default function Git({ content }) {
           <Card cardData={SelectCard("Git", "Card-6")} />
         </Row>
       </Container>
+      </section>
 
+      <section className="scroll-block" id="block-3">
       <Link href="./The_C_Programming_Language" passHref>
         <Button variant="primary" className="btn-next">
-          The C Language <FontAwesomeIcon icon={faArrowAltCircleRight} />
+          The C Language {" "}
+          <FontAwesomeIcon icon='arrow-alt-circle-right' />
         </Button>
       </Link>
+      </section>
 
+      <ScrollingSideBar data={scroll} />
       <span className="buffy-the-buffer"></span>
     </>
   );
@@ -76,6 +84,11 @@ export async function getStaticProps(content) {
         p5:
           "As a final note, the commands you'll use most ofter are: init, status, add, push, pull and commit. There are many more features of git, but knowing how to use these as well as understanding what branches are, is the bare minimum to get started successfully. Below are some resources to help get started with git.",
       },
+       scroll: [
+          {stop: "1", title: "Git"},
+          {stop: "2", title: "Learning materials"},
+          {stop: "3", title: "The C Language"},
+        ],
     },
   };
 }

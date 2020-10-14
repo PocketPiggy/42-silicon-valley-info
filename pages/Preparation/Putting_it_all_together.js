@@ -1,100 +1,119 @@
 import React from "react";
 import Data from "../../data/preparation/putting_it_all_together.json";
 import Button from "react-bootstrap/Button";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import ScrollingSideBar from "../../components/ScrollingSideBar";
 
-export default function PuttingItAllTogether({ content }) {
+export default function PuttingItAllTogether({ content, scroll }) {
   return (
     <>
-      <h1>{content.title}</h1>
-      <span className="img-container">
-        <img
-          src={Data.Campus.imgSrc}
-          alt={Data.Campus.imgAlt}
-          title={Data.Campus.title}
-        />
-      </span>
-      <sub>Maybe the beginning of your coding journey.</sub>
-      <p>{content.p1}</p>
-      <h3>{content.p2Header}</h3>
-      <p>{content.p2}</p>
-      <span className="img-container">
-        <img
-          src={Data.Exam.imgSrc}
-          alt={Data.Exam.imgAlt}
-          title={Data.Exam.title}
-        />
-      </span>
-      <sub>
-        1. Open iTerm 2. kinit [intra login] 3. Type examshell 4. Start the exam
-      </sub>
-      <h3>{content.p3Header}</h3>
-      <p>{content.p3}</p>
-      <p>
-        <a href="https://github.com/gcamerli/bootcamp_c/blob/master/documents/norme.en.pdf">
-          Here's a link to the Piscine's pdf about the Norm.
+      <section className="scroll-block" id="block-1">
+        <h1>{content.title}</h1>
+        <span className="img-container">
+          <img
+            src={Data.Campus.imgSrc}
+            alt={Data.Campus.imgAlt}
+            title={Data.Campus.title}
+          />
+        </span>
+        <sub>Maybe the beginning of your coding journey.</sub>
+
+        <p>{content.p1}</p>
+      </section>
+
+      <section className="scroll-block" id="block-2">
+        <h3>{content.p2Header}</h3>
+        <p>{content.p2}</p>
+        <span className="img-container">
+          <img
+            src={Data.Exam.imgSrc}
+            alt={Data.Exam.imgAlt}
+            title={Data.Exam.title}
+          />
+        </span>
+        <sub>
+          1. Open iTerm 2. kinit [intra login] 3. Type examshell 4. Start the
+          exam
+        </sub>
+      </section>
+
+      <section className="scroll-block" id="block-3">
+        <h3>{content.p3Header}</h3>
+        <p>{content.p3}</p>
+        <p>
+          <a href="https://github.com/gcamerli/bootcamp_c/blob/master/documents/norme.en.pdf">
+            Here's a link to the Piscine's pdf about the Norm.
+          </a>
+        </p>
+        <span className="img-container">
+          <img
+            src={Data.Moulinette.imgSrc}
+            alt={Data.Moulinette.imgAlt}
+            title={Data.Moulinette.title}
+          />
+        </span>
+        <sub>
+          Code review and group projects, awesome things to be exposed to while
+          learning.
+        </sub>
+      </section>
+
+      <section className="scroll-block" id="block-4">
+        <p>{content.p4}</p>
+        <h3>{content.p5Header}</h3>
+        <p>{content.p5}</p>
+        <p>{content.p6}</p>
+        <p>{content.p7}</p>
+        <ul>
+          <li>{content.li1.one}</li>
+          <li>{content.li1.two}</li>
+          <li>{content.li1.three}</li>
+          <li>{content.li1.four}</li>
+          <li>{content.li1.five}</li>
+        </ul>
+        <p>{content.p8}</p>
+        <p>{content.p9}</p>
+        <span className="img-container">
+          <img
+            src={Data.Students.imgSrc}
+            alt={Data.Students.imgAlt}
+            title={Data.Students.title}
+          />
+        </span>
+        <sub>{content.p10}</sub>
+      </section>
+
+      <section className="scroll-block" id="block-5">
+        <h3>{content.p11Header}</h3> <p>{content.p11}</p>
+        <p>{content.p12}</p>
+        <p>{content.p13}</p>
+        <span className="img-container">
+          <img
+            src={Data.Stress.imgSrc}
+            alt={Data.Stress.imgAlt}
+            title={Data.Stress.title}
+          />
+        </span>
+        <sub>When learning to program, everyone will experience this.</sub>
+        <p>{content.p14}</p>
+      </section>
+
+      <section className="scroll-block" id="block-6">
+        <span className="holdr"></span>
+        <a href="https://42.us.org" target="blank" rel="noopener noreferrer">
+          <Button variant="primary" className="btn-next">
+            42 Silicon Valley <FontAwesomeIcon icon="arrow-alt-circle-right" />
+          </Button>
         </a>
-      </p>
-      <span className="img-container">
-        <img
-          src={Data.Moulinette.imgSrc}
-          alt={Data.Moulinette.imgAlt}
-          title={Data.Moulinette.title}
-        />
-      </span>
-      <sub>
-        Code review and group projects, awesome things to be exposed to while
-        learning.
-      </sub>
-      <p>{content.p4}</p>
-      <h3>{content.p5Header}</h3>
-      <p>{content.p5}</p>
-      <p>{content.p6}</p>
-      <p>{content.p7}</p>
-      <ul>
-        <li>{content.li1.one}</li>
-        <li>{content.li1.two}</li>
-        <li>{content.li1.three}</li>
-        <li>{content.li1.four}</li>
-        <li>{content.li1.five}</li>
-      </ul>
-      <p>{content.p8}</p>
-      <p>{content.p9}</p>
-      <span className="img-container">
-        <img
-          src={Data.Students.imgSrc}
-          alt={Data.Students.imgAlt}
-          title={Data.Students.title}
-        />
-      </span>
-      <sub>{content.p10}</sub>
-      <h3>{content.p11Header}</h3> <p>{content.p11}</p>
-      <p>{content.p12}</p>
-      <p>{content.p13}</p>
-      <span className="img-container">
-        <img
-          src={Data.Stress.imgSrc}
-          alt={Data.Stress.imgAlt}
-          title={Data.Stress.title}
-        />
-      </span>
-      <sub>When learning to program, everyone will experience this.</sub>
-      <p>{content.p14}</p>
+      </section>
 
-      <span className='holdr'>
-      </span>
-
-      <a href="https://42.us.org" target="blank" rel="noopener noreferrer">
-        <Button variant="primary" className="btn-next">
-          The meaning of life.
-        </Button>
-      </a>
+      <ScrollingSideBar data={scroll} />
       <span className="buffy-the-buffer"></span>
     </>
   );
 }
 
 export async function getStaticProps(content) {
-  console.log(content);
   return {
     props: {
       content: {
@@ -139,6 +158,14 @@ export async function getStaticProps(content) {
           five: "They're resourceful",
         },
       },
+      scroll: [
+        { stop: "1", title: "Putting it all together" },
+        { stop: "2", title: "Exams and group projects" },
+        { stop: "3", title: "Norminette & Moulinette" },
+        { stop: "4", title: "What they're looking for" },
+        { stop: "5", title: "Stress & Time management" },
+        { stop: "6", title: "42 Silicon Valley" },
+      ],
     },
   };
 }

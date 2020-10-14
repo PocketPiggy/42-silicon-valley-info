@@ -5,6 +5,13 @@
 //  Bootstrap
 @import "~bootstrap/scss/bootstrap";
 
+//  Font awesome
+@import "./fontawesome/fontawesome";
+@import "./fontawesome/brands";
+@import "./fontawesome/regular";
+@import "./fontawesome/solid";
+@import 'node_modules/@fortawesome/fontawesome-svg-core/styles';
+
 //  Bundled pages & components
 @import "./components/component.scss";
 @import "./page/page.scss";
@@ -66,8 +73,12 @@ div {
 
 }
 
-.buffer {
-    margin-bottom: 5rem;
+.scroll-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
 }
 
 .img-container {
@@ -83,6 +94,7 @@ div {
 
 .buffy-the-buffer {
     margin: $buffy;
+    width: 100%;
 }
 
 sub {
@@ -90,6 +102,8 @@ sub {
     font-size: $sub-size;
     font-style: italic;
     margin: 1rem 0 3rem 0;
+    display: block;
+    text-align: center;
 }
 
 ul {
