@@ -1,4 +1,3 @@
-import React from "react";
 import Link from "next/link";
 import Button from "react-bootstrap/Button";
 import Data from "../../data/preparation/before_the_piscine.json";

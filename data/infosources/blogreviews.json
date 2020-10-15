@@ -31,6 +31,15 @@
       "five": "https://medium.com/@themichaelbrave/life-as-a-cadet-at-42-silicon-valley-8-months-in-9d86204bf078"
     }
   },
+  "Jraleman": {
+    "imgSrc": "/Images/infosources/blogreview/jraleman.png",
+    "imgAlt": "Medium article post with squritle pokemon as profile picture and picture of 42 silicon valley labs.",
+    "links": {
+      "one": "https://medium.com/@jraleman/42-silicon-valley-the-good-the-bad-and-the-ugly-b80fbb6d5d2f",
+      "two": "https://medium.com/@jraleman/42-silicon-valley-piscine-or-how-i-learned-to-stop-worrying-and-love-the-code-6b72bd41317a",
+      "three": "https://github.com/jraleman/42_Piscine-C"
+    }
+  },
   "VNguyen": {
     "imgSrc": "/Images/infosources/blogreview/vnguyen.png",
     "imgAlt": "Medium article post with authors face underneath title; screencap of 42 silicon valley website landing page.",

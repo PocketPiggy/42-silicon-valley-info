@@ -1,0 +1,15 @@
+{
+  "Example": {
+    "imgSrc": "/Images/infosources/dorm/dorm_ex.jpeg",
+    "imgAlt": "Desk with a chair, sunny window, air conditioner and two beds.",
+    "text": "It looks okay. Source: Jraleman"
+  },
+  "Vid1": {
+    "imgSrc": "/Images/infosources/dorm/dorm1.jpg",
+    "imgAlt": "Youtube thumbnail of 3 girls laughing with video title captioned."
+  },
+  "Vid2": {
+    "imgSrc": "/Images/infosources/dorm/dorm2.jpg",
+    "imgAlt": "Youtube thumbnail of author capturing video with his shadow infront of the closed dorm door."
+  }
+}

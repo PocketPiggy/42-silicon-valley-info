@@ -1,5 +1,53 @@
 #contact-form {
-    border: 1px solid green;
+    border-radius: $rounded-c;
+    width: 27rem;
     height: 30rem;
-    width: 20rem;
+    margin-top: 3rem;
+    box-shadow: $box-shadow;
+    background-color: $menu-color;
+
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 24rem;
+        margin: 0 auto;
+    }
+
+    label {
+        color: $text-color;
+        font-size: $h3-size;
+        font-weight: bold;
+        margin: 2rem 0 2rem 0;
+        justify-content: center;
+    }
+
+    .contact-box {
+        margin: .5rem 0 1rem 0;
+    }
+
+    .contact-message {
+        margin: .5rem 0 1rem 0;
+        height: 8rem;
+        border-radius: $rounded-c;
+    }
+
+    .contact-submit {
+        width: 6rem;
+        border-radius: $rounded-c;
+        box-shadow: $img-shadow;
+        &:hover {
+            animation: heartbeat .75s;
+            box-shadow: $box-shadow;
+        }
+    }
+}
+
+.contact-p {
+    text-align: center;
+}
+
+@keyframes heartbeat {
+    0% {
+        box-shadow: 0;
+    }
 }

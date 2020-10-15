@@ -1,4 +1,3 @@
-import React from "react";
 import { BigHead } from "@bigheads/core";
 
 export default function About({ content }) {
@@ -26,14 +25,17 @@ export default function About({ content }) {
   );
 
   return (
-    <div>
-      <h1>{content.title}</h1>
-      <p>{content.p1} </p>
-      <p>{content.p2} </p>
-      <div className='fivehead'>
-        <FiveHead />
-      </div>
-    </div>
+    <>
+      <section className="scroll-block" id="block-1">
+        <h1>{content.title}</h1>
+        <p>{content.p1} </p>
+        <p>{content.p2} </p>
+        <span className="fivehead">
+          <FiveHead />
+        </span>
+      </section>
+      <span className="buffy-the-buffer"></span>
+    </>
   );
 }
 

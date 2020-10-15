@@ -1,13 +1,25 @@
-import React from "react";
+import Data from "../../data/infosources/dorms.json";
+import ScrollingSideBar from "../../components/ScrollingSideBar";
 
-export default function Dorms({ content }) {
+export default function Dorms({ content, scroll }) {
   return (
-    <div>
-      <h1>{content.title}</h1>
-      <p>{content.p1}</p>
-      <p>{content.p2}</p>
-      <p>{content.p3}</p>
-      <p>{content.p4}</p>
+    <>
+      <section className="scroll-block" id="block-1">
+        <h1>{content.title}</h1>
+        <span className="img-container">
+          <img src={Data.Example.imgSrc} alt={Data.Example.imgAlt} />
+        </span>
+        <sub>Looks ok, especially for the price. </sub>
+      </section>
+
+      <section className="scroll-block" id="block-2">
+        <p>{content.p1}</p>
+        <p>{content.p2}</p>
+      </section>
+      <section className="scroll-block" id="block-3">
+        <p>{content.p3}</p>
+        <p>{content.p4}</p>
+      </section>
       <p>
         For more information such as needing to bring your own bedsheets,{" "}
         <a href="https://dorms.42.us.org/faq">check out their FAQ.</a>
@@ -19,7 +31,9 @@ export default function Dorms({ content }) {
         </a>
       </p>
       <p>{content.p5}</p>
-    </div>
+      <ScrollingSideBar data={scroll} />
+      <span className="buffy-the-buffer"></span>
+    </>
   );
 }
 
@@ -29,6 +43,7 @@ export async function getStaticProps(content) {
     props: {
       content: {
         title: "Dorms",
+
         p1:
           "There isn't much information about the dorms sadly. There are very, very few videos about 42 SV's dorms. The only information I could find is that, there is a $42 deposit for the Piscine, which you will be given back assuming you do not cause damage to the dorms during your stay. You will receive the money back after the Piscine is over, regardless if you are accepted or not.",
         p2:
@@ -40,6 +55,11 @@ export async function getStaticProps(content) {
         p5:
           "Below are the only two decent quality videos I could find with clear visuals of the dorms at 42 SV. IMO, they seem to be okay for what they are: a place to sleep. Like a college dorm, don't expect anything fancy. The beds seem to be bunk, there's a bathroom and there's usually a single desk in every room. A quick reminder that the 42 SV campus was bought from DeVry university around the time when they were having monetary problems.",
       },
+      scroll: [
+        { stop: "1", title: "Dorms" },
+        { stop: "2", title: "What's up with the dorms?" },
+        { stop: "3", title: "Rules"},
+      ],
     },
   };
 }

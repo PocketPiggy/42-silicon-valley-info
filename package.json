@@ -17,6 +17,7 @@
     "bootstrap": "^4.5.2",
     "dotenv": "^8.2.0",
     "emailjs-com": "^2.6.3",
+    "gray-matter": "^4.0.2",
     "next": "^9.5.5",
     "next-fonts": "^1.4.0",
     "node-sass": "^4.14.1",
