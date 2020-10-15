@@ -1,38 +1,37 @@
 import React from "react";
 import Link from "next/link";
+import Date from "../../components/Date";
+import { getSortedPostsData } from "../../lib/posts";
 
-export default function Updates({ content }) {
+export default function Updates({ content, allPostsData }) {
   return (
-    <div>
-      <h1>{content.title}</h1>
-      <p>{content.p1}</p>
-      <ul>
-        {/*}
-          <Link href="./" passHref>
-            <li></li>
-          </Link>
-        {*/}
-        <Link href="/Updates/Aug-5-2020" passHref>
-          <li>August 5th, 2020</li>
-        </Link>
-        <Link href="/Updates/Apr-14-2020" passHref>
-          <li>April 14th, 2020</li>
-        </Link>
-        <Link href="/Updates/Mar-11-2020" passHref>
-          <li>March 11th, 2020</li>
-        </Link>
-        <Link href="/Updates/Feb-27-2020" passHref>
-          <li>February 27th, 2020</li>
-        </Link>
-      </ul>
-    </div>
+    <>
+      <section className="scroll-block">
+        <h1> {content.title} </h1>
+      </section>
+
+      <section className="scroll-block">
+        <ul>
+          {allPostsData.map(({ id, date, title }) => (
+            <li key={id} className="blog-item">
+              <Link href={`/Updates/posts/${id}`}>
+                <p className="blog-item-p">{title}</p>
+              </Link>
+              <Date dateString={date} />
+            </li>
+          ))}
+        </ul>
+      </section>
+    </>
   );
 }
 
-export async function getStaticProps(content) {
-  console.log(content);
+export async function getStaticProps(context) {
+  const allPostsData = getSortedPostsData();
+  console.log(allPostsData);
   return {
     props: {
+      allPostsData,
       content: {
         title: "Updates",
       },
