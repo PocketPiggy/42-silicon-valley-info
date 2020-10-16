@@ -1,0 +1,29 @@
+.blog-block {
+    div {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        .blog-p {
+            text-align: left;
+        }
+        .blog-p-quote {
+            text-align: left;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 50px;
+            padding-left: 15px;
+            border-left: 3px solid #ccc;
+        }
+    }
+}
+
+.blog-img {
+    height: $img-c;
+    margin: $img-c-margin;
+    display: inline-block;
+    img {
+        object-fit: contain;
+        height: $img-c;
+        width: auto;
+    }
+}
