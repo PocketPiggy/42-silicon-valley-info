@@ -10,7 +10,7 @@
 @import "./fontawesome/brands";
 @import "./fontawesome/regular";
 @import "./fontawesome/solid";
-@import 'node_modules/@fortawesome/fontawesome-svg-core/styles';
+@import "node_modules/@fortawesome/fontawesome-svg-core/styles";
 
 //  Bundled pages & components
 @import "./components/component.scss";
@@ -26,14 +26,12 @@ body {
 }
 
 div {
-
-    .page-container {
+    &.page-container {
         position: relative;
         min-height: 100vh;
     }
-
-    .page-content {
-        width: 70%;
+    &.page-content {
+        //width: 70%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -42,36 +40,41 @@ div {
         margin: 0 auto;
         padding-bottom: 5vh;
     }
-
-    h1, h3 {
+    h1,
+    h3 {
         font-weight: bold;
         text-align: center;
         margin: $header-margin;
         color: $text-color;
     }
-
     h1 {
-        font-size: $h1-size;
+        font-size: $xs-h1-size;
     }
-
     h3 {
-        font-size: $h3-size;
+        font-size: $xs-h3-size;
     }
-
-
-
     p {
-        font-size: $p-size;
+        font-size: $xs-p-size;
         color: $text-color;
         white-space: normal;
-        //width: 75rem;
-        //width: 60vw;
     }
-
     li {
-
     }
+}
 
+section {
+    &.block {
+        //border: 1px solid blue;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        align-items: center;
+        margin: 2.5rem 0 2.5rem 0;
+    }
+    &.scroll-block {
+        @extend .block;
+    }
 }
 
 .scroll-block {
@@ -90,6 +93,17 @@ div {
     img {
         object-fit: contain;
         height: $img-c;
+        width: auto;
+    }
+}
+
+.mini-img-container {
+    height: calc(#{$img-c} - 10rem);
+    margin: $img-c-margin;
+    display: inline-block;
+    img {
+        object-fit: contain;
+        height: calc(#{$img-c} - 10rem);
         width: auto;
     }
 }
@@ -113,22 +127,30 @@ ul {
 }
 
 li {
-
 }
 
-@media only sceen and (max-width: 768px) {
-    #scrolling-sidebar {
-        display: none;
-        border: 1px solid pink;
-    }
-    .sidebar-items {
-        display: none;
-        border: 1px solid pink;
-    }
-}
-
-//@media screen and (min-width: 1440px) {
-    //p {
-        //font-size: 5rem;
-    //}
+//@media only sceen and (max-width: 768px) {
+//#scrolling-sidebar {
+//display: none;
+//border: 1px solid pink;
 //}
+//.sidebar-items {
+//display: none;
+//border: 1px solid pink;
+//}
+//}
+
+@media screen and (min-width: 768px) {
+    p {
+        font-size: $p-size !important;
+        &.img-subtext {
+            font-size: $sub-size !important;
+        }
+    }
+    h1 {
+        font-size: $h1-size !important;
+    }
+    h3 {
+        font-size: $h3-size !important;
+    }
+}

@@ -1,5 +1,9 @@
-.marvin{
-    margin-top: 5rem;
-    height: 15rem;
-    width: 7rem;
+.marvin {
+    margin-top: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+    .marvin {
+        margin-top: 1rem;
+    }
 }
