@@ -31,6 +31,34 @@ export default function Dorms({ content, scroll }) {
         </a>
       </p>
       <p>{content.p5}</p>
+
+      <span className="img-container">
+        <img
+          src="/Images/infosources/dorm/dorm1.jpg"
+          alt="Youtube thumbnail of 3 girls laughing with video title captioned."
+        />
+        <a
+          href="https://www.youtube.com/watch?v=FZKCEfh6aY8"
+          target="blank"
+          rel="noopener noreferer"
+        >
+          Source
+        </a>
+      </span>
+      <span className="img-container">
+        <img
+          src="/Images/infosources/dorm/dorm2.jpg"
+          alt="Youtube thumbnail of author capturing video with his shadow infront of closed dorm door."
+        />
+        <a
+          href="https://www.youtube.com/watch?v=9L-IgxWu9GU"
+          target="blank"
+          rel="noopener noreferer"
+        >
+          Source
+        </a>
+      </span>
+
       <ScrollingSideBar data={scroll} />
       <span className="buffy-the-buffer"></span>
     </>
@@ -58,7 +86,7 @@ export async function getStaticProps(content) {
       scroll: [
         { stop: "1", title: "Dorms" },
         { stop: "2", title: "What's up with the dorms?" },
-        { stop: "3", title: "Rules"},
+        { stop: "3", title: "Rules" },
       ],
     },
   };

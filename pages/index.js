@@ -7,14 +7,13 @@ export default function Index({ content }) {
       <h1>{content.title}</h1>
       <p>{content.p1}</p>
       <p>{content.p2}</p>
-      <span className="img-container">
-        <img
-          src={Data.Marvin.imgSrc}
-          alt={Data.Marvin.imgAlt}
-          title={Data.Marvin.title}
-          className="marvin"
-        />
-      </span>
+      <img
+        src={Data.Marvin.imgSrc}
+        alt={Data.Marvin.imgAlt}
+        title={Data.Marvin.title}
+        className="marvin"
+      />
+      <span className='buffy-the-buffer' />
     </>
   );
 }

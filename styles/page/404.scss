@@ -1,11 +1,11 @@
 .img-container {
-    height: calc(#{$img-c} - 17rem) !important;
+    height: calc(#{$img-c} - 17rem);
     margin: $img-c-margin;
     display: inline-block;
     img {
         object-fit: fill;
         width: auto;
-        height: calc(#{$img-c} - 17rem) !important;
+        height: calc(#{$img-c} - 17rem);
     }
 }
 

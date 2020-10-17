@@ -60,11 +60,12 @@ div {
 
 
 
-    p, li {
+    p {
         font-size: $p-size;
         color: $text-color;
         white-space: normal;
-        width: 75rem;
+        //width: 75rem;
+        //width: 60vw;
     }
 
     li {
@@ -79,6 +80,7 @@ div {
     justify-content: center;
     text-align: left;
     align-items: center;
+    margin: 2.5rem 0 2.5rem 0;
 }
 
 .img-container {
@@ -110,9 +112,20 @@ ul {
     margin: 1.5rem 0 2.5rem 5rem;
 }
 
-//@media sceen and (min-width): 900px) {
+li {
 
-//}
+}
+
+@media only sceen and (max-width: 768px) {
+    #scrolling-sidebar {
+        display: none;
+        border: 1px solid pink;
+    }
+    .sidebar-items {
+        display: none;
+        border: 1px solid pink;
+    }
+}
 
 //@media screen and (min-width: 1440px) {
     //p {

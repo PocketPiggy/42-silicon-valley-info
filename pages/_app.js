@@ -1,9 +1,11 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
+import Container from "react-bootstrap/Container";
+import Col from "react-bootstrap/Col";
 import NavigationBar from "../components/NavigationBar";
 import Footer from "../components/Footer";
 import Loading from "../components/Loading";
-
+//import ScrollingSideBar from "../components/ScrollingSideBar";
 
 import { library } from "@fortawesome/fontawesome-svg-core";
 import {
@@ -67,12 +69,19 @@ export default function MyApp({ Component, pageProps }) {
       ) : (
         <div className="page-container">
           <NavigationBar />
-          <div className="page-content">
-            <Component
-              {...pageProps}
-              className="d-flex flex-column min-vh-100"
-            />
-          </div>
+          <Container className="page-content">
+            <Col xs={12} s={12} md={11} lg={11} xl={11}>
+              <Component
+                {...pageProps}
+                className="d-flex flex-column min-vh-100"
+              />
+            </Col>
+            {/*}
+            <Col xs={0} s={0} md={2} lg={2} xl={2}>
+              <ScrollingSideBar {...pageProps}/>
+            </Col>
+            {*/}
+          </Container>
           <Footer />
         </div>
       )}

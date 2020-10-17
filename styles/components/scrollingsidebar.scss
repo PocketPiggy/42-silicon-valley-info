@@ -2,6 +2,58 @@
     border: 1px solid blue;
     position: fixed;
     z-index: 9001;
-    top: 0;
-    right: 0;
+    top: 0%;
+    right: 0%;
+    height: 90vh;
+    width: 17vw;
+    position: fixed;
+    margin-top: 8.4vh;
+    margin-right: 1vw;
+    text-align: left !important;
+    overflow: hidden;
+    font-weight: bold;
+
+    .sidebar-items {
+        display: flex;
+        flex-direction: column;
+        text-align: left !important;
+        .sidebar-item {
+        }
+    }
 }
+
+.active {
+    color: red !important;
+    transition: color 0.4s ease-in-out;
+}
+
+.side-p {
+    font-size: calc(#{$p-size} - 0.3rem);
+    text-align: left !important;
+    color: $text-color;
+}
+
+.link-color {
+    color: white;
+    transition: 0.5s;
+    a {
+        text-decoration: none;
+        &:hover {
+            transition: color 0.4s ease-in-out;
+            transition-property: text-shadow;
+            transition-property: color;
+            transition-duration: 0.4s;
+            text-shadow: #fc0 1px 0 5px;
+            color: gold;
+            transition-timing-function: ease-in-out;
+            text-decoration: none;
+        }
+    }
+}
+
+
+//@media only screen and (max-width: 768px) {
+//div#side-nav {
+//display: none;
+//}
+//}

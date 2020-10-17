@@ -15,15 +15,53 @@ export default function Dorms({ content, scroll }) {
       <section className="scroll-block" id="block-3">
         <h3>{content.p3Header}</h3>
         <p>{content.p3}</p>
+        <span className="img-container">
+          <img
+            src="/Images/infosources/townhall/townhall-gh.png"
+            alt="Screencap of the last github notes of 42 Silicon valley town hall."
+          />
+        </span>
+        <a
+          href="https://github.com/evandjohnston/42sv_townhall_notes"
+          target="blank"
+          rel="noopener noreferrer"
+        >
+          Source
+        </a>
       </section>
 
       <section className="scroll-block" id="block-4">
         <h3>{content.p4Header}</h3>
         <p>{content.p4}</p>
+        <span className="img-container">
+          <img
+            src="/Images/infosources/townhall/townhall-april8.jpg"
+            alt="Youtube thumbnail of 42 silicon valley april's townhall stream."
+          />
+        </span>
+        <a
+          href="https://www.youtube.com/watch?v=86kkvx05ZUY"
+          target="blank"
+          rel="noopener noreferer"
+        >
+          Source
+        </a>
+        <span className="img-container">
+          <img
+            src="/Images/infosources/townhall/townhall-april8.jpg"
+            alt="Youtube thumbnail of 42 silicon valley april's townhall stream."
+          />
+        </span>
+        <a
+          href="https://www.youtube.com/watch?v=5qQnQqnK4ZE"
+          target="blank"
+          rel="noopener noreferrer"
+        >
+          Source
+        </a>
       </section>
       <ScrollingSideBar data={scroll} />
       <span className="buffy-the-buffer"></span>
-
     </>
   );
 }
