@@ -1,56 +1,56 @@
 {
     "Card-1": {
         "title": "Vimtutor",
-        "imgSrc": "/Images/preparation/text_editor/vimtutor.png",
+        "imgSrc": "/Images/Pages/Preparation/text_editor/vimtutor.png",
         "imgAlt": "Text result of running vimtutor in terminal; beginning of program.",
         "text": "Worth doing at least once, most helpful resource. Open in terminal.",
         "aHref": ""
     },
     "Card-2": {
         "title": "Vim Genius",
-        "imgSrc": "/Images/preparation/text_editor/VimGenius.png",
+        "imgSrc": "/Images/Pages/Preparation/text_editor/VimGenius.png",
         "imgAlt": "Has a review and testing feature, as well as a tutorial.",
         "text": "Landing page for Vim genius, has a button saying start now along with a screencap of a terminal.",
         "aHref": "http://vimgenius.com/"
     },
     "Card-3": {
         "title": "Open Vim",
-        "imgSrc": "/Images/preparation/text_editor/openvim.png",
+        "imgSrc": "/Images/Pages/Preparation/text_editor/openvim.png",
         "imgAlt": "Landing page with a mock terminal and scrolling side bar for lesson tracking.",
         "text": "An interactive tutorial to get started.",
         "aHref": "https://openvim.com/"
     },
     "Card-4": {
         "title": "Vimsheet",
-        "imgSrc": "/Images/preparation/text_editor/VimSheet-cs.png",
+        "imgSrc": "/Images/Pages/Preparation/text_editor/VimSheet-cs.png",
         "imgAlt": "Landing page with a diagram showing the vim movement keys.",
         "text": "A vim cheatsheet with lots of basic and advanced commands.",
         "aHref": "https://vimsheet.com/"
     },
     "Card-5": {
         "title": "Vim Awesome",
-        "imgSrc": "/Images/preparation/text_editor/VimAwesome.png",
+        "imgSrc": "/Images/Pages/Preparation/text_editor/VimAwesome.png",
         "imgAlt": "Landing page showing the most popular vim plugins.",
         "text": "For vim addons/plugs & themes. Good for extra functionality or styling.",
         "aHref": "https://vimawesome.com/"
     },
     "Card-6": {
         "title": "Vim Plug",
-        "imgSrc": "/Images/preparation/text_editor/vim-plugin-manager.jpg",
+        "imgSrc": "/Images/Pages/Preparation/text_editor/vim-plugin-manager.jpg",
         "imgAlt": "Youtube thumbnail, 'Vim-Plug: A vim plugin manager.'",
         "text": "A 11 minute long video going over the basics of the vim plugin manager.",
         "aHref": "https://www.youtube.com/watch?v=-uyFC5ixUQw"
     },
     "Card-7": {
         "title": "Vim Plug - Minimalist",
-        "imgSrc": "/Images/preparation/text_editor/vim-mini-plug.jpg",
+        "imgSrc": "/Images/Pages/Preparation/text_editor/vim-mini-plug.jpg",
         "imgAlt": "Youtube thumbnail of the vim logo.",
         "text": "A quick 5 minute video showing how to use vim-plug.",
         "aHref": "https://www.youtube.com/watch?v=nDv9iPv_8R4"
     },
     "Card-8": {
         "title": "Learning Vim in a week",
-        "imgSrc": "/Images/preparation/text_editor/tb-vim.jpg",
+        "imgSrc": "/Images/Pages/Preparation/text_editor/tb-vim.jpg",
         "imgAlt": "Man next to a projector giving a talk at a conference.",
         "text": "A 24 minute talk about incorporating in your life and basic practice.",
         "aHref": "https://www.youtube.com/watch?v=_NUO4JEtkDw"

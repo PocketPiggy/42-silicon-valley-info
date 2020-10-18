@@ -1,4 +1,7 @@
 import Head from "next/head";
+import Button from "react-bootstrap/Button";
+import Link from 'next/link';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Index() {
   return (
@@ -22,12 +25,12 @@ export default function Index() {
           some tenacity to get through it. Hopefully, with the information I've
           gathered here, it'll be at least of some help for you regardless if
           you're on the fence about the whole thing or if you want to prepare as
-          much as possible for the piscine.
+          much as possible for the Piscine.
         </p>
 
         <span className="mini-img-container">
           <img
-            src="/Images/Home/Marvin.jpg"
+            src="/Images/Pages/Home/Marvin.jpg"
             alt="Marvin the Android from 'The Hitchhiker's guide to the galaxy', looking depressed."
             title="Well I wish you'd just tell me rather than try to engage my
             enthusiasm."
@@ -35,6 +38,15 @@ export default function Index() {
           />
       </span>
       </section>
+
+      <section className="block">
+        <Link href="/Preparation/Before_the_Piscine" passHref>
+          <Button variant="primary" className="btn-next">
+            Before the Piscine <FontAwesomeIcon icon="arrow-alt-circle-right" />
+          </Button>
+        </Link>
+      </section>
+
 
       <span className="buffy-the-buffer" />
     </>
