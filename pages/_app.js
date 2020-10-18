@@ -7,6 +7,7 @@ import NavigationBar from "../components/NavigationBar";
 import Footer from "../components/Footer";
 import Loading from "../components/Loading";
 import ScrollingSideBar from "../components/ScrollingSideBar";
+import { useMediaQuery } from "react-responsive";
 
 import { library } from "@fortawesome/fontawesome-svg-core";
 import {
@@ -43,6 +44,7 @@ export default function MyApp({ Component, pageProps }) {
 
   const [loading, setLoading] = React.useState(false);
   const router = useRouter();
+
   useEffect(() => {
     const loadStart = () => {
       console.log("Starting...");
@@ -62,6 +64,28 @@ export default function MyApp({ Component, pageProps }) {
       router.events.off("routeChangeError", loadEnd);
     };
   }, []);
+
+  //    If screen is at least 992px & page has scroll prop, render Scrollbar
+  const [hasScroll, setScroll] = React.useState(false);
+  const minScreenSize = useMediaQuery({ query: "(min-device-width: 992px)" });
+
+  useEffect(() => {
+    const isBigEnough = () => {
+      console.log("is big enough");
+      return setScroll(true);
+    };
+    const isNotBigEnough = () => {
+      console.log("not big enough");
+      return setScroll(false);
+    };
+
+    if (minScreenSize)
+    {
+      "scroll" in {...pageProps}
+        ? isBigEnough
+        : isNotBigEnough;
+    }
+  });
 
   return (
     <>
@@ -94,15 +118,12 @@ export default function MyApp({ Component, pageProps }) {
         <div className="page-container">
           <NavigationBar />
           <Container className="page-content">
-            <Col xs={12} s={12} md={11} lg={11} xl={11}>
+            <Col xs={12} s={12} md={9} lg={9} xl={9}>
               <Component {...pageProps} />
             </Col>
 
-            <Col xs={0} s={0} md={1} lg={1} xl={1}>
-              {/*}Checks for scroll key; if exists, render component {*/}
-              {"scroll" in { ...pageProps } ? (
-                <ScrollingSideBar {...pageProps} />
-              ) : null}
+            <Col xs={0} s={0} md={3} lg={3} xl={3}>
+              {hasScroll ? <ScrollingSideBar {...pageProps} /> : null}
             </Col>
           </Container>
 

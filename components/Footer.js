@@ -12,7 +12,7 @@ export default function Footer() {
                 >
                     <span className='bgc'>
                     <img
-                        src="/Images/footer/nextjs.svg"
+                        src="/Images/Components/Footer/nextjs.svg"
                         height="30"
                         width="80"
                         alt="Next.js Logo"
@@ -26,7 +26,7 @@ export default function Footer() {
                     rel="noopener noreferrer"
                 >
                     <img
-                        src="/Images/footer/react.svg"
+                        src="/Images/Components/Footer/react.svg"
                         height="30"
                         width="80"
                         alt="React.js Logo"
