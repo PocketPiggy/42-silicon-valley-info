@@ -19,7 +19,7 @@ export default function Clang() {
         <h1>The C Programming Language</h1>
         <span className="img-container">
           <img
-            src="/Images/Pages/Preparation/C_lang/dennis_ritchie.jpg"
+            src="/Images/Pages/Preparation/c_lang/dennis_ritchie.jpg"
             alt="Dennis Ritchie holding an award and smiling at the camera."
             title="The creator of C and co-developer of Unix."
           />
