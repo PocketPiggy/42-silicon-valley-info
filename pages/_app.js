@@ -78,7 +78,7 @@ export default function MyApp({ Component, pageProps }) {
       console.log("not big enough");
       return setScroll(false);
     };
-
+    
     //  If screen size is big enough & if the page has a scroll prop
     if (minScreenSize) {
       if ("scroll" in { ...pageProps }) {
