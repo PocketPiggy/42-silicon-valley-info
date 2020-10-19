@@ -79,6 +79,7 @@ export default function MyApp({ Component, pageProps }) {
       return setScroll(false);
     };
 
+    //  If screen size is big enough & if the page has a scroll prop
     if (minScreenSize) {
       if ("scroll" in { ...pageProps }) {
         return isBigEnough;
@@ -122,7 +123,6 @@ export default function MyApp({ Component, pageProps }) {
             <Col xs={12} s={12} md={11} lg={11} xl={11}>
               <Component {...pageProps} />
             </Col>
-
             <Col xs={0} s={0} md={2} lg={2} xl={2}>
               {hasScroll ? <ScrollingSideBar {...pageProps} /> : null}
             </Col>
