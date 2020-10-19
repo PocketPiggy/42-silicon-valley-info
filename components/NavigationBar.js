@@ -15,7 +15,7 @@ export default function NavigationBar() {
             <Navbar bg="dark" expand="lg">
                 <Link href="/" passHref>
                     <Navbar.Brand href="/">
-                        <FontAwesomeIcon icon="home" /> Home
+                        <FontAwesomeIcon icon='home' />{" "}Home
                     </Navbar.Brand>
                 </Link>
 
@@ -77,6 +77,9 @@ export default function NavigationBar() {
                                 </NavDropdown.Item>
                             </Link>
 
+                            <Link href="/InfoSources/Negatives" passHref>
+                                <NavDropdown.Item>Negatives</NavDropdown.Item>
+                            </Link>
                             <Link
                                 href="/InfoSources/Differences_between_campuses"
                                 passHref

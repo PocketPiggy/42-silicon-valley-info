@@ -26,11 +26,12 @@ body {
 }
 
 div {
-    //&.page-container {
-        //position: relative;
-        //min-height: 100vh;
-    //}
+    &.page-container {
+        position: relative;
+        min-height: 100vh;
+    }
     &.page-content {
+        //width: 70%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -38,9 +39,9 @@ div {
         align-items: center;
         margin: 0 auto;
         padding-bottom: 5vh;
-        width: 100%;
     }
-    h1, h3 {
+    h1,
+    h3 {
         font-weight: bold;
         text-align: center;
         margin: $header-margin;
@@ -107,16 +108,12 @@ section {
     }
 }
 
-.yt-container {
-    margin: $img-c-margin;
-}
-
 .buffy-the-buffer {
     margin: $buffy;
     width: 100%;
 }
 
-.img-subtext {
+sub {
     color: $text-color;
     font-size: $sub-size;
     font-style: italic;
@@ -125,16 +122,12 @@ section {
     text-align: center;
 }
 
-//ul {
-    //margin: 1.5rem 0 2.5rem 5rem;
-//}
+ul {
+    margin: 1.5rem 0 2.5rem 5rem;
+}
 
-//li {
-    //font-size: $xs-p-size;
-    //color: $text-color;
-    //white-space: normal;
-    //width: inherit;
-//}
+li {
+}
 
 //@media only sceen and (max-width: 768px) {
 //#scrolling-sidebar {
@@ -159,8 +152,5 @@ section {
     }
     h3 {
         font-size: $h3-size !important;
-    }
-    li {
-        font-size: $p-size !important;
     }
 }
