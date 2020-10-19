@@ -1,6 +1,17 @@
+import Head from "next/head";
+
 export default function Interviews() {
   return (
     <>
+      <Head>
+        <title>42 Silicon Valley - Interviews</title>
+        <meta
+          name="description"
+          content="Three interviews about 42 Silicon valley, how it operates, and what
+          42's goal is about. All given by then COO Brittany Bir."
+        />
+        <link rel="canonical" href="https://42sv.info/InfoSources/Interviews" />
+      </Head>
       <h1>42 Silicon Valley Interviews</h1>
       <p>
         There are not many interviews in regards to 42 Silicon Valley that are
@@ -17,9 +28,9 @@ export default function Interviews() {
           width="560"
           height="315"
           src="https://www.youtube-nocookie.com/embed/ZFZ2R1Xa0vs"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          frameBorder="1"
+          //allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
         ></iframe>
       </span>
 
@@ -28,9 +39,9 @@ export default function Interviews() {
           width="560"
           height="315"
           src="https://www.youtube-nocookie.com/embed/x5WaYn4s7yA"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          frameBorder="1"
+          //allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
         ></iframe>
       </span>
 
@@ -39,9 +50,9 @@ export default function Interviews() {
           width="560"
           height="315"
           src="https://www.youtube-nocookie.com/embed/RQwGU_AQsY4"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          frameBorder="1"
+          //allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
         ></iframe>
       </span>
       <span className="buffy-the-buffer" />

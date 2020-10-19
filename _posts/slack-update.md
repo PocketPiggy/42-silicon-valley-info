@@ -1,13 +1,16 @@
 ---
 title: "42 Silicon Valley - Slack update"
-date: '2020-10-12'
+date: "2020-10-12"
 excerpt:
-coverImage: '../public/Images/updates/October/oct12_slack.png'
+coverImage: "../public/Images/Page/Updates/October/oct12_slack.png"
 author:
     name: PocketPiggy
-    picture: '../public/Images/updates/profile.jpg'
+    picture: "../public/Images/Page/Updates/profile.jpg"
 ogImage:
-    url: '../public/Images/updates/October/oct12_slack.png'
+    url: "../public/Images/Page/Updates/October/oct12_slack.png"
+meta: "It's been over two months since 42 Silicon Valley's last update, here
+    is the the most recent Slack post posted by them."
+cannonical: "https://42sv.info/Updates/posts/slack-update"
 ---
 
 <p class='blog-p'>
@@ -22,7 +25,7 @@ Hope that helps!"
 </p>
 
 <span class='blog-img'>
-<img src='/Images/updates/October/oct12_slack.png' alt='Screencap of 42 silicon valley slack message.'/>
+<img src='/Images/Page/Updates/October/oct12_slack.png' alt='Screencap of 42 silicon valley slack message.'/>
 </span>
 
 <span class='buffy-the-buffer' />

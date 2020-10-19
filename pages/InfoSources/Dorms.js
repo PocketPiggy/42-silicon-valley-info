@@ -1,16 +1,22 @@
 import Head from "next/head";
 
-export default function Dorms({ content }) {
+export default function Dorms() {
   return (
     <>
       <Head>
-        <title>42 SV - Dorms</title>
+        <title>42 Silicon Valley - Dorms information</title>
+        <meta
+          name="description"
+          content="All known public information about the dorms in 42 Silicon
+          Valley, which includes the rules, deposit fees and more."
+        />
+        <link rel="canonical" href="https://42sv.info/InfoSources/Dorms" />
       </Head>
       <section className="scroll-block" id="block-1">
         <h1>Dorms</h1>
         <span className="img-container">
           <img
-            src="/Images/Pages/Infosources/dorm/dorm_ex.jpeg"
+            src="/Images/Page/Infosources/dorm/dorm_ex.jpeg"
             alt="Desk with a chair, sunny window, air conditioner and two beds."
           />
         </span>
@@ -106,9 +112,9 @@ export default function Dorms({ content }) {
           width="560"
           height="315"
           src="https://www.youtube-nocookie.com/embed/FZKCEfh6aY8"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          frameBorder="1"
+          //allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
         ></iframe>
       </span>
       <span className="yt-container">
@@ -116,9 +122,9 @@ export default function Dorms({ content }) {
           width="560"
           height="315"
           src="https://www.youtube-nocookie.com/embed/9L-IgxWu9GU"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          frameBorder="1"
+          //allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
         ></iframe>
       </span>
 

@@ -10,13 +10,21 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function TextEditor() {
   return (
     <>
-      <Head>Text Editor</Head>
+      <Head>
+        <title>42 Silicon Valley - Piscine: Text Editor</title>
+        <meta
+          name="description"
+          content="At 42 Silicon Valley, you have a choice of Vim or Emacs. This will
+          guide you on how to hit the ground running with Vim."
+        />
+        <link rel="canonical" href="https://42sv.info/Preparation/Text_Editor" />
+      </Head>
 
       <section className="scroll-block" id="block-1">
         <h1> Text Editor - Vim </h1>
         <span className="img-container">
           <img
-            src="/Images/Pages/Preparation/text_editor/vim_default.png"
+            src="/Images/Page/Preparation/text_editor/vim_default.png"
             alt="Default splash screen of vim, information about version and simple keybind instructions."
             title=":q!"
           />
@@ -44,7 +52,7 @@ export default function TextEditor() {
 
         <span className="img-container">
           <img
-            src="/Images/Pages/Preparation/text_editor/real_programmers.png"
+            src="/Images/Page/Preparation/text_editor/real_programmers.png"
             alt="XKCD comic with multiple panels talking about which text editor real programmers use."
             title="Always an XKCD for everything."
           />
@@ -83,16 +91,14 @@ export default function TextEditor() {
         </p>
 
         <span className="yt-container">
-          <p>
-            Video on from the Piscine introducing the Vim editor.
-          </p>
+          <p>Video on from the Piscine introducing the Vim editor.</p>
           <iframe
             width="560"
             height="315"
             src="https://www.youtube-nocookie.com/embed/vVbq9Y-oLUQ"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+            frameBorder="1"
+            //allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
           ></iframe>
         </span>
       </section>
@@ -119,7 +125,7 @@ export default function TextEditor() {
         </p>
         <span className="img-container">
           <img
-            src="/Images/Pages/Preparation/text_editor/vim_tweaked.png"
+            src="/Images/Page/Preparation/text_editor/vim_tweaked.png"
             alt="A sample of some javascript code with vim plugins enabled."
             title="Making Vim a little like VScode."
           />

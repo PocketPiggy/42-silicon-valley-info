@@ -6,20 +6,29 @@ import Card from "../../components/Card";
 import SelectCard from "../../components/SelectCard";
 import Button from "react-bootstrap/Button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import ScrollingSideBar from "../../components/ScrollingSideBar";
 
 export default function Clang() {
   return (
     <>
       <Head>
-        <title>42 SV - C Programming</title>
+        <title>42 Silicon Valley - Piscine: C Programming</title>
+        <meta
+          name="description"
+          content="The main programming language used at 42 Silicon Valley as
+          well as the only one that the Piscine will be using. Heres how to get
+          started."
+        />
+        <link
+          rel="canonical"
+          href="https://42sv.info/Preparation/The_C_Programming_Language"
+        />
       </Head>
 
       <section className="scroll-block" id="block-1">
         <h1>The C Programming Language</h1>
         <span className="img-container">
           <img
-            src="/Images/Pages/Preparation/c_lang/dennis_ritchie.jpg"
+            src="/Images/Page/Preparation/c_lang/dennis_ritchie.jpg"
             alt="Dennis Ritchie holding an award and smiling at the camera."
             title="The creator of C and co-developer of Unix."
           />
@@ -146,13 +155,13 @@ export default function Clang() {
       <section className="scroll-block" id="block-6">
         <Link href="./Putting_it_all_together" passHref>
           <Button variant="primary" className="btn-next">
-            Putting it all Together <FontAwesomeIcon icon="arrow-alt-circle-right" />
+            Putting it all Together{" "}
+            <FontAwesomeIcon icon="arrow-alt-circle-right" />
           </Button>
         </Link>
       </section>
 
       <span className="buffy-the-buffer"></span>
-
     </>
   );
 }

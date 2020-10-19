@@ -1,6 +1,7 @@
 import emailjs from "emailjs-com";
+import Head from "next/head";
 
-export default function Contact({ content }) {
+export default function Contact() {
   const sendEmailToSelf = (e) => {
     e.preventDefault();
 
@@ -24,19 +25,29 @@ export default function Contact({ content }) {
 
   return (
     <>
+      <Head>
+        <title>42 SV - Contact me</title>
+        <meta
+          name="description"
+          content="Questions? Concerns? Bugs or did I get information wrong
+          about 42 Silicon Valley? Feel free send me an email."
+        />
+        <link rel="canonical" href="https://42sv.info/Contact" />
+      </Head>
       <section className="scroll-block" id="block-1">
-        <h1>{content.title}</h1>
+        <h1>Contact</h1>
         <p className="contact-p">
           {" "}
-          Any questions? Concerns? Inquiries? Bugs on the website? Did I get information wrong?</p>
+          Any questions? Concerns? Inquiries? Bugs on the website? Did I get
+          information wrong?
+        </p>
 
         <div id="contact-form">
           <h3> Send me an email </h3>
           <form className="contact-form" onSubmit={sendEmailToSelf}>
             <input type="hidden" name="contact_number" />
 
-
-            {/*}<label>Name</label>{*/}
+            {/*}<label style={{display: 'none'}}>Name</label>{*/}
             <input
               type="text"
               name="Name"
@@ -61,7 +72,7 @@ export default function Contact({ content }) {
               required
             />
 
-            <input type="submit" value="Send" className='contact-submit'/>
+            <input type="submit" value="Send" className="contact-submit" />
           </form>
         </div>
       </section>
@@ -69,15 +80,4 @@ export default function Contact({ content }) {
       <span className="buffy-the-buffer"></span>
     </>
   );
-}
-
-export async function getStaticProps(content) {
-  return {
-    props: {
-      content: {
-        title: "Contact",
-        p1: "This is the   page.",
-      },
-    },
-  };
 }

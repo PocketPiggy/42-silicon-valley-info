@@ -1,11 +1,20 @@
 import Head from "next/head";
-import Link from "next/link";
 
 export default function BlogsAndReviews() {
   return (
     <>
       <Head>
-        <title>42 SV - Blogs & Reviews </title>
+        <title>42 Silicon Valley - Blogs & Reviews </title>
+        <meta
+          name="description"
+          content="A compilation of resources about 42 Silicon Valley, 42 Paris, 21
+          Moscow and the Piscine. Also lots of information about the inner workings
+          of 42 SV."
+        />
+        <link
+          rel="canonical"
+          href="https://42sv.info/InfoSources/Blogs_and_reviews"
+        />
       </Head>
       <section className="scroll-block" id="block-1">
         <h1>Blogs and Reviews</h1>
@@ -31,7 +40,7 @@ export default function BlogsAndReviews() {
         </p>
         <span className="img-container">
           <img
-            src="/Images/Pages/Infosources/blogreview/kristofk.png"
+            src="/Images/Page/Infosources/blogreview/kristofk.png"
             alt="Article with sidebar on right side for quick navigation."
           />
         </span>
@@ -55,9 +64,9 @@ export default function BlogsAndReviews() {
             width="560"
             height="315"
             src="https://www.youtube-nocookie.com/embed/NZZo114BSnY"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+            frameBorder="1"
+            //allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
           ></iframe>
         </span>
       </section>
@@ -72,7 +81,7 @@ export default function BlogsAndReviews() {
         </p>
         <span className="img-container">
           <img
-            src="/Images/Pages/Infosources/blogreview/gcamer.png"
+            src="/Images/Page/Infosources/blogreview/gcamer.png"
             alt="Landing page with picture from HHGTTG; marvin watching the sunset."
           />
         </span>
@@ -96,7 +105,7 @@ export default function BlogsAndReviews() {
         </p>
         <span className="img-container">
           <img
-            src="/Images/Pages/Infosources/blogreview/mbrave.png"
+            src="/Images/Page/Infosources/blogreview/mbrave.png"
             alt="Medium article post with authors face underneath title."
           />
         </span>
@@ -126,7 +135,7 @@ export default function BlogsAndReviews() {
         </p>
         <span className="img-container">
           <img
-            src="/Images/Pages/Infosources/blogreview/jraleman.png"
+            src="/Images/Page/Infosources/blogreview/jraleman.png"
             alt="Medium article post with squirtle pokemon as profile picture and picture of 42 silicon valley labs."
           />
         </span>
@@ -152,7 +161,7 @@ export default function BlogsAndReviews() {
         </p>
         <span className="img-container">
           <img
-            src="/Images/Pages/Infosources/blogreview/vnguyen.png"
+            src="/Images/Page/Infosources/blogreview/vnguyen.png"
             alt="Medium article post with authors face underneath title; screencap of 42 silicon valley website landing page."
           />
         </span>
@@ -193,7 +202,7 @@ export default function BlogsAndReviews() {
         </p>
         <span className="img-container">
           <img
-            src="/Images/Pages/Infosources/blogreview/codinggirl.jpg"
+            src="/Images/Page/Infosources/blogreview/codinggirl.jpg"
             alt="Youtube thumbnail of girl looking exhausted, captions say day 1 42, I feel exhausted."
           />
         </span>
@@ -215,7 +224,7 @@ export default function BlogsAndReviews() {
         </p>
         <span className="img-container">
           <img
-            src="/Images/Pages/Infosources/blogreview/zedechariaz.png"
+            src="/Images/Page/Infosources/blogreview/zedechariaz.png"
             alt="Screenshot of the reddit thread, lots of text."
           />
         </span>
@@ -235,7 +244,7 @@ export default function BlogsAndReviews() {
         </p>
         <span className="img-container">
           <img
-            src="/Images/Pages/Infosources/blogreview/ekaterina.png"
+            src="/Images/Page/Infosources/blogreview/ekaterina.png"
             alt="Blog formatted website with author touching behind her hair and smiling."
           />
         </span>

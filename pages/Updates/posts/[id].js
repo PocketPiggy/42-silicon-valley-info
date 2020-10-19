@@ -7,7 +7,14 @@ import Link from "next/link";
 export default function Post({ postData }) {
   return (
     <>
-      <Head>{postData.title}</Head>
+      <Head>
+        <title>{postData.title}</title>
+        <meta
+    name="description"
+    content={postData.meta}
+/>
+<link rel="canonical" href={postData.cannonical}/>
+      </Head>
       <h1>{postData.title}</h1>
       <h2>
         <Date dateString={postData.date} />

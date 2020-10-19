@@ -11,14 +11,24 @@ export default function CLIAndZsh() {
   return (
     <>
       <Head>
-        <title>CLI & Zsh </title>
+        <title>42 Silicon Valley - Piscine: CLI & Zsh </title>
+        <meta
+          name="description"
+          content="A brief guide on what type of shell/command-line interface (CLI)
+          will be used during the 42 Silicon Piscine, as well as learning
+          materials to help get you started."
+        />
+        <link
+          rel="canonical"
+          href="https://42sv.info/Preparation/CLI_and_Zsh"
+        />
       </Head>
 
       <section className="scroll-block" id="block-1">
         <h1>CLI and Zsh/Bash</h1>
         <span className="img-container">
           <img
-            src="/Images/Pages/Preparation/cli/zsh_tweaked.png"
+            src="/Images/Page/Preparation/cli/zsh_tweaked.png"
             alt="iTerm2 terminal displaying more information, like time with different fonts and git status."
             title="A setup using iTerm2 & powerlevel10k theme for Zsh."
           />
@@ -45,9 +55,9 @@ export default function CLIAndZsh() {
             width="560"
             height="315"
             src="https://www.youtube-nocookie.com/embed/Q0mZn__JB0o"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+            frameBorder="1"
+            //allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
           ></iframe>
         </span>
 
@@ -73,7 +83,7 @@ export default function CLIAndZsh() {
 
         <span className="img-container">
           <img
-            src="/Images/Pages/Preparation/cli/bash_default.png"
+            src="/Images/Page/Preparation/cli/bash_default.png"
             alt="A default terminal displaying bash, uncustomized."
             title="Basic Bash"
           />
@@ -117,7 +127,7 @@ export default function CLIAndZsh() {
 
         <span className="img-container">
           <img
-            src="/Images/Pages/Preparation/cli/cygwin.png"
+            src="/Images/Page/Preparation/cli/cygwin.png"
             alt="Terminal showing off different unix commands working on Windows."
             title="A default cygwin example."
           />

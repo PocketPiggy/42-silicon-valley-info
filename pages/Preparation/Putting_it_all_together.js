@@ -5,13 +5,25 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function PuttingItAllTogether() {
   return (
     <>
-      <Head>42 SV - Putting it All together</Head>
+      <Head>
+        <title>42 Silicon Valley - Piscine: Putting it All together</title>
+        <meta
+          name="description"
+          content="After covering all the required material for the
+          42 Silicon Valley Piscine, this will hopefully wrap up any questions
+          about the rest of the process for the Piscine."
+        />
+        <link
+          rel="canonical"
+          href="https://42sv.info/Preparation/Putting_it_all_together"
+        />
+      </Head>
 
       <section className="scroll-block" id="block-1">
         <h1>Putting it all Together</h1>
         <span className="img-container">
           <img
-            src="/Images/Pages/Preparation/putting_it_all_together/42campus.jpeg"
+            src="/Images/Page/Preparation/putting_it_all_together/42campus.jpeg"
             alt="Entrance of the 42 Silicon Valley campus."
             title="Maybe the beginning of your coding journey."
           />
@@ -58,7 +70,7 @@ export default function PuttingItAllTogether() {
 
         <span className="img-container">
           <img
-            src="/Images/Pages/Preparation/putting_it_all_together/42examlogin.jpg"
+            src="/Images/Page/Preparation/putting_it_all_together/42examlogin.jpg"
             alt="A student in the labs of 42 Silicon Valley taking the exam, with the instructions on the computer screen."
             title="Glad that the instructions are easy to find now."
           />
@@ -112,7 +124,7 @@ export default function PuttingItAllTogether() {
 
         <span className="img-container">
           <img
-            src="/Images/Pages/Preparation/putting_it_all_together/Moulinette.png"
+            src="/Images/Page/Preparation/putting_it_all_together/Moulinette.png"
             alt="Score results w/ peer reviews from the Moulinette from day 8 of the Piscine."
             title="Example results from Piscine corrections."
           />
@@ -182,7 +194,7 @@ export default function PuttingItAllTogether() {
         </p>
         <span className="img-container">
           <img
-            src="/Images/Pages/Preparation/putting_it_all_together/students.jpg"
+            src="/Images/Page/Preparation/putting_it_all_together/students.jpg"
             alt="A group of students crowding around a copmuter and collaborating."
             title="Be polite, social and study hard!"
           />
@@ -207,7 +219,7 @@ export default function PuttingItAllTogether() {
 
         <span className="img-container">
           <img
-            src="/Images/Pages/Preparation/putting_it_all_together/day09.png"
+            src="/Images/Page/Preparation/putting_it_all_together/day09.png"
             alt="Gaetan, an instructor, explaining at a 42 Townhall meeting response why day09 was created."
             title="Kind of devious but the best lessons are learned the hard way."
           />
@@ -234,7 +246,7 @@ export default function PuttingItAllTogether() {
         </p>
         <span className="img-container">
           <img
-            src="/Images/Pages/Preparation/putting_it_all_together/stress.jpg"
+            src="/Images/Page/Preparation/putting_it_all_together/stress.jpg"
             alt="A programmer sitting in front of three computers holding his head in his hands in frustration."
             title="Programming is difficult, make sure to manage your stress."
           />

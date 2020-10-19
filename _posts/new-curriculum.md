@@ -1,13 +1,17 @@
 ---
 title: "New Curriculum - Piscine cancelled"
-date: '2020-02-27'
-excerpt: 'After getting accepted into the Piscine, 4 weeks later it was cancelled.'
-coverImage: '../public/Images/updates/February/Cancelled_email.png'
+date: "2020-02-27"
+excerpt: "After getting accepted into the Piscine, 4 weeks later it was cancelled."
+coverImage: "../public/Images/Page/Updates/February/Cancelled_email.png"
 author:
     name: PocketPiggy
-    picture: '../public/Images/updates/profile.jpg'
+    picture: "../public/Images/Page/Updates/profile.jpg"
 ogImage:
-    url: '../public/Images/updates/February/Cancelled_email.png'
+    url: "../public/Images/Page/Updates/February/Cancelled_email.png"
+meta: "42 Silicon Valley has decided to cancel all upcomming Piscines, including
+    the April 2020 Piscine due to make upgrades to their curriculum and
+    infrastructure."
+cannonical: "https://42sv.info/Updates/posts/new-curriculum"
 ---
 
 <p class='blog-p'>
@@ -27,13 +31,12 @@ Similarly, during this transition period, we will be suspending the application/
 If you have any questions, or need any specific assistance, especially if you have already purchased airline tickets to attend the piscine please reach out to us at contact@42.us.org.
 </p>
 
-
 <span class='blog-img'>
-<img src='/Images/updates/February/Cancelled_email.png' alt='Screencap of 42sv cancelled email.' />
+<img src='/Images/Page/Updates/February/Cancelled_email.png' alt='Screencap of 42sv cancelled email.' />
 </span>
 
 <span class='blog-img'>
-<img src='/Images/updates/February/Refund.png' alt='Screencap of piscine dorm paypal refund.' />
+<img src='/Images/Page/Updates/February/Refund.png' alt='Screencap of piscine dorm paypal refund.' />
 </span>
 
 <span class='buffy-the-buffer' />

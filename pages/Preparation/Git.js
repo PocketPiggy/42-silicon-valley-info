@@ -10,13 +10,22 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function Git() {
   return (
     <>
-      <Head>42 SV - Git</Head>
+      <Head>
+        <title>42 Silicon Valley - Piscine: Git</title>
+        <meta
+          name="description"
+          content="A very brief explanation of how the version control git works, how
+          it will be used in tandem at 42 Silicon Valley and what the
+          Vogsphere is."
+        />
+        <link rel="canonical" href="https://42sv.info/Preparation/Git" />
+      </Head>
 
       <section className="scroll-block" id="block-1">
         <h1>Git</h1>
         <span className="img-container">
           <img
-            src="/Images/Pages/Preparation/git/git_xkcd.png"
+            src="/Images/Page/Preparation/git/git_xkcd.png"
             alt="An XKCD comic talking about git and how to use it as a joke."
             title="Seriously, always an XKCD."
           />
@@ -42,15 +51,17 @@ export default function Git() {
           their code and make it it's own thing (fork).
         </p>
         <p>
-          Another example would be instead of saving a file such as, <code>project.txt,
-          project2.txt, final_project.txt, final_final_project.txt,
-            final_final_done_project.txt </code>. You could save changes of a file,
-          without having to make a new file with a new name every time. All of
-          that, while being able to see what changes you've made, as well as
-          reverse them.
+          Another example would be instead of saving a file such as,{" "}
+          <code>
+            project.txt, project2.txt, final_project.txt,
+            final_final_project.txt, final_final_done_project.txt{" "}
+          </code>
+          . You could save changes of a file, without having to make a new file
+          with a new name every time. All of that, while being able to see what
+          changes you've made, as well as reverse them.
         </p>
         <img
-          src="/Images/Pages/Preparation/git/git_joke.jpg"
+          src="/Images/Page/Preparation/git/git_joke.jpg"
           alt="Comic of two people in front of an eisle."
         />
         <p className="img-subtext">
@@ -71,9 +82,9 @@ export default function Git() {
             width="560"
             height="315"
             src="https://www.youtube-nocookie.com/embed/dyLOcpZwuEA"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+            frameBorder="1"
+            //allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
           ></iframe>
         </span>
         <span className="yt-container">
@@ -81,9 +92,9 @@ export default function Git() {
             width="560"
             height="315"
             src="https://www.youtube-nocookie.com/embed/Vp_1Yyoh43E"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+            frameBorder="1"
+            //allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
           ></iframe>
         </span>
       </section>
@@ -113,7 +124,7 @@ export default function Git() {
         </Container>
       </section>
 
-        <section className="block">
+      <section className="block">
         <Link href="./The_C_Programming_Language" passHref>
           <Button variant="primary" className="btn-next">
             The C Language <FontAwesomeIcon icon="arrow-alt-circle-right" />

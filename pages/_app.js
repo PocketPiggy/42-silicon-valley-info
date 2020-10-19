@@ -80,14 +80,12 @@ export default function MyApp({ Component, pageProps }) {
     };
 
     //  If screen size is big enough & if the page has a scroll prop
-    if (minScreenSize) {
-      if ("scroll" in { ...pageProps }) {
-        return isBigEnough;
-      } else {
-        return isNotBigEnough;
-      }
+    if (minScreenSize && "scroll" in { ...pageProps }) {
+      return isBigEnough;
+    } else {
+      return isNotBigEnough;
     }
-  });
+  }, []);
 
   return (
     <>
@@ -124,10 +122,11 @@ export default function MyApp({ Component, pageProps }) {
               <Component {...pageProps} />
             </Col>
             <Col xs={0} s={0} md={2} lg={2} xl={2}>
-              {hasScroll ? <ScrollingSideBar {...pageProps} /> : null}
+              {"scroll" in { ...pageProps } ? (
+                <ScrollingSideBar {...pageProps} />
+              ) : null}
             </Col>
           </Container>
-
           <Footer />
         </div>
       )}

@@ -7,13 +7,23 @@ export default function BeforeThePiscine() {
   return (
     <>
       <Head>
-        <title>Before the Piscine </title>
+        <title>42 Silicon Valley - Piscine: Before the Piscine </title>
+        <meta
+          name="description"
+          content="Have you heard about the Piscine and dont know where to start? Well
+          this has all of the information in regards to 42 Silicon valley and
+          its Piscine and more."
+        />
+        <link
+          rel="canonical"
+          href="https://42sv.info/Preparation/Before_the_Piscine"
+        />
       </Head>
       <section className="scroll-block" id="block-1">
         <h1>Before the Piscine</h1>
         <span className="img-container">
           <img
-            src="/Images/Pages/Preparation/before_the_piscine/42sv-labs-piscine.jpg"
+            src="/Images/Page/Preparation/before_the_piscine/42sv-labs-piscine.jpg"
             alt="A bunch of people, Pisciners, crowding around computers during the piscine."
             title="Looks like fun, eh?"
           />
@@ -59,7 +69,7 @@ export default function BeforeThePiscine() {
 
         <span className="img-container">
           <img
-            src="/Images/Pages/Preparation/before_the_piscine/42-paris-labs.jpg"
+            src="/Images/Page/Preparation/before_the_piscine/42-paris-labs.jpg"
             alt="Hundreds of iMacs with lots of students using them in the 42 Paris lab."
             title="That's a lot of iMacs..."
           />
@@ -117,7 +127,7 @@ export default function BeforeThePiscine() {
         </p>
         <span className="img-container">
           <img
-            src="/Images/Pages/Preparation/before_the_piscine/42-paris-niel-labs.jpeg"
+            src="/Images/Page/Preparation/before_the_piscine/42-paris-niel-labs.jpeg"
             alt="Lots of students crowding around 42 founder Xavier Niel."
             title="All those people there, to learn how to code."
           />

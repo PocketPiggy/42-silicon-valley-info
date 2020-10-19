@@ -1,10 +1,19 @@
-import Head from 'next/head';
+import Head from "next/head";
 
 export default function DifferencesBetweenCampuses() {
   return (
     <>
       <Head>
         <title>42 Silicon Valley - Campus differences</title>
+        <meta
+          name="description"
+          content="Highlighting the differences between the campuses of 42 Silicon
+          Valley as well as 42 Paris."
+        />
+        <link
+          rel="canonical"
+          href="https://42sv.info/InfoSources/Differences_between_campuses"
+        />
       </Head>
       <section className="block" id="block-1">
         <h1>Differences Between campuses</h1>
@@ -87,12 +96,4 @@ export default function DifferencesBetweenCampuses() {
       <span className="buffy-the-buffer"></span>
     </>
   );
-}
-
-export async function getServerSideProps(content) {
-  console.log(content);
-  return {
-    props: {
-    },
-  };
 }

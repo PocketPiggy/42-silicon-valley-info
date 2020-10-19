@@ -4,7 +4,13 @@ export default function Dorms() {
   return (
     <>
       <Head>
-        <title>42 SV - Townhalls</title>
+        <title>42 Silicon Valley - Townhalls</title>
+        <meta
+          name="description"
+          content="42 Silicon Valley has town halls for current students. Here is a list
+          of the pubicly known ones, covering both videos and Github notes."
+        />
+        <link rel="canonical" href="https://42sv.info/InfoSources/Townhalls" />
       </Head>
 
       <section className="scroll-block" id="block-1">
@@ -34,7 +40,7 @@ export default function Dorms() {
         </p>
         <span className="img-container">
           <img
-            src="/Images/Pages/Infosources/townhall/townhall-gh.png"
+            src="/Images/Page/Infosources/townhall/townhall-gh.png"
             alt="Screencap of the last github notes of 42 Silicon valley town hall."
           />
         </span>
@@ -61,9 +67,9 @@ export default function Dorms() {
             width="560"
             height="315"
             src="https://www.youtube-nocookie.com/embed/86kkvx05ZUY"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+            frameBorder="1"
+            //allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
           ></iframe>
         </span>
         <span className="yt-container">
@@ -71,9 +77,9 @@ export default function Dorms() {
             width="560"
             height="315"
             src="https://www.youtube-nocookie.com/embed/5qQnQqnK4ZE"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+            frameBorder="1"
+            //allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
           ></iframe>
         </span>
       </section>

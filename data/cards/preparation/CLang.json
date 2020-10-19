@@ -1,14 +1,14 @@
 {
     "Card-1": {
         "title": "Harvard's CS50x",
-        "imgSrc": "/Images/Pages/Preparation/c_lang/cs50edx.png",
+        "imgSrc": "/Images/Page/Preparation/c_lang/cs50edx.png",
         "imgAlt": "Landing page for the course, lots of text and a youtube thumbnail of the three teachers.",
         "text": "One of the best free beginner programming courses. Extremely recommended.",
         "aHref": "https://www.edx.org/course/cs50s-introduction-to-computer-science"
     },
     "Card-2": {
         "title": "CS50 Study",
-        "imgSrc": "/Images/Pages/Preparation/c_lang/cs50study.png",
+        "imgSrc": "/Images/Page/Preparation/c_lang/cs50study.png",
         "imgAlt": "Students in a study group; sidebar with learning references.",
         "text": "A good complement to the main CS50x course.",
         "aHref": "https://study.cs50.net/"
@@ -16,56 +16,56 @@
     "Card-3": {
         "title": "C: A modern approach",
 
-        "imgSrc": "/Images/Pages/Preparation/c_lang/cama.jpg",
+        "imgSrc": "/Images/Page/Preparation/c_lang/cama.jpg",
         "imgAlt": "Abstract art with random intersecting shapes; book title cover.",
         "text": "A very, very thorough and verbose book covering the C89/C99 standards.",
         "aHref": "https://duckduckgo.com/?q=c+a+modern+approach+pdf&t=ffab&ia=web"
     },
     "Card-4": {
         "title": "The C Programming Language",
-        "imgSrc": "/Images/Pages/Preparation/c_lang/k&r.jpeg",
+        "imgSrc": "/Images/Page/Preparation/c_lang/k&r.jpeg",
         "imgAlt": "Book title and author names.",
         "text": "A good book for the C language. Recommended but maybe not for complete beginners.",
         "aHref": "https://duckduckgo.com/?q=the+c+programming+language+pdf&t=ffab"
     },
     "Card-5": {
         "title": "Wikibooks: C programming",
-        "imgSrc": "/Images/Pages/Preparation/c_lang/wb-clang.png",
+        "imgSrc": "/Images/Page/Preparation/c_lang/wb-clang.png",
         "imgAlt": "Landing page in wiki format with links to different parts of the book.",
         "text": "A free wikibooks reference and resource for C.",
         "aHref": "https://en.wikibooks.org/wiki/C_Programming"
     },
     "Card-6": {
         "title": "C Programming tutorial",
-        "imgSrc": "/Images/Pages/Preparation/c_lang/programknow.jpg",
+        "imgSrc": "/Images/Page/Preparation/c_lang/programknow.jpg",
         "imgAlt": "Youtube thumbnail, 'C programming tutorial in one video'",
         "text": "A 4 1/2 hour video going over the basics of C.",
         "aHref": "https://www.youtube.com/watch?v=-CpG3oATGIs"
     },
     "Card-7": {
         "title": "Freecodecamp: C",
-        "imgSrc": "/Images/Pages/Preparation/c_lang/fcc-clang.jpg",
+        "imgSrc": "/Images/Page/Preparation/c_lang/fcc-clang.jpg",
         "imgAlt": "C language logo and freecodecamp logo; 'C in 4 hours no ads'",
         "text": "A 4 hour introduction on C by freecodecamp with no ads.",
         "aHref": "https://www.youtube.com/watch?v=KJgsSFOSQv0"
     },
     "Card-8": {
         "title": "Computerphile: Pointers",
-        "imgSrc": "/Images/Pages/Preparation/c_lang/pointers.jpg",
+        "imgSrc": "/Images/Page/Preparation/c_lang/pointers.jpg",
         "imgAlt": "Youtube thumbnail, man with glasses and two lego blocks behind him.",
         "text": "A 20 minute video breaking down and explaining pointers using analogies and imagery. Recommended.",
         "aHref": "https://www.youtube.com/watch?v=t5NszbIerYc"
     },
     "Card-9": {
         "title": "Computerphile: Recursion",
-        "imgSrc": "/Images/Pages/Preparation/c_lang/recursion.jpg",
+        "imgSrc": "/Images/Page/Preparation/c_lang/recursion.jpg",
         "imgAlt": "Youtube thumbnail, man with glasses and the word recursion in his hand.",
         "text": "A 10 minute video explaing recursion with imagery and physical examples. Recommended.",
         "aHref": "https://www.youtube.com/watch?v=Mv9NEXX1VHc"
     },
     "Card-10": {
         "title": "List of C books",
-        "imgSrc": "/Images/Pages/Preparation/c_lang/cbooks.png",
+        "imgSrc": "/Images/Page/Preparation/c_lang/cbooks.png",
         "imgAlt": "A comment with lots of text on stack overflow.",
         "text": "StackOverflow thread full of lots of good C resources, for different levels.",
         "aHref": "https://stackoverflow.com/questions/562303/the-definitive-c-book-guide-and-list"

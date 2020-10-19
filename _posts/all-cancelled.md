@@ -1,13 +1,16 @@
 ---
 title: "May & July - Both cancelled"
-date: '2020-04-14'
-excerpt: '42 Silicon Valley, has decided to close not only the campus.'
-coverImage: '../public/Images/updates/April/14-4-2020_tweet.png'
+date: "2020-04-14"
+excerpt: "42 Silicon Valley, has decided to close not only the campus."
+coverImage: "../public/Images/Page/Updates/April/14-4-2020_tweet.png"
 author:
     name: PocketPiggy
-    picture: '../public/Images/updates/profile.jpg'
+    picture: "../public/Images/Page/Updates/profile.jpg"
 ogImage:
-    url: '../public/Images/updates/April/14-4-2020_tweet.png'
+    url: "../public/Images/Page/Updates/April/14-4-2020_tweet.png"
+meta: "42 Silicon valley has now decided to cancel the July 20th start date and
+    the July Piscine."
+cannonical: "https://42sv.info/Updates/posts/all-cancelled"
 ---
 
 <p class='blog-p'>
@@ -15,7 +18,7 @@ Covid is really starting to ramp up, to take precautions, 42 Silicon Valley has 
 </p>
 
 <span class='blog-img'>
-<img src='/Images/updates/April/14-4-2020_tweet.png'/ alt='Tweet of 42 silicon valley.'>
+<img src='/Images/Page/Updates/April/14-4-2020_tweet.png'/ alt='Tweet of 42 silicon valley.'>
 </span>
 
 <a href='https://twitter.com/42SiliconValley/status/1250137361335201792' target='blank' rel='noopener noreferrer'>

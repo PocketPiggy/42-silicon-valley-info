@@ -1,13 +1,20 @@
 import Head from "next/head";
 import Button from "react-bootstrap/Button";
-import Link from 'next/link';
+import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Index() {
   return (
     <>
       <Head>
-        <title> 42 Silicon Valley Info </title>
+        <title>42 Silicon Valley - Information & Guide for the Piscine</title>
+        <meta
+          name="description"
+          content="This website is dedicated to collect all publicly known
+          information about 42 Silicon Valley and its Piscine, process,
+          curriculum and more. 42 School BornToCode!"
+        />
+        <link rel="canonical" href="https://42sv.info" />
       </Head>
 
       <section className="block">
@@ -30,13 +37,13 @@ export default function Index() {
 
         <span className="mini-img-container">
           <img
-            src="/Images/Pages/Home/Marvin.jpg"
+            src="/Images/Page/Home/Marvin.jpg"
             alt="Marvin the Android from 'The Hitchhiker's guide to the galaxy', looking depressed."
             title="Well I wish you'd just tell me rather than try to engage my
             enthusiasm."
             className="marvin"
           />
-      </span>
+        </span>
       </section>
 
       <section className="block">
@@ -46,7 +53,6 @@ export default function Index() {
           </Button>
         </Link>
       </section>
-
 
       <span className="buffy-the-buffer" />
     </>
