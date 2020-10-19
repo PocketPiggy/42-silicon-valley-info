@@ -1,196 +1,272 @@
-import React from "react";
-import Data from "../../data/infosources/blogreviews.json";
-import ScrollingSideBar from "../../components/ScrollingSideBar";
+import Head from "next/head";
+import Link from "next/Link";
 
-export default function BlogsAndReviews({ content, scroll }) {
+export default function BlogsAndReviews() {
   return (
     <>
+      <Head>
+        <title>42 SV - Blogs & Reviews </title>
+      </Head>
       <section className="scroll-block" id="block-1">
-        <h1>{content.title}</h1>
-        <h3>{content.p1Header}</h3>
-        <p>{content.p1}</p>
+        <h1>Blogs and Reviews</h1>
+        <p>
+          A good chunk of my research comes from these sources and others, but
+          I've found these to be the most enlightening about 42 Silicon Valley
+          or 42 in general. Some of them are quite detailed, others are more
+          about what the authors felt as well as what was going on and what to
+          expect during the Piscine. If you have to look at any, I'd suggest
+          <a>Kristofk's survival guide</a> as well as <a>Skunz's video</a>. Most
+          of all the others are more for if you want to know more about the in's
+          and out's of 42 Silicon Valley and 42 Paris though they aren't
+          necessary.",
+        </p>
       </section>
-
       <section className="scroll-block" id="block-2">
-        <h3>{content.p2Header}</h3>
-        <p>{content.p2}</p>
+        <h3>Kristofk's 42 Survival guide</h3>
+        <p>
+          A guide on what was covered in his Piscine, as well as general
+          information regarding the surrounding area, the inner workings of 42
+          Silicon Valley, and other details. Straight to the point; highly
+          recommended reading.
+        </p>
         <span className="img-container">
-          <img src={Data.Kristofk.imgSrc} alt={Data.Kristofk.imgAlt} />
+          <img
+            src="/Images/Pages/Infosources/blogreview/kristofk.png"
+            alt="Article with sidebar on right side for quick navigation."
+          />
         </span>
-        <a href={Data.Kristofk.links.one}>
-          <p>Source</p>
+        <a
+          href="https://kristofk.com/posts/s42-survival-guide"
+          target="blank"
+          rel="noopener noreferrer"
+        >
+          Source
         </a>
       </section>
-
       <section className="scroll-block" id="block-3">
-        <h3>{content.p3Header}</h3>
-        <p>{content.p3}</p>
-        <span className="img-container">
-          <img src={Data.Skunz.imgSrc} alt={Data.Skunz.imgAlt} />
+        <h3>Skunz's Piscine: What to expect</h3>
+        <p>
+          A straight to the point 5-minute video. The most important take away
+          is that you must be prepared to work hard, extremely hard.
+          Recommended.",
+        </p>
+        <span className="yt-container">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube-nocookie.com/embed/NZZo114BSnY"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
         </span>
-        <a href={Data.Skunz.links.one}>
-          <p>Source</p>
-        </a>
       </section>
-
       <section className="scroll-block" id="block-4">
-        <h3>{content.p4Header}</h3>
-        <p>{content.p4}</p>
+        <h3>Gcamerli's 42 Bootcamp</h3>
+        <p>
+          This was the first source I came across when I was just starting my
+          research into 42 Silicon Valley. It helped me prepare for the Piscine
+          as a good place to start but not all of the learning materials are up
+          to date in regards to accessibility. It's really good for quick tips
+          and what to look out for during the Piscine. Highly recommended.
+        </p>
         <span className="img-container">
-          <img src={Data.Gcamerli.imgSrc} alt={Data.Gcamerli.imgAlt} />
+          <img
+            src="/Images/Pages/Infosources/blogreview/gcamer.png"
+            alt="Landing page with picture from HHGTTG; marvin watching the sunset."
+          />
         </span>
-        <a href={Data.Gcamerli.links.one}>
-          <p>Source</p>
+        <a
+          href="https://42boot.gcamer.li/getting-started"
+          target="blank"
+          rel="noopener noreferrer"
+        >
+          Source
         </a>
       </section>
-
       <section className="scroll-block" id="block-5">
-        <h3>{content.p5Header}</h3>
-        <p>{content.p5}</p>
+        <h3>Michael Brave's: Piscine to Cadet</h3>
+        <p>
+          Michael Brave wrote a lot about 42 Silicon Valley, one of the first
+          sources for actual Piscine experiences in depth that I could find. He
+          has a lot of opinions and goes through what he felt during each day
+          more than most other sources. It was a good insight into lots of
+          things, like how many people just up and quit during the Piscine.
+          While it's very verbose, I found it to be somewhat helpful.",
+        </p>
         <span className="img-container">
-          <img src={Data.MBrave.imgSrc} alt={Data.MBrave.imgAlt} />
+          <img
+            src="/Images/Pages/Infosources/blogreview/mbrave.png"
+            alt="Medium article post with authors face underneath title."
+          />
         </span>
-        <a href={Data.MBrave.links.one}>
-          <p>Why I'm taking a chance on 42</p>
+        <a href="https://medium.com/@themichaelbrave/why-im-taking-a-chance-on-42-222a698761d3">
+          Why I'm taking a chance on 42
         </a>
-        <a href={Data.MBrave.links.two}>
-          <p>Piscine Dorms</p>
+        <a href="https://medium.com/@themichaelbrave/i-have-a-place-in-the-dorms-at-42-3b1fc9c4e2c0">
+          Piscine Dorms
         </a>
-        <a href={Data.MBrave.links.three}>
-          <p>Full Piscine Experience</p>
+        <a href="https://medium.com/@themichaelbrave/my-piscine-experience-all-in-one-post-85671e0bf307">
+          Full Piscine Experience
         </a>
-        <a href={Data.MBrave.links.four}>
-          <p>Lessons Learned</p>
+        <a href="https://medium.com/@themichaelbrave/lessons-learned-after-a-month-of-code-at-42s-piscine-679afb17fbData.MBrave.links.four">
+          Lessons Learned
         </a>
-        <a href={Data.MBrave.links.five}>
-          <p>Cadet Life @ 42 Silicon Valley</p>
+        <a href="https://medium.com/@themichaelbrave/life-as-a-cadet-at-42-silicon-valley-8-months-in-9d86204bf078Data.MBrave.links.five">
+          Cadet Life @ 42 Silicon Valley
         </a>
       </section>
 
       <section className="scroll-block" id="block-6">
-        <h3>{content.p6Header}</h3>
-        <p>{content.p6}</p>
+        <h3>Jraleman 42 SV blogs</h3>
+        <p>
+          A former student from 42 Silicon Valley, he briefly lists his reasons
+          and experiences while at 42 Silicon Valley. He also has some helpful
+          Github links for the old Piscine repos.",
+        </p>
         <span className="img-container">
-          <img src={Data.Jraleman.imgSrc} alt={Data.Jraleman.imgAlt} />
+          <img
+            src="/Images/Pages/Infosources/blogreview/jraleman.png"
+            alt="Medium article post with squirtle pokemon as profile picture and picture of 42 silicon valley labs."
+          />
         </span>
-
-        <a href={Data.Jraleman.links.one}>
-          <p>42 Silicon Valley: The good, the bad and the ugly?</p>
+        <a
+          href="https://github.com/jraleman/42_Piscine-C"
+          target="blank"
+          rel="noopener noreferrer"
+        >
+          Piscine Github repo
         </a>
-        <a href={Data.Jraleman.links.two}>
-          <p>How I learned to stop worrying and love the code</p>
+        <a href="https://medium.com/@jraleman/42-silicon-valley-piscine-or-how-i-learned-to-stop-worrying-and-love-the-code-6b72bd41317a">
+          How I learned to stop worrying and love the code
         </a>
-        <a href={Data.Jraleman.links.three}>
-          <p>Piscine repo</p>
+        <a href="https://medium.com/@jraleman/42-silicon-valley-the-good-the-bad-and-the-ugly-b80fbb6d5d2f">
+          42 Silicon Valley: The good, the bad and the ugly?
         </a>
       </section>
-
       <section className="scroll-block" id="block-7">
-        <h3>{content.p7Header}</h3>
-        <p>{content.p7}</p>
+        <h3>Victoria Nguyen's: From applying to Cadet</h3>
+        <p>
+          These microblogs with detailed information, straight to the point
+          about her experiences about 42 Silicon Valley.
+        </p>
         <span className="img-container">
-          <img src={Data.VNguyen.imgSrc} alt={Data.VNguyen.imgAlt} />
+          <img
+            src="/Images/Pages/Infosources/blogreview/vnguyen.png"
+            alt="Medium article post with authors face underneath title; screencap of 42 silicon valley website landing page."
+          />
         </span>
-        <a href={Data.VNguyen.links.one}>
-          <p>Applying</p>
+        <a
+          href="https://medium.com/my-journey-at-42-silicon-valley-as-a-non-cs-major/applying-to-42-silicon-valley-e79eaf56e375"
+          target="blank"
+          rel="noopener noreferrer"
+        >
+          Applying
         </a>
-        <a href={Data.VNguyen.links.two}>
-          <p>Dorm Application</p>
+        <a
+          href="https://medium.com/my-journey-at-42-silicon-valley-as-a-non-cs-major/42-silicon-valley-piscines-dorm-application-process-3d167846255d"
+          target="blank"
+          rel="noopener noreferrer"
+        >
+          Dorm Application
         </a>
-        <a href={Data.VNguyen.links.three}>
-          <p>Acceptance</p>
+        <a
+          href="https://medium.com/my-journey-at-42-silicon-valley-as-a-non-cs-major/from-acceptance-to-42-silicon-valleys-piscine-what-should-you-know-f2427efd8034"
+          target="blank"
+          rel="noopener noreferrer"
+        >
+          Acceptance
         </a>
-        <a href={Data.VNguyen.links.four}>
-          <p>Piscine to Cadet</p>
+        <a
+          href="https://medium.com/my-journey-at-42-silicon-valley-as-a-non-cs-major/acceptance-into-42-silicon-valley-from-pisciner-to-cadet-418b092fb464"
+          target="blank"
+          rel="noopener noreferrer"
+        >
+          Piscine to Cadet
         </a>
       </section>
-
       <section className="scroll-block" id="block-8">
-        <h3>{content.p8Header}</h3>
-        <p>{content.p}</p>
+        <h3>Coding Girl's 42 experience</h3>
+        <p>
+          Ms. Anna's experiences at 42 Paris. Very detailed vlogs on not only
+          her experiences but also highlighting how 42 Paris operates.
+        </p>
         <span className="img-container">
-          <img src={Data.Codinggirl.imgSrc} alt={Data.Codinggirl.imgAlt} />
+          <img
+            src="/Images/Pages/Infosources/blogreview/codinggirl.jpg"
+            alt="Youtube thumbnail of girl looking exhausted, captions say day 1 42, I feel exhausted."
+          />
         </span>
-        <a href={Data.Codinggirl.links.one}>
-          <p>Source</p>
+        <a
+          href="https://www.youtube.com/playlist?list=PLXNyxVNLAY_0G-hPCOzl5R0G_N_Rp0sLo"
+          target="blank"
+          rel="noopener noreferrer"
+        >
+          Link to playlist
         </a>
       </section>
-
       <section className="scroll-block" id="block-9">
-        <h3>{content.p9Header}</h3>
-        <p>{content.p9}</p>
+        <h3>Zedechariaz's Reddit AMA</h3>
+        <p>
+          An ask me anything thread on the /r/learnprogramming subreddit about
+          42 Paris. I found this to be a little helpful and insightful. Though
+          one thing of note, unlike some of these other people, he has STEM
+          degree, specifically Engineering.
+        </p>
         <span className="img-container">
-          <img src={Data.Zedechariaz.imgSrc} alt={Data.Zedechariaz.imgAlt} />
+          <img
+            src="/Images/Pages/Infosources/blogreview/zedechariaz.png"
+            alt="Screenshot of the reddit thread, lots of text."
+          />
         </span>
-        <a href={Data.Zedechariaz.links.one}>
-          <p>Source</p>
+        <a
+          href="https://old.reddit.com/r/learnprogramming/comments/caxa2g/i_went_to_42_free_coding_school_ama/"
+          target="blank"
+          rel="noopener noreferrer"
+        >
+          Source
         </a>
       </section>
-
       <section className="scroll-block" id="block-10">
-        <h3>{content.p10Header}</h3>
-        <p>{content.p10}</p>
+        <h3>Ekaterina's 42 Paris blogs</h3>
+        <p>
+          Short and to the point. They're a bit scattered and not as detailed as
+          others, but still insightful in some things like exams.
+        </p>
         <span className="img-container">
-          <img src={Data.Ekaterina.imgSrc} alt={Data.Ekaterina.imgAlt} />
+          <img
+            src="/Images/Pages/Infosources/blogreview/ekaterina.png"
+            alt="Blog formatted website with author touching behind her hair and smiling."
+          />
         </span>
-        <a href={Data.Ekaterina.links.one}>
-          <p>Source</p>
+        <a
+          href="https://getawayposts.com/category/42-piscine-insider-day-to-day-chronics"
+          target="blank"
+          rel="noopener noreferrer"
+        >
+          Source
         </a>
       </section>
 
-      <ScrollingSideBar data={scroll} />
       <span className="buffy-the-buffer"></span>
     </>
   );
 }
 
-export async function getStaticProps(content) {
-  console.log(content);
+export async function getServerSideProps(context) {
   return {
     props: {
-      content: {
-        title: "Blogs & reviews",
-        p1:
-          "A good chunk of my research comes from these sources and others, but I've found these ones to be the most enlightening about 42. Some of them are quite detailed, others are more about what the authors felt as well as what was going on and what to expect during the Piscine.  If you have to look at any, I'd suggest Skunz's 5 minute video as well as Kristofk's survival guide. Most of all the others are more for if you want to know more about the in's and out's of 42 SV and 42 Paris though they aren't necessary.",
-        p2Header: "Kristofk's 42 Survial guide",
-        p2:
-          "A guide on what was covered in his Piscine, as well as general information regarding the surrounding area, the inner workings of 42 and other details. Highly recommended reading.",
-        p3Header: "Skunz's Piscine: What to expect",
-        p3:
-          "A straight to the point 5 minute video. The most important take away is that you must be prepared to wkr hard, extremely hard. Recommended.",
-        p4Header: "Gcamerli's Piscine info",
-        p4:
-          "This was the first source I came across when I was just starting my research into 42SV. It helped me prepare for the Piscine as a good place to start but not all of the learning materials are up to date, in regards to accessibility. It's really good for quick tips and what to look out for for the Piscine. Highly recommended.",
-        p5Header: "Michael Brave's: Piscine to Cadet",
-        p5:
-          "Mr. Brave wrote a lot about 42, one of the first source for actual Piscine experiences, in depth that I could find. He has a lot of opinions and goes through what he felt during each day in depth more than most other sources. It was a good insight on lots of things, like how many people actually just up and quit during the Piscine. Though, it's very verbose, I found it to be somewhat helpful.",
-        p6Header: "Jraleman 42 SV blogs",
-        p6:
-          "A former student from 42 Silicon Valley, Mr. Jose briefly lists his reasons and experiences while at 42. He also has some helpful github links for the old Piscine repos.",
-        p7Header: "Victoria Nguyen's: From aplying to Cadet",
-        p7:
-          "Ms. Nguyen's micro blogs with detailed information, straight to the point about her experiences about 42. She was even Bocal at one point.",
-        p8Header: "Coding Girl's 42 experience",
-        p8:
-          "Ms. Anna's experiences at 42 Paris. Very detailed vlogs on not only her experiences but also highlighting how 42 Paris operates.",
-        p9Header: "Zedechariaz's reddit AMA",
-        p9:
-          "An ask me anything thread on the /r/learnprogramming subreddit about 42 Paris. I found this to be a little helpful and insightful. Though one thing of note, unlike some of these other people, he has STEM degree, specifically Engineering.",
-        p10Header: "Ekaterina's 42 Paris blogs",
-        p10:
-          "Ms. Ekaterina's blogs are short and to the point. They're a bit scattered and not as detailed as others, but still insightful in some things like exams.",
-      },
       scroll: [
         { stop: "1", title: "Sources" },
-        { stop: "2", title: "42 Silicon Valley survival guide" },
+        { stop: "2", title: "42 SV survival guide" },
         { stop: "3", title: "What to expect from the Piscine" },
         { stop: "4", title: "Piscine bootcamp info" },
         { stop: "5", title: "Blogs: Piscine to Cadet" },
         { stop: "6", title: "Blogs: 42 SV expectations" },
         { stop: "7", title: "Blogs: Applying to Cadet" },
-        { stop: "8", title: "Vlogs: 42 Paris Piscine experience" },
+        { stop: "8", title: "Vlogs: 42 Paris" },
         { stop: "9", title: "42 Paris AMA" },
-        { stop: "10", title: "Blogs: 42 Paris Piscine" },
+        { stop: "10", title: "Blogs: 42 Paris" },
       ],
     },
   };
