@@ -28,7 +28,7 @@
 }
 
 .side-p {
-    font-size: calc(#{$p-size} - 0.3rem);
+    font-size: $xs-p-size;
     text-align: left !important;
     color: $text-color;
 }

@@ -79,11 +79,20 @@ export default function MyApp({ Component, pageProps }) {
       return setScroll(false);
     };
 
+<<<<<<< HEAD
     if (minScreenSize)
     {
       "scroll" in {...pageProps}
         ? isBigEnough
         : isNotBigEnough;
+=======
+    if (minScreenSize) {
+      if ("scroll" in { ...pageProps }) {
+        return isBigEnough;
+      } else {
+        return isNotBigEnough;
+      }
+>>>>>>> restructure
     }
   });
 
@@ -118,13 +127,22 @@ export default function MyApp({ Component, pageProps }) {
         <div className="page-container">
           <NavigationBar />
           <Container className="page-content">
+<<<<<<< HEAD
             <Col xs={12} s={12} md={9} lg={9} xl={9}>
               <Component {...pageProps} />
             </Col>
             <Col xs={0} s={0} md={3} lg={3} xl={3}>
+=======
+            <Col xs={12} s={12} md={11} lg={11} xl={11}>
+              <Component {...pageProps} />
+            </Col>
+
+            <Col xs={0} s={0} md={2} lg={2} xl={2}>
+>>>>>>> restructure
               {hasScroll ? <ScrollingSideBar {...pageProps} /> : null}
             </Col>
           </Container>
+
           <Footer />
         </div>
       )}

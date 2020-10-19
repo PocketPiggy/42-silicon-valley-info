@@ -3,7 +3,7 @@
 }
 
 .blog-item-date {
-    font-size: calc(#{$p-size} - .3rem);
+    font-size: $xs-p-size;
     font-style: italic;
     color: white;
 }

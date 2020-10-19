@@ -8,6 +8,7 @@ import {
     scrollSpy,
     scroller,
 } from "react-scroll";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function ScrollingSideBar(props) {
     let kk = Object.values(props);
@@ -25,15 +26,17 @@ export default function ScrollingSideBar(props) {
             <>
                 <ul className="sidebar-items">
                     {ok.map((item, i) => (
-                        <li className="sidebar-item" key={`${item}-${i}`}>
+                        <li className="sidebar-item link-color" key={`${item}-${i}`}>
                             <Link
                                 activeClass="active"
-                                className={"block-" + item["stop"].toString()}
+                                className={"block-" + item["stop"].toString(), 'side-p'}
                                 to={"block-" + item["stop"].toString()}
                                 spy={true}
                                 smooth={true}
                                 duration={500}
+                                offset={-30}
                             >
+                                <FontAwesomeIcon icon='chevron-right' />{" "}
                                 {item.title}
                             </Link>
                         </li>
