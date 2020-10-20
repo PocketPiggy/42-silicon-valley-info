@@ -22,17 +22,20 @@ export default function Index() {
         <p>
           Welcome. If you found this website, chances are you're looking for
           information about the coding school 42 Silicon Valley. This website is
-          dedicated to putting out all publicly known information about it and
-          how 42 Silicon Valley itself operates. You'll find out what the
-          Piscine is, how to prepare for it, and more.
+          dedicated to putting out all publicly known information about 42
+          Silicon Valley and how it differs from other 42 campuses. We'll go
+          over the the Piscine, what you'd want to learn before starting it and
+          the whole process of the Piscine.
         </p>
 
         <p>
           The 42 curriculum, especially the Piscine, is very tough and requires
-          some tenacity to get through it. Hopefully, with the information I've
-          gathered here, it'll be at least of some help for you regardless if
-          you're on the fence about the whole thing or if you want to prepare as
-          much as possible for the Piscine.
+          some tenacity to get through it as many people fall behind. Hopefully,
+          with the information I've gathered here, it'll be at least of some
+          help for you regardless if you're on the fence about the whole thing
+          or if you want to prepare as much as possible for the Piscine. At the
+          bare minimum, consider looking over what the Piscine actually covers.
+          (Hint: It's not web development!)
         </p>
 
         <span className="mini-img-container">
@@ -40,7 +43,7 @@ export default function Index() {
             src="/Images/Page/Home/Marvin.jpg"
             alt="Marvin the Android from 'The Hitchhiker's guide to the galaxy', looking depressed."
             title="Well I wish you'd just tell me rather than try to engage my
-            enthusiasm."
+            enthusiasm. 42 Silicon Valley BornToCode"
             className="marvin"
           />
         </span>
