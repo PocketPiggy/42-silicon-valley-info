@@ -1,7 +1,9 @@
 import Head from "next/head";
-import Button from "react-bootstrap/Button";
 import Link from "next/link";
+import Button from "react-bootstrap/Button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Card from "../components/Card";
+import SelectCard from "../components/SelectCard";
 
 export default function Index() {
   return (
@@ -49,13 +51,8 @@ export default function Index() {
         </span>
       </section>
 
-      <section className="block">
-        <Link href="/Preparation/Before_the_Piscine" passHref>
-          <Button variant="primary" className="btn-next">
-            Before the Piscine <FontAwesomeIcon icon="arrow-alt-circle-right" />
-          </Button>
-        </Link>
-      </section>
+      <Card cardData={SelectCard("Root", "Before_the_piscine")}/>
+      <Card cardData={SelectCard("Root", "About_42SV")}/>
 
       <span className="buffy-the-buffer" />
     </>

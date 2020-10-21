@@ -1,0 +1,55 @@
+{
+  "Blogs_and_reviews": {
+    "title": "Blogs & Reviews",
+    "imgSrc": "/Images/Page/Infosources/blogreview/jraleman.png",
+    "imgAlt": "Medium article post with squirtle pokemon as profile picture and picture of 42 silicon valley labs.",
+    "text": "Collected from many searches, here are some extremely relevant writings and vlogs of current and past students of 42. Covers Piscine and student life.",
+    "link": "/Sources/Blogs_and_reviews"
+  },
+
+  "Campus_differences": {
+    "title": "Campus Differences",
+    "imgSrc": "/Images/Page/Infosources/42sv_campus.jpg",
+    "imgAlt": "Front entrance of 42 Silicon Valley",
+    "text": "A quick rundown of the main differences between 42 Silicon Valley and 42 Paris and how they operate.",
+    "link": "/Sources/Campus_differences"
+  },
+
+  "Dorms": {
+    "title": "Dorms",
+    "imgSrc": "/Images/Page/Infosources/dorms.png",
+    "imgAlt": "Part of the landing page of 42 Nostromo dorms sign in page.",
+    "text": "All relevant information I could find regarding what the dorms look like, the rules and requirements.",
+    "link": "/Sources/Dorms"
+  },
+
+  "Townhall_meetings": {
+    "title": "Townhall Meetings",
+    "imgSrc": "/Images/Page/Infosources/townhall/townhall-june12.jpg",
+    "imgAlt": "Youtube thumbnail of a 42 Silicon Valley virtual town hall meeting with a student next to a computer looking out a sunny window.",
+    "text": "A collection of all public townhall meetings that 42 Silicon Valley holds about once a month.",
+    "link": "/Sources/Townhalls"
+  },
+
+  "Interviews": {
+    "title": "Interviews",
+    "imgSrc": "/Images/Page/Infosources/interview/interview1.jpg",
+    "imgAlt": "Youtube thumbnail of three men and a woman talking in the hallways of 42 Silicon Valley with the caption 'CK Tour: 42 Silicon Valley'.",
+    "text": "Some direct interviews about how 42 Silicon Valley operates and what their plans are for future and prospective students.",
+    "link": "/Sources/Interviews"
+  },
+  "Criticisms": {
+    "title": "Criticisms",
+    "imgSrc": "/Images/Page/Infosources/criticisms.jpg",
+    "imgAlt": "A handwritten note by bocal posted on a wall during a 42 Silicon Valley Piscine; caption: 'If you have a question: Google it! if you still have a question, as your neighbor. If stupid Q. 100 push-ups.' ",
+    "text": "Nothing is perfect. While there are some benefits of 42, there are also some flaws.",
+    "link": "/Sources/Criticisms"
+  },
+  "Github_repos": {
+    "title": "Criticisms",
+    "imgSrc": "/Images/Page/Infosources/github_repos.png",
+    "imgAlt": "Screen cap of a github repo read me about the 42 Piscine.",
+    "text": "A compilation of useful links regarding past Piscines, testing tools, curriculum and more.",
+    "link": "/Sources/Github_repos"
+  }
+}

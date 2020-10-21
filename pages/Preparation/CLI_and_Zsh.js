@@ -1,9 +1,9 @@
 import Head from "next/head";
 import Link from "next/link";
-import SelectCard from "../../components/SelectCard";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Card from "../../components/Card";
+import SelectCard from "../../components/SelectCard";
 import Button from "react-bootstrap/Button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 

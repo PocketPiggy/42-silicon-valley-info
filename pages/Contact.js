@@ -39,7 +39,9 @@ export default function Contact() {
         <p className="contact-p">
           {" "}
           Any questions? Concerns? Inquiries? Bugs on the website? Did I get
-          information wrong?
+          information wrong? Feel free to contact me through this form or {" "}
+          <a href="mailto:pocketpiggy@protonmail.com">directly</a>. I respond usually within
+          1-2 days.
         </p>
 
         <div id="contact-form">

@@ -64,12 +64,12 @@ export default function NavigationBar() {
                             </Link>
                         </NavDropdown>
 
-                        <NavDropdown title="Info & Sources">
-                            <Link href="/InfoSources/TownHalls" passHref>
+                        <NavDropdown title="Sources">
+                            <Link href="/Sources/TownHalls" passHref>
                                 <NavDropdown.Item>Town Halls</NavDropdown.Item>
                             </Link>
                             <Link
-                                href="/InfoSources/Blogs_and_reviews"
+                                href="/Sources/Blogs_and_reviews"
                                 passHref
                             >
                                 <NavDropdown.Item>
@@ -78,17 +78,17 @@ export default function NavigationBar() {
                             </Link>
 
                             <Link
-                                href="/InfoSources/Differences_between_campuses"
+                                href="/Sources/Differences_between_campuses"
                                 passHref
                             >
                                 <NavDropdown.Item>
                                     Campus Differences
                                 </NavDropdown.Item>
                             </Link>
-                            <Link href="/InfoSources/Interviews" passHref>
+                            <Link href="/Sources/Interviews" passHref>
                                 <NavDropdown.Item>Interviews</NavDropdown.Item>
                             </Link>
-                            <Link href="/InfoSources/Dorms" passHref>
+                            <Link href="/Sources/Dorms" passHref>
                                 <NavDropdown.Item>Dorms</NavDropdown.Item>
                             </Link>
                         </NavDropdown>

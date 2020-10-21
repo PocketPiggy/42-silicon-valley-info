@@ -1,3 +1,4 @@
+//  Regular card for preparation pages
 .card-container {
     display: flex;
     height: $card-h;
@@ -8,7 +9,6 @@
     background-color: $card-container;
     box-shadow: $box-shadow;
     padding-bottom: $padding-b;
-
 }
 
 .card-content {
@@ -35,8 +35,8 @@
 }
 
 .card-title {
-        width: calc(#{$card-w} - 1vw);
-        margin: $title-margin;
+    width: calc(#{$card-w} - 1vw);
+    margin: $title-margin;
     p {
         width: inherit;
     }
@@ -44,7 +44,7 @@
 
 hr {
     width: 24%;
-    opacity: .25;
+    opacity: 0.25;
     border-top: 1px solid white;
 }
 
@@ -69,3 +69,58 @@ hr {
     margin: $buffy;
 }
 
+//  Wider cards for page selection
+
+.f-card-container {
+    width: 35rem;
+    height: 16rem;
+    border-radius: $rounded-c;
+    background-color: $card-container;
+    box-shadow: $box-shadow;
+    padding-bottom: $padding-b;
+}
+
+.f-card-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    .hemi-1 {
+        height: inherit;
+        .f-card-img {
+            width: 15rem;
+            height: 16rem;
+            img {
+                //object-fit: contain;
+                width: inherit;
+                height: inherit;
+                border-radius: 1px;
+            }
+        }
+    }
+    .hemi-2 {
+        position: relative;
+        .f-card-title {
+            margin-top: 1.25rem;
+            p {
+                font-size: 1.5rem !important;
+                font-weight: bold;
+                text-align: center;
+            }
+        }
+        .f-card-description {
+            width: 95%;
+            margin: 0 auto;
+            p {
+            }
+        }
+        .f-card-link {
+            position: absolute;
+            bottom: 1rem;
+            right: 1rem;
+        }
+    }
+}
+
+.vl {
+    border-right: 1px solid black;
+    margin: 0 .5rem 0 0;
+}

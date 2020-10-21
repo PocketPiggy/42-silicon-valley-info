@@ -124,7 +124,7 @@ export default function PuttingItAllTogether() {
 
         <span className="img-container">
           <img
-            src="/Images/Page/Preparation/putting_it_all_together/Moulinette.png"
+            src="/Images/Page/Preparation/putting_it_all_together/moulinette.png"
             alt="Score results w/ peer reviews from the Moulinette from day 8 of the Piscine."
             title="Example results from Piscine corrections."
           />
