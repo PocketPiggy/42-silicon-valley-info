@@ -1,6 +1,7 @@
 import { useRouter } from "next/router";
 import Button from "react-bootstrap/Button";
 import Head from 'next/head';
+import GoBack from '../components/GoBack';
 
 export default function FourOhFour() {
   //    This will erase the 404 page url from history and replacing it
@@ -40,6 +41,7 @@ export default function FourOhFour() {
             Return home
           </Button>
         </div>
+        <GoBack name={"Let's a gogo!"}/>
       </section>
 
       <span className="buffy-the-buffer"></span>

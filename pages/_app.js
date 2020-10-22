@@ -66,26 +66,26 @@ export default function MyApp({ Component, pageProps }) {
   }, []);
 
   //    If screen is at least 992px & page has scroll prop, render Scrollbar
-  const [hasScroll, setScroll] = React.useState(false);
+  //const [hasScroll, setScroll] = React.useState(false);
   const minScreenSize = useMediaQuery({ query: "(min-device-width: 992px)" });
 
-  useEffect(() => {
-    const isBigEnough = () => {
-      console.log("is big enough");
-      return setScroll(true);
-    };
-    const isNotBigEnough = () => {
-      console.log("not big enough");
-      return setScroll(false);
-    };
+  //useEffect(() => {
+  //const isBigEnough = () => {
+  //console.log("is big enough");
+  //return setScroll(true);
+  //};
+  //const isNotBigEnough = () => {
+  //console.log("not big enough");
+  //return setScroll(false);
+  //};
 
-    //  If screen size is big enough & if the page has a scroll prop
-    if (minScreenSize && "scroll" in { ...pageProps }) {
-      return isBigEnough;
-    } else {
-      return isNotBigEnough;
-    }
-  }, []);
+  ////  If screen size is big enough & if the page has a scroll prop
+  //if (minScreenSize && "scroll" in { ...pageProps }) {
+  //return isBigEnough;
+  //} else {
+  //return isNotBigEnough;
+  //}
+  //}, []);
 
   return (
     <>
@@ -122,7 +122,7 @@ export default function MyApp({ Component, pageProps }) {
               <Component {...pageProps} />
             </Col>
             <Col xs={0} s={0} md={2} lg={2} xl={2}>
-              {"scroll" in { ...pageProps } ? (
+              {"scroll" in { ...pageProps } && minScreenSize ? (
                 <ScrollingSideBar {...pageProps} />
               ) : null}
             </Col>

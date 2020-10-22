@@ -1,4 +1,5 @@
 import Head from "next/head";
+import GoBack from '../../components/GoBack'
 
 export default function Dorms() {
   return (
@@ -20,7 +21,9 @@ export default function Dorms() {
             alt="Desk with a chair, sunny window, air conditioner and two beds."
           />
         </span>
-        <p className="img-subtext">Looks ok, especially for the price. </p>
+        <p className="img-subtext">
+          Looks ok, especially for the price (free).{" "}
+        </p>
       </section>
 
       <section className="scroll-block" id="block-2">
@@ -59,74 +62,88 @@ export default function Dorms() {
           more fresh students as well as give a little more incentive to
           studying.
         </p>
+
+        <span className="img-container">
+          <img
+            src="/Images/Page/Infosources/dorm/42_dorm_entrance.jpeg"
+            alt="Dorms entrance with grass in front with a banner displaying
+          'Nostromo' at the top of the building."
+          />
+        </span>
+        <p className="img-subtext">Dorm building entrance.</p>
       </section>
-      <section className="scroll-block" id="block-3"></section>
-      <h3>Dorm rules</h3>
 
-      <p>
-        There is a microwave somewhere near the labs and for food, you can
-        always go to Cantina, though it's about $5 a meal on average. Just a
-        heads up, you aren't allowed to "cook" in the dorms or outside on campus
-        and there isn't a kitchen available either. There is a grocery store
-        within walking distance a couple of miles away. There is a gas station
-        nearby as well as some fast food places very close.
-      </p>
-      <p>
-        How many people per room changes depending on how many current students
-        are there. I've heard sometimes there are 3 people or even 4 per room
-        but other times, some people have a room all to themselves. Students can
-        switch rooms apparently whenever they want.
-      </p>
-      <p>
-        For more information such as needing to bring your own bedsheets,{" "}
-        <a
-          href="https://dorms.42.us.org/faq"
-          target="blank"
-          rel="noopener noreferrer"
-        >
-          check out their FAQ.
-        </a>
-      </p>
-      <p>
-        For more information about the Catina,{" "}
-        <a
-          href="https://cantina.42.us.org/users/sign_in"
-          target="blank"
-          rel="noopener noreferrer"
-        >
-          here's a link to the Catina page.
-        </a>
-      </p>
-      <p>
-        Below are the only two decent quality videos I could find with clear
-        visuals of the dorms at 42 SV. IMO, they seem to be okay for what they
-        are: a place to sleep. Like a college dorm, don't expect anything fancy.
-        The beds seem to be bunk, there's a bathroom and there's usually a
-        single desk in every room. A quick reminder that the 42 Silicon Valley
-        campus was bought from DeVry University, around the time when DeVry was
-        having monetary problems.
-      </p>
+      <section className="scroll-block" id="block-3">
+        <h3>Dorm rules</h3>
 
-      <span className="yt-container">
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube-nocookie.com/embed/FZKCEfh6aY8"
-          frameBorder="1"
-          //allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
-      </span>
-      <span className="yt-container">
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube-nocookie.com/embed/9L-IgxWu9GU"
-          frameBorder="1"
-          //allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
-      </span>
+        <p>
+          There is a microwave somewhere near the labs and for food, you can
+          always go to Cantina, though it's about $5 a meal on average. Just a
+          heads up, you aren't allowed to "cook" in the dorms or outside on
+          campus and there isn't a kitchen available either. There is a grocery
+          store within walking distance a couple of miles away. There is a gas
+          station nearby as well as some fast food places very close.
+        </p>
+        <p>
+          How many people per room changes depending on how many current
+          students are there. I've heard sometimes there are 3 people or even 4
+          per room but other times, some people have a room all to themselves.
+          Students can switch rooms apparently whenever they want.
+        </p>
+        <p className="p-lefty">
+          For more information such as needing to bring your own bedsheets,{" "}
+          <a
+            href="https://dorms.42.us.org/faq"
+            target="blank"
+            rel="noopener noreferrer"
+          >
+            check out their FAQ.
+          </a>
+        </p>
+        <p className="p-lefty">
+          For more information about the Catina,{" "}
+          <a
+            href="https://cantina.42.us.org/users/sign_in"
+            target="blank"
+            rel="noopener noreferrer"
+          >
+            here's a link to the Catina page.
+          </a>
+        </p>
+      </section>
+
+      <section className="scroll-block" id="block-4">
+        <h3>Dorm reviews</h3>
+        <p>
+          Below are the only two decent quality videos I could find with clear
+          visuals of the dorms at 42 Silicon Valley. IMO, they seem to be okay
+          for what they are: a place to sleep. Like a college dorm, don't expect
+          anything fancy. The beds seem to be bunk, there's a bathroom and there's
+          usually a single desk in every room. A quick reminder that the 42
+          Silicon Valley campus was bought from DeVry University, around the
+          time when DeVry was having monetary problems.
+        </p>
+
+        <span className="yt-container">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube-nocookie.com/embed/FZKCEfh6aY8"
+            frameBorder="1"
+            allowFullScreen
+          ></iframe>
+        </span>
+        <span className="yt-container">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube-nocookie.com/embed/9L-IgxWu9GU"
+            frameBorder="1"
+            allowFullScreen
+          ></iframe>
+        </span>
+      </section>
+      <GoBack name={'hallo'}/>
 
       <span className="buffy-the-buffer"></span>
     </>
@@ -140,6 +157,7 @@ export async function getServerSideProps(context) {
         { stop: "1", title: "Dorms" },
         { stop: "2", title: "What's up with the dorms?" },
         { stop: "3", title: "Dorm rules" },
+        { stop: "4", title: "Dorm reviews" },
       ],
     },
   };

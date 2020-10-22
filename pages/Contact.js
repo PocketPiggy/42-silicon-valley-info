@@ -1,5 +1,12 @@
-import emailjs from "emailjs-com";
+import { useState } from "react";
 import Head from "next/head";
+import emailjs from "emailjs-com";
+import Button from "react-bootstrap/Button";
+import Modal from "react-bootstrap/Modal";
+import ModalHeader from "react-bootstrap/ModalHeader";
+import ModalTitle from "react-bootstrap/ModalTitle";
+import ModalBody from "react-bootstrap/ModalBody";
+import ModalFooter from "react-bootstrap/ModalFooter";
 
 export default function Contact() {
   const sendEmailToSelf = (e) => {
@@ -14,9 +21,13 @@ export default function Contact() {
       )
       .then(
         (result) => {
+          alert("Message sent!");
           console.log(result.text);
         },
         (error) => {
+          alert(
+            "Uh oh. Something went wrong. Email me directly at pocketpiggy@protonmail.com"
+          );
           console.log(error.text);
         }
       );
@@ -39,9 +50,9 @@ export default function Contact() {
         <p className="contact-p">
           {" "}
           Any questions? Concerns? Inquiries? Bugs on the website? Did I get
-          information wrong? Feel free to contact me through this form or {" "}
-          <a href="mailto:pocketpiggy@protonmail.com">directly</a>. I respond usually within
-          1-2 days.
+          information wrong? Feel free to contact me through this form or{" "}
+          <a href="mailto:pocketpiggy@protonmail.com">directly</a>. I respond
+          usually within 1-2 days.
         </p>
 
         <div id="contact-form">
