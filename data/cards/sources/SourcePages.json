@@ -46,7 +46,7 @@
     "link": "/Sources/Criticisms"
   },
   "Github_repos": {
-    "title": "Criticisms",
+    "title": "Github Repos",
     "imgSrc": "/Images/Page/Infosources/github_repos.png",
     "imgAlt": "Screen cap of a github repo read me about the 42 Piscine.",
     "text": "A compilation of useful links regarding past Piscines, testing tools, curriculum and more.",

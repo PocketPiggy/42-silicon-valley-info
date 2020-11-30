@@ -41,19 +41,19 @@ export default function InfoIndex() {
       </section>
 
       <Card cardData={SelectCard("Sources", "Blogs_and_reviews")} />
-      <span className="buffy-the-buffer"></span>
+      <span className="buffy-the-buffer" />
       <Card cardData={SelectCard("Sources", "Dorms")} />
-      <span className="buffy-the-buffer"></span>
+      <span className="buffy-the-buffer" />
       <Card cardData={SelectCard("Sources", "Townhall_meetings")} />
-      <span className="buffy-the-buffer"></span>
+      <span className="buffy-the-buffer" />
       <Card cardData={SelectCard("Sources", "Github_repos")} />
-      <span className="buffy-the-buffer"></span>
+      <span className="buffy-the-buffer" />
       <Card cardData={SelectCard("Sources", "Campus_differences")} />
-      <span className="buffy-the-buffer"></span>
+      <span className="buffy-the-buffer" />
       <Card cardData={SelectCard("Sources", "Criticisms")} />
-      <span className="buffy-the-buffer"></span>
+      <span className="buffy-the-buffer" />
       <Card cardData={SelectCard("Sources", "Interviews")} />
-      <span className="buffy-the-buffer"></span>
+      <span className="buffy-the-buffer" />
     </>
   );
 }

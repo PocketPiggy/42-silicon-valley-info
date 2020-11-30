@@ -1,8 +1,5 @@
 import Head from "next/head";
-import Link from "next/link";
-import Button from "react-bootstrap/Button";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Card from "../components/Card";
+import FatCard from "../components/FatCard";
 import SelectCard from "../components/SelectCard";
 
 export default function Index() {
@@ -46,13 +43,12 @@ export default function Index() {
             alt="Marvin the Android from 'The Hitchhiker's guide to the galaxy', looking depressed."
             title="Well I wish you'd just tell me rather than try to engage my
             enthusiasm. 42 Silicon Valley BornToCode"
-            className="marvin"
           />
         </span>
       </section>
 
-      <Card cardData={SelectCard("Root", "Before_the_piscine")}/>
-      <Card cardData={SelectCard("Root", "About_42SV")}/>
+      <FatCard cardData={SelectCard("Root", "Before_the_piscine")} />
+      <FatCard cardData={SelectCard("Root", "About_42SV")} />
 
       <span className="buffy-the-buffer" />
     </>

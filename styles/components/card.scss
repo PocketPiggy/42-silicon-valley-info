@@ -71,6 +71,20 @@ hr {
 
 //  Wider cards for page selection
 
+.f-holdr {
+    margin-bottom: 2rem;
+}
+
+.f-rbs-row {
+    margin: $buffy;
+    justify-content: space-between;
+}
+
+.f-rbs-row-2 {
+    justify-content: space-evenly;
+    margin: $buffy;
+}
+
 .f-card-container {
     width: 35rem;
     height: 16rem;
