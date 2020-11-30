@@ -1,7 +1,7 @@
 ---
 title: "42 Silicon Valley - Shutting down"
 date: "2020-03-11"
-excerpt: "Coivd is really starting to take affect in the United States."
+excerpt: "Covid is really starting to take affect in the United States."
 coverImage: "../public/Images/Page/Updates/March/11-3-2020_tweet.jpg"
 author:
     name: PocketPipggy
