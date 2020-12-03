@@ -106,8 +106,9 @@ hr {
                 //object-fit: contain;
                 width: inherit;
                 height: inherit;
-                border-radius: 1px;
+                border-radius: 2px 0 0 2px;
             }
+            border-right: 5px solid black;
         }
     }
     .hemi-2 {
@@ -115,7 +116,8 @@ hr {
         .f-card-title {
             margin-top: 1.25rem;
             p {
-                font-size: 1.5rem !important;
+                //font-size: 1.5rem !important;
+                font-size: 1.5rem;
                 font-weight: bold;
                 text-align: center;
             }
@@ -135,6 +137,32 @@ hr {
 }
 
 .vl {
-    border-right: 1px solid black;
-    margin: 0 .5rem 0 0;
+    //border-right: 1px solid black;
+    //margin: 0 0.5rem 0 0;
+}
+
+@media screen and (max-width: 768px) {
+    .f-card-container {
+        width: 85vw !important;
+        height: 50vw !important;
+    }
+
+    .hemi-1 {
+        .f-card-img {
+            width: 24vw !important;
+            height: 50vw !important;
+        }
+    }
+
+    .hemi-2 {
+        .f-card-title {
+            margin-top: .25rem !important;
+            p {
+                font-size: 16px !important;
+            }
+        }
+    }
+
+    .vl {
+    }
 }

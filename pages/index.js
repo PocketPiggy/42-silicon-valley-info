@@ -37,6 +37,15 @@ export default function Index() {
           (Hint: It's not web development!)
         </p>
 
+        <section className="fat-card-container">
+          <span className="card-1">
+            <FatCard cardData={SelectCard("Root", "Before_the_piscine")} />
+          </span>
+          <span className="card-2">
+            <FatCard cardData={SelectCard("Root", "About_42SV")} />
+          </span>
+        </section>
+
         <span className="mini-img-container">
           <img
             src="/Images/Page/Home/Marvin.jpg"
@@ -46,11 +55,6 @@ export default function Index() {
           />
         </span>
       </section>
-
-      <FatCard cardData={SelectCard("Root", "Before_the_piscine")} />
-      <FatCard cardData={SelectCard("Root", "About_42SV")} />
-
-      <span className="buffy-the-buffer" />
     </>
   );
 }

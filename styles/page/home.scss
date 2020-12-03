@@ -1,5 +1,26 @@
+.fat-card-container {
+    display: flex;
+    flex-direction: initial;
+    padding: .5rem;
+    margin: 1rem 0 1rem 0;
+    .card-1 {
+        margin: 1rem;
+    }
+    .card-2 {
+        margin: 1rem;
+    }
+}
+
+
 .marvin {
-    margin-top: 2rem;
+    margin-top: .5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .fat-card-container {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media screen and (min-width: 768px) {
