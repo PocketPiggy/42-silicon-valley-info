@@ -141,7 +141,7 @@ hr {
     //margin: 0 0.5rem 0 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 576px) {
     .f-card-container {
         width: 85vw !important;
         height: 50vw !important;
@@ -159,10 +159,12 @@ hr {
             margin-top: .25rem !important;
             p {
                 font-size: 16px !important;
+                border: 0 0 1px 0 solid green;
             }
         }
-    }
-
-    .vl {
+        .card-text-seperator {
+            /*margin: .25rem 0 .25rem 0 !important;*/
+            display: none;
+        }
     }
 }
