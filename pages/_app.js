@@ -98,6 +98,7 @@ export default function MyApp({ Component, pageProps }) {
         <div className="page-container">
           <NavigationBar />
           <div>
+            {/*
             <h1
               style={{
                 border: "4px solid white",
@@ -110,6 +111,7 @@ export default function MyApp({ Component, pageProps }) {
             >
               Website status: Under Construction
             </h1>
+            */}
           </div>
 
           <Container className="page-content">

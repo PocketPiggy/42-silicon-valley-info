@@ -79,7 +79,7 @@ export default function BeforeThePiscine() {
 
       <section className="scroll-block" id="block-3">
         <h3>Piscine material</h3>
-        <p>
+        <p className='pp'>
           Some people have said that 'you can't prepare for the Piscine'. I
           don't quite agree with that, especially since the Piscine curriculum
           is freely available on the internet if you know where to{" "}

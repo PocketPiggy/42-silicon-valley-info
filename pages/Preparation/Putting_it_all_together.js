@@ -150,23 +150,23 @@ export default function PuttingItAllTogether() {
         <ul className="fa-ul piscine-prep">
           <li className="pp-item">
             <FontAwesomeIcon icon="chevron-right" />
-            They don't give up easy
+            {" "} They don't give up easy
           </li>
           <li className="pp-item">
             <FontAwesomeIcon icon="chevron-right" />
-            They see things through to the end
+            {" "} They see things through to the end
           </li>
           <li className="pp-item">
             <FontAwesomeIcon icon="chevron-right" />
-            They're somewhat sociable
+            {" "} They're somewhat sociable
           </li>
           <li className="pp-item">
             <FontAwesomeIcon icon="chevron-right" />
-            They can work with others
+            {" "} They can work with others
           </li>
           <li className="pp-item">
             <FontAwesomeIcon icon="chevron-right" />
-            They're resourceful
+            {" "} They're resourceful
           </li>
         </ul>
         <p>
@@ -217,12 +217,15 @@ export default function PuttingItAllTogether() {
           make people burnout and fail the exam.
         </p>
 
-        <span className="img-container">
+        <span className="wide-load">
           <img
             src="/Images/Page/Preparation/putting_it_all_together/day09.png"
             alt="Gaetan, an instructor, explaining at a 42 Townhall meeting response why day09 was created."
             title="Kind of devious but the best lessons are learned the hard way."
           />
+          <p className='img-subtext'>
+            Straight from the horse's mouth.
+          </p>
         </span>
 
         <p>

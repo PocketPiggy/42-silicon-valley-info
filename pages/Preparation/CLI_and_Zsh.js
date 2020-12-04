@@ -1,7 +1,5 @@
 import Head from "next/head";
 import Link from "next/link";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
 import Card from "../../components/Card";
 import SelectCard from "../../components/SelectCard";
 import Button from "react-bootstrap/Button";
@@ -56,6 +54,7 @@ export default function CLIAndZsh() {
             height="315"
             src="https://www.youtube-nocookie.com/embed/Q0mZn__JB0o"
             frameBorder="1"
+            className="yt-iframe"
             //allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           ></iframe>
@@ -94,36 +93,41 @@ export default function CLIAndZsh() {
       <section className="scroll-block" id="block-4">
         <h3>Windows/Windows 10</h3>
         <p>If you're using Windows, you have a couple of options:</p>
-        <p>
-          {" "}
-          <FontAwesomeIcon icon="chevron-right" /> Install a Linux distro (like
-          Ubuntu) to your hard drive and dual boot. If you've ever installed
-          Windows yourself then installing something like Ubuntu will be no
-          problem.
-        </p>
-        <p>
-          {" "}
-          <FontAwesomeIcon icon="chevron-right" /> Download Cygwin (CLI) or a
-          console emulator like Cmder. Out of the box, Cmder is probably easier
-          to set up and use overall.
-        </p>
 
-        <p>
-          {" "}
-          <FontAwesomeIcon icon="chevron-right" /> You can install Windows
-          Subsystem for Linux (WSL/WSL2). This is for Windows 10 only. This
-          might be the hardest option for someone who has never used Linux
-          before. In my opinion, I would avoid this unless you know what you're
-          doing. Otherwise, be prepared to spend many hours configuring and
-          fixing possible bugs.
-        </p>
-        <p>
-          {" "}
-          <FontAwesomeIcon icon="chevron-right" /> Install a virtual machine.
-          Pretty straightforward and reliable. You get to keep running Windows,
-          without having to restart your computer. It can be slow though,
-          depending on your hardware specifications.
-        </p>
+        <ul className='fa-ul'>
+          <li className='pp-item spacesu'>
+            {" "}
+            <FontAwesomeIcon icon="chevron-right" /> Install a Linux distro
+            (like Ubuntu) to your hard drive and dual boot. If you've ever
+            installed Windows yourself then installing something like Ubuntu
+            will be no problem.
+          </li>
+
+          <li className='pp-item spacesu'>
+            {" "}
+            <FontAwesomeIcon icon="chevron-right" /> Download Cygwin (CLI) or a
+            console emulator like Cmder. Out of the box, Cmder is probably
+            easier to set up and use overall.
+          </li>
+
+          <li className='pp-item spacesu'>
+            {" "}
+            <FontAwesomeIcon icon="chevron-right" /> You can install Windows
+            Subsystem for Linux (WSL/WSL2). This is for Windows 10 only. This
+            might be the hardest option for someone who has never used Linux
+            before. In my opinion, I would avoid this unless you know what
+            you're doing. Otherwise, be prepared to spend many hours configuring
+            and fixing possible bugs.
+          </li>
+
+          <li className='pp-item spacesu'>
+            {" "}
+            <FontAwesomeIcon icon="chevron-right" /> Install a virtual machine.
+            Pretty straightforward and reliable. You get to keep running
+            Windows, without having to restart your computer. It can be slow
+            though, depending on your hardware specifications.
+          </li>
+        </ul>
 
         <span className="img-container">
           <img
@@ -166,18 +170,14 @@ export default function CLIAndZsh() {
           being familiar with the basics. Don't forget about the man pages!
         </p>
 
-        <Container className="holdr">
-          <Row className="rbs-row">
-            <Card cardData={SelectCard("CLI", "Card-1")} />
-            <Card cardData={SelectCard("CLI", "Card-2")} />
-            <Card cardData={SelectCard("CLI", "Card-3")} />
-          </Row>
-          <Row className="rbs-row">
-            <Card cardData={SelectCard("CLI", "Card-4")} />
-            <Card cardData={SelectCard("CLI", "Card-5")} />
-            <Card cardData={SelectCard("CLI", "Card-6")} />
-          </Row>
-        </Container>
+        <div className="cards-container">
+          <Card cardData={SelectCard("CLI", "Card-1")} />
+          <Card cardData={SelectCard("CLI", "Card-2")} />
+          <Card cardData={SelectCard("CLI", "Card-3")} />
+          <Card cardData={SelectCard("CLI", "Card-4")} />
+          <Card cardData={SelectCard("CLI", "Card-5")} />
+          <Card cardData={SelectCard("CLI", "Card-6")} />
+        </div>
       </section>
 
       <section className="block">
@@ -188,7 +188,7 @@ export default function CLIAndZsh() {
         </Link>
       </section>
 
-      <span className="buffy-the-buffer"></span>
+      <span className="buffy-the-buffer" />
     </>
   );
 }

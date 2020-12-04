@@ -1,7 +1,5 @@
 import Head from "next/head";
 import Link from "next/link";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
 import Card from "../../components/Card";
 import SelectCard from "../../components/SelectCard";
 import Button from "react-bootstrap/Button";
@@ -97,6 +95,7 @@ export default function TextEditor() {
             height="315"
             src="https://www.youtube-nocookie.com/embed/vVbq9Y-oLUQ"
             frameBorder="1"
+            className="yt-iframe"
             //allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           ></iframe>
@@ -153,22 +152,18 @@ export default function TextEditor() {
           while in the editor.
         </p>
 
-        <Container className="holdr">
-          <Row className="rbs-row">
+        <div className="cards-container">
             <Card cardData={SelectCard("TextEditor", "Card-1")} />
             <Card cardData={SelectCard("TextEditor", "Card-2")} />
             <Card cardData={SelectCard("TextEditor", "Card-3")} />
-          </Row>
-          <Row className="rbs-row">
             <Card cardData={SelectCard("TextEditor", "Card-4")} />
             <Card cardData={SelectCard("TextEditor", "Card-5")} />
             <Card cardData={SelectCard("TextEditor", "Card-6")} />
-          </Row>
-          <Row className="rbs-row-2">
+        </div>
+        <div className="cards-container-2">
             <Card cardData={SelectCard("TextEditor", "Card-7")} />
             <Card cardData={SelectCard("TextEditor", "Card-8")} />
-          </Row>
-        </Container>
+        </div>
       </section>
 
       <section className="block">

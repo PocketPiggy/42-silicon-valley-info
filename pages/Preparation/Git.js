@@ -1,7 +1,5 @@
 import Link from "next/link";
 import Head from "next/head";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
 import Card from "../../components/Card";
 import SelectCard from "../../components/SelectCard";
 import Button from "react-bootstrap/Button";
@@ -60,13 +58,15 @@ export default function Git() {
           with a new name every time. All of that, while being able to see what
           changes you've made, as well as reverse them.
         </p>
-        <img
-          src="/Images/Page/Preparation/git/git_joke.jpg"
-          alt="Comic of two people in front of an eisle."
-        />
-        <p className="img-subtext">
-          Funny, but it happens more often then we like to admit.
-        </p>
+        <span className="img-container">
+          <img
+            src="/Images/Page/Preparation/git/git_joke.jpg"
+            alt="Comic of two people in front of an eisle."
+          />
+          <p className="img-subtext">
+            Funny, but it happens more often then we like to admit.
+          </p>
+        </span>
       </section>
 
       <section className="scroll-block" id="block-3">
@@ -83,6 +83,7 @@ export default function Git() {
             height="315"
             src="https://www.youtube-nocookie.com/embed/dyLOcpZwuEA"
             frameBorder="1"
+            className="yt-iframe"
             //allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           ></iframe>
@@ -93,6 +94,7 @@ export default function Git() {
             height="315"
             src="https://www.youtube-nocookie.com/embed/Vp_1Yyoh43E"
             frameBorder="1"
+            className="yt-iframe"
             //allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           ></iframe>
@@ -110,18 +112,14 @@ export default function Git() {
           with git.
         </p>
 
-        <Container className="holdr">
-          <Row className="rbs-row">
-            <Card cardData={SelectCard("Git", "Card-1")} />
-            <Card cardData={SelectCard("Git", "Card-2")} />
-            <Card cardData={SelectCard("Git", "Card-3")} />
-          </Row>
-          <Row className="rbs-row">
-            <Card cardData={SelectCard("Git", "Card-4")} />
-            <Card cardData={SelectCard("Git", "Card-5")} />
-            <Card cardData={SelectCard("Git", "Card-6")} />
-          </Row>
-        </Container>
+        <div className="cards-container">
+          <Card cardData={SelectCard("Git", "Card-1")} />
+          <Card cardData={SelectCard("Git", "Card-2")} />
+          <Card cardData={SelectCard("Git", "Card-3")} />
+          <Card cardData={SelectCard("Git", "Card-4")} />
+          <Card cardData={SelectCard("Git", "Card-5")} />
+          <Card cardData={SelectCard("Git", "Card-6")} />
+        </div>
       </section>
 
       <section className="block">

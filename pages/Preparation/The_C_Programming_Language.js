@@ -1,7 +1,5 @@
 import Head from "next/head";
 import Link from "next/link";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
 import Card from "../../components/Card";
 import SelectCard from "../../components/SelectCard";
 import Button from "react-bootstrap/Button";
@@ -72,12 +70,10 @@ export default function Clang() {
           student. Most students will recommend it in general.
         </p>
 
-        <Container>
-          <Row className="rbs-row-2">
+        <div className='cards-container-2'>
             <Card cardData={SelectCard("CLang", "Card-1")} />
             <Card cardData={SelectCard("CLang", "Card-2")} />
-          </Row>
-        </Container>
+        </div>
       </section>
 
       <section className="scroll-block" id="block-3">
@@ -91,11 +87,9 @@ export default function Clang() {
           the book and everything is explained in detail.
         </p>
 
-        <Container>
-          <Row className="rbs-row-2">
+        <div className='cards-container-1'>
             <Card cardData={SelectCard("CLang", "Card-3")} />
-          </Row>
-        </Container>
+        </div>
       </section>
 
       <section className="scroll-block" id="block-4">
@@ -120,11 +114,9 @@ export default function Clang() {
           in general.
         </p>
 
-        <Container>
-          <Row className="rbs-row-2">
+        <div className='cards-container-1'>
             <Card cardData={SelectCard("CLang", "Card-4")} />
-          </Row>
-        </Container>
+        </div>
       </section>
 
       <section className="scroll-block" id="block-5">
@@ -138,18 +130,14 @@ export default function Clang() {
           There's also a stack overflow post on a list of different C books if
           none that I've shown so far interest you.
         </p>
-        <Container className="holdr">
-          <Row className="rbs-row">
+        <div className='cards-container'>
             <Card cardData={SelectCard("CLang", "Card-5")} />
             <Card cardData={SelectCard("CLang", "Card-6")} />
             <Card cardData={SelectCard("CLang", "Card-7")} />
-          </Row>
-          <Row className="rbs-row">
             <Card cardData={SelectCard("CLang", "Card-8")} />
             <Card cardData={SelectCard("CLang", "Card-9")} />
             <Card cardData={SelectCard("CLang", "Card-10")} />
-          </Row>
-        </Container>
+        </div>
       </section>
 
       <section className="scroll-block" id="block-6">

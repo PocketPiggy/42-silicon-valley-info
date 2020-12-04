@@ -1,0 +1,19 @@
+.wide-load {
+    display: flex;
+    flex-direction: column;
+
+    img {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+.wide-load {
+    img {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+}
