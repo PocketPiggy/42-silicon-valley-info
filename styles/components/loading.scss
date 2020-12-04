@@ -1,5 +1,9 @@
+body {
+}
+
 .loader-container {
     display: flex;
+    background-color: black;
 }
 
 .loader {
@@ -11,11 +15,11 @@
 
 @keyframes zoomer {
     0% {
-        transform: scale(1.0);
+        transform: scale(.95);
         opacity: 100%;
     }
     100% {
-        transform: scale(1.05);
+        transform: scale(1.0);
         opacity: 0%;
     }
 }
