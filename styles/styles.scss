@@ -26,10 +26,10 @@ body {
 }
 
 div {
-    //&.page-container {
-    //position: relative;
-    //min-height: 100vh;
-    //}
+    &.foggy {
+        animation: fadeIn .5s linear;
+    }
+
     &.page-content {
         display: flex;
         flex-direction: column;
@@ -38,7 +38,6 @@ div {
         align-items: center;
         margin: 0 auto;
         padding-bottom: 5vh;
-        //width: 100%;
         width: 70%;
     }
     h1,
@@ -62,6 +61,7 @@ div {
     li {
     }
 }
+
 
 section {
     &.block {
@@ -151,6 +151,15 @@ section {
     grid-template-columns: 1fr 1fr;
     grid-gap: 2rem;
     margin: 3rem 0 1rem 0;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
 }
 
 //ul {

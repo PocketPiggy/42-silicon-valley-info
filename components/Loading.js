@@ -1,7 +1,11 @@
 export default function Loading(){
     return(
         <div>
-            <img src='/Images/Components/Loading/42Loading.jpg' />
+            <span className="loader-container">
+                <img
+                    className='loader'
+                    src='/Images/Components/Loading/42Loading.jpg' />
+            </span>
         </div>
     )
 }

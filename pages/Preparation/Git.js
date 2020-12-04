@@ -129,6 +129,8 @@ export default function Git() {
           </Button>
         </Link>
       </section>
+
+      <span className="buffy-the-buffer"></span>
     </>
   );
 }

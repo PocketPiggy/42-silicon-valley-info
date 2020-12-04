@@ -37,6 +37,31 @@ library.add(
 import "../styles/styles.scss";
 
 export default function MyApp({ Component, pageProps }) {
+  //  Adds a promise to act as a sleep function to give a minimum
+  //  threshold timer for the Loading component. Useful for CSS transitions
+  //  when loading.
+
+
+  const timeout = ms => new Promise(res => setTimeout(res, ms));
+
+  function delayIt() {
+    let unixTime = Math.round(+new Date() / 1000);
+  }
+
+  async function delayStart() {
+    setLoading(true);
+    delayIt();
+    await timeout(1000);
+    delayIt();
+  }
+
+  async function delayEnd() {
+    delayIt();
+    await timeout(1000);
+    setLoading(false);
+    delayIt();
+  }
+
   //    Loading state; toggles state if link is clicked/route change started,
   //    conditional rendering if loading is true, renders loading screen.
   //    Else, renders rest of app. Also handles possible user error/multi
@@ -48,21 +73,22 @@ export default function MyApp({ Component, pageProps }) {
   useEffect(() => {
     const loadStart = () => {
       console.log("Starting...");
-      return setLoading(true);
+      return delayStart();
     };
     const loadEnd = () => {
       console.log("Done.");
-      return setLoading(false);
+      return delayEnd();
     };
 
-    router.events.on("routeChangeStart", loadStart);
-    router.events.on("routeChangeComplete", loadEnd);
-    router.events.on("routeChangeError", loadEnd);
-    return () => {
-      router.events.off("routeChangeStart", loadStart);
-      router.events.off("routeChangeComplete", loadEnd);
-      router.events.off("routeChangeError", loadEnd);
-    };
+      router.events.on("routeChangeStart", loadStart);
+      router.events.on("routeChangeComplete", loadEnd);
+      router.events.on("routeChangeError", loadEnd);
+
+      return () => {
+        router.events.off("routeChangeStart", loadStart);
+        router.events.off("routeChangeComplete", loadEnd);
+        router.events.off("routeChangeError", loadEnd);
+      };
   }, []);
 
   const minScreenSize = useMediaQuery({ query: "(min-device-width: 992px)" });
@@ -97,28 +123,13 @@ export default function MyApp({ Component, pageProps }) {
       ) : (
         <div className="page-container">
           <NavigationBar />
-          <div>
-            {/*
-            <h1
-              style={{
-                border: "4px solid white",
-                position: "fixed",
-                zIndex: "9002",
-                top: "0",
-                //right: '0'
-                left: '35vw'
-              }}
-            >
-              Website status: Under Construction
-            </h1>
-            */}
-          </div>
-
           <Container className="page-content">
-            <Component {...pageProps} />
-            {"scroll" in { ...pageProps } && minScreenSize ? (
-              <ScrollingSideBar {...pageProps} />
-            ) : null}
+            <div className='foggy'>
+              <Component {...pageProps} />
+              {"scroll" in { ...pageProps } && minScreenSize ? (
+                <ScrollingSideBar {...pageProps} />
+              ) : null}
+            </div>
           </Container>
           <Footer />
         </div>
