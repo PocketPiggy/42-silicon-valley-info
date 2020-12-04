@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Button from "react-bootstrap/Button";
+import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function PuttingItAllTogether() {
@@ -259,6 +260,7 @@ export default function PuttingItAllTogether() {
         </span>
       </section>
 
+
       <section className="scroll-block" id="block-7">
         <h3> Conclusion </h3>
         <p>
@@ -270,13 +272,36 @@ export default function PuttingItAllTogether() {
           Piscine, don't forget your towel and good luck!
         </p>
 
-        <span className="holdr"></span>
+
+      <div className="last-block">
+        <Link href="/Sources" passHref>
+          <Button variant="primary" className="btn-next">
+            <FontAwesomeIcon icon="arrow-alt-circle-left" />
+            {" "} More 42 Information
+          </Button>
+        </Link>
+
         <a href="https://42.us.org" target="blank" rel="noopener noreferrer">
           <Button variant="primary" className="btn-next">
             42 Silicon Valley <FontAwesomeIcon icon="arrow-alt-circle-right" />
           </Button>
         </a>
+      </div>
+
+      <span className="img-container">
+        <img
+          src="/Images/Page/Preparation/putting_it_all_together/marvin_dont_panic.jpg"
+          alt="Marvin from hitcher's guide to the galaxy pointing to title text
+          saying don't panic."
+          title="Don't panic!"
+        />
+      </span>
+
+        <span className="don't-inspect-this-lol"
+            style={{margin: "1rem 0 1rem 0"}}/>
+
       </section>
+
     </>
   );
 }
@@ -291,7 +316,7 @@ export async function getServerSideProps(context) {
         { stop: "4", title: "Norminette & Moulinette" },
         { stop: "5", title: "What they're looking for" },
         { stop: "6", title: "Stress & Time management" },
-        { stop: "7", title: "42 Silicon Valley" },
+        { stop: "7", title: "What's next?" },
       ],
     },
   };
