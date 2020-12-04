@@ -3,7 +3,7 @@
     "title": "Blogs & Reviews",
     "imgSrc": "/Images/Page/Infosources/blogreview/jraleman.png",
     "imgAlt": "Medium article post with squirtle pokemon as profile picture and picture of 42 silicon valley labs.",
-    "text": "Collected from many searches, here are some extremely relevant writings and vlogs of current and past students of 42. Covers Piscine and student life.",
+    "text": "Relevant writings and vlogs of current and past students of 42. Covers Piscine & student life.",
     "link": "/Sources/Blogs_and_reviews"
   },
 
@@ -11,7 +11,7 @@
     "title": "Campus Differences",
     "imgSrc": "/Images/Page/Infosources/42sv_campus.jpg",
     "imgAlt": "Front entrance of 42 Silicon Valley",
-    "text": "A quick rundown of the main differences between 42 Silicon Valley and 42 Paris and how they operate.",
+    "text": "The main differences between 42 Silicon Valley and 42 Paris and how they operate.",
     "link": "/Sources/Campus_differences"
   },
 
@@ -19,7 +19,7 @@
     "title": "Dorms",
     "imgSrc": "/Images/Page/Infosources/dorm/42_dorm_entrance.jpeg",
     "imgAlt": "Part of the landing page of 42 Nostromo dorms sign in page.",
-    "text": "All relevant information I could find regarding what the dorms look like, the rules and requirements.",
+    "text": "All relevant information regarding what the dorms look like, the rules and requirements.",
     "link": "/Sources/Dorms"
   },
 
@@ -35,7 +35,7 @@
     "title": "Interviews",
     "imgSrc": "/Images/Page/Infosources/interview/interview1.jpg",
     "imgAlt": "Youtube thumbnail of three men and a woman talking in the hallways of 42 Silicon Valley with the caption 'CK Tour: 42 Silicon Valley'.",
-    "text": "Some direct interviews about how 42 Silicon Valley operates and what their plans are for future and prospective students.",
+    "text": "How 42 Silicon Valley operates and what their plans are for future and prospective students.",
     "link": "/Sources/Interviews"
   },
   "Criticisms": {

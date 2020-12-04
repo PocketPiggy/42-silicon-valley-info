@@ -1,9 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
 import SelectCard from "../../components/SelectCard";
-import Card from "../../components/Card";
+import FatCard from "../../components/FatCard";
 
 export default function InfoIndex() {
   return (
@@ -40,19 +38,19 @@ export default function InfoIndex() {
         </p>
       </section>
 
-      <Card cardData={SelectCard("Sources", "Blogs_and_reviews")} />
-      <span className="buffy-the-buffer" />
-      <Card cardData={SelectCard("Sources", "Dorms")} />
-      <span className="buffy-the-buffer" />
-      <Card cardData={SelectCard("Sources", "Townhall_meetings")} />
-      <span className="buffy-the-buffer" />
-      <Card cardData={SelectCard("Sources", "Github_repos")} />
-      <span className="buffy-the-buffer" />
-      <Card cardData={SelectCard("Sources", "Campus_differences")} />
-      <span className="buffy-the-buffer" />
-      <Card cardData={SelectCard("Sources", "Criticisms")} />
-      <span className="buffy-the-buffer" />
-      <Card cardData={SelectCard("Sources", "Interviews")} />
+      <div className='fatcards-container-6'>
+        <FatCard cardData={SelectCard("Sources", "Blogs_and_reviews")} />
+        <FatCard cardData={SelectCard("Sources", "Dorms")} />
+        <FatCard cardData={SelectCard("Sources", "Townhall_meetings")} />
+        <FatCard cardData={SelectCard("Sources", "Github_repos")} />
+        <FatCard cardData={SelectCard("Sources", "Campus_differences")} />
+        <FatCard cardData={SelectCard("Sources", "Criticisms")} />
+      </div>
+
+      <div className='fatcards-container-1'>
+        <FatCard cardData={SelectCard("Sources", "Interviews")} />
+      </div>
+
       <span className="buffy-the-buffer" />
     </>
   );
