@@ -55,7 +55,6 @@ export default function About() {
           <FiveHead />
         </span>
       </section>
-      <span className="buffy-the-buffer"></span>
     </>
   );
 }

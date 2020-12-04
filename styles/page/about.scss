@@ -1,4 +1,13 @@
-div .fivehead {
-    width: 20vw;
-    height: 20vh;
+div {
+    .fivehead {
+        width: 20vw;
+        height: 20vh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .fivehead {
+        width: 50vw !important;
+        height: 50vh !important;
+    }
 }
