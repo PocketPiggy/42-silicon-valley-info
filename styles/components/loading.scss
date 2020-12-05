@@ -1,9 +1,11 @@
-body {
-}
-
 .loader-container {
     display: flex;
     background-color: black;
+    animation: fadeIn .6s linear;
+}
+
+.loader-container:active, .loader-container:focus {
+    //animation: fadeOut .6s linear;
 }
 
 .loader {
@@ -13,16 +15,29 @@ body {
     opacity: 100%;
 }
 
-@keyframes zoomer {
+@keyframes fadeIn {
     0% {
-        transform: scale(.95);
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+@keyframes fadeOut {
+    0% {
         opacity: 100%;
     }
     100% {
-        transform: scale(1.0);
         opacity: 0%;
     }
 }
 
-@media screen and (max-width: 576px) {
+@keyframes zoomer {
+    0% {
+        transform: scale(.95);
+    }
+    100% {
+        transform: scale(1.0);
+    }
 }

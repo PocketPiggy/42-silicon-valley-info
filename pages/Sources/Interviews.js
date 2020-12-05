@@ -24,6 +24,7 @@ export default function Interviews() {
         COO Brittany Bir.
       </p>
 
+      <section className='scroll-block'>
       <span className="yt-container">
         <iframe
           width="560"
@@ -56,11 +57,12 @@ export default function Interviews() {
           allowFullScreen
         ></iframe>
       </span>
-      <span className="buffy-the-buffer" />
+      </section>
 
       <section className="block">
         <GoBack name={'Sources'}/>
       </section>
+      <span className="buffy-the-buffer" />
     </>
   );
 }

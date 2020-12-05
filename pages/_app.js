@@ -37,10 +37,10 @@ library.add(
 import "../styles/styles.scss";
 
 export default function MyApp({ Component, pageProps }) {
+
   //  Adds a promise to act as a sleep function to give a minimum
   //  threshold timer for the Loading component. Useful for CSS transitions
-  //  when loading.
-
+  //  when loading and transitioning without needing an external library.
 
   const timeout = ms => new Promise(res => setTimeout(res, ms));
 
@@ -49,6 +49,7 @@ export default function MyApp({ Component, pageProps }) {
   }
 
   async function delayStart() {
+    fadeOut();
     setLoading(true);
     delayIt();
     await timeout(1000);
@@ -56,6 +57,7 @@ export default function MyApp({ Component, pageProps }) {
   }
 
   async function delayEnd() {
+    await timeout(1000);
     delayIt();
     await timeout(1000);
     setLoading(false);
@@ -72,6 +74,7 @@ export default function MyApp({ Component, pageProps }) {
 
   useEffect(() => {
     const loadStart = () => {
+      fadeOut();
       console.log("Starting...");
       return delayStart();
     };
@@ -92,6 +95,17 @@ export default function MyApp({ Component, pageProps }) {
   }, []);
 
   const minScreenSize = useMediaQuery({ query: "(min-device-width: 1280px)" });
+
+
+  //  Using vanilla instead of ref because there will only be one instance
+  //  or ID, forever for this use case. If JS disabled, it will still play
+  //  the fadeIn CSS animations regardless, which is enough for this website.
+  function fadeOut() {
+    const foggyContainer = document.getElementById('foggy-container');
+    console.log('foggyContainer!');
+    foggyContainer.style.animation = "fadeOut 1.6s linear";
+  }
+
 
   return (
     <>
@@ -124,7 +138,7 @@ export default function MyApp({ Component, pageProps }) {
         <div className="page-container">
           <NavigationBar />
           <Container className="page-content">
-            <div className='foggy'>
+            <div className='foggy' id='foggy-container'>
               <Component {...pageProps} />
               {"scroll" in { ...pageProps } && minScreenSize ? (
                 <ScrollingSideBar {...pageProps} />
