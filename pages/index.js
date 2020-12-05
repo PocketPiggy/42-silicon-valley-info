@@ -48,7 +48,7 @@ export default function Index() {
 
         <span className="mini-img-container">
           <img
-            src="/Images/Page/Home/Marvin.jpg"
+            src="../Images/Page/Home/Marvin.jpg"
             alt="Marvin the Android from 'The Hitchhiker's guide to the galaxy', looking depressed."
             title="Well I wish you'd just tell me rather than try to engage my
             enthusiasm. 42 Silicon Valley BornToCode"

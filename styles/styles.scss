@@ -23,6 +23,9 @@ body {
     min-height: 100vh;
     position: relative;
     background-color: $background-color;
+    img {
+        color: white;
+    }
 }
 
 div {
