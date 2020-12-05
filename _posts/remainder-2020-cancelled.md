@@ -1,13 +1,13 @@
 ---
 title: "Remainder of 2020 - Cancelled & Shutdown"
 date: "2020-08-05"
-excerpt: "42 Silicon Valley has decided to cancel the October Piscine and start dates."
-coverImage: "../public/Images/Page/Updates/August/5-8-2020_tweet.png"
+excerpt: "The October Piscine and start dates - Cancelled!"
+coverImage: "/Images/Page/Updates/August/5-8-2020_tweet.png"
 author:
     name: PocketPiggy
-    picture: "../public/Images/Page/Updates/profile.jpg"
+    picture: "/Images/Page/Updates/profile.jpg"
 ogImage:
-    url: "../public/Images/Page/Updates/August/5-8-2020_tweet.png"
+    url: "/Images/Page/Updates/August/5-8-2020_tweet.png"
 meta: "The last known tweet by 42 Silicon Valley, saying that all
     future Piscines and start dates for 2020 are cancelled and the campus is
     closed until further notice."

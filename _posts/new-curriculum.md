@@ -1,13 +1,13 @@
 ---
 title: "New Curriculum - Piscine cancelled"
 date: "2020-02-27"
-excerpt: "After getting accepted into the Piscine, 4 weeks later it was cancelled."
-coverImage: "../public/Images/Page/Updates/February/Cancelled_email.png"
+excerpt: "Accepted into Piscine - 4 weeks later cancelled!"
+coverImage: "/Images/Page/Updates/February/Cancelled_email.png"
 author:
     name: PocketPiggy
-    picture: "../public/Images/Page/Updates/profile.jpg"
+    picture: "/Images/Page/Updates/profile.jpg"
 ogImage:
-    url: "../public/Images/Page/Updates/February/Cancelled_email.png"
+    url: "/Images/Page/Updates/February/Cancelled_email.png"
 meta: "42 Silicon Valley has decided to cancel all upcomming Piscines, including
     the April 2020 Piscine due to make upgrades to their curriculum and
     infrastructure."

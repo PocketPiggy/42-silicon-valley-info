@@ -1,13 +1,13 @@
 ---
 title: "42 Silicon Valley - Slack update"
 date: "2020-10-12"
-excerpt:
-coverImage: "../public/Images/Page/Updates/October/oct12_slack.png"
+excerpt: "It's been over two months since the last social media update..."
+coverImage: "/Images/Page/Updates/October/oct12_slack.png"
 author:
     name: PocketPiggy
-    picture: "../public/Images/Page/Updates/profile.jpg"
+    picture: "/Images/Page/Updates/profile.jpg"
 ogImage:
-    url: "../public/Images/Page/Updates/October/oct12_slack.png"
+    url: "/Images/Page/Updates/October/oct12_slack.png"
 meta: "It's been over two months since 42 Silicon Valley's last update, here
     is the the most recent Slack post posted by them."
 cannonical: "https://42sv.info/Updates/posts/slack-update"

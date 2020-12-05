@@ -2,12 +2,12 @@
 title: "42 Silicon Valley - Closed forever"
 date: "2020-11-30"
 excerpt: "Yes, it's true. 42 Silicon Valley is shutting down - for good."
-coverImage: "../public/Images/Page/Updates/November/closed-cvr-image.png"
+coverImage: "/Images/Page/Updates/November/closed-cvr-image.png"
 author:
     name: PocketPipggy
-    picture: "../public/Images/Page/Updates/profile.jpg"
+    picture: "/Images/Page/Updates/profile.jpg"
 ogImage:
-    url: "../public/Images/Page/Updates/November/closed-cvr-image.png"
+    url: "/Images/Page/Updates/November/closed-cvr-image.png"
 meta: "Yes it's true, 42 silicon valley is shutting down, this time for good.
     For a multiple of reasons, it's finally done."
 cannonical: "https://42sv.info/Updates/posts/42sv-closed-forever"

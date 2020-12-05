@@ -20,23 +20,33 @@ export default function Updates({ content, allPostsData }) {
         <h1>Updates</h1>
         <h3>Current Status: {content.status}</h3>
         <p className="updates-p">
-          I'll keep this part up to date with any new information I find
-          regarding 42 Silicon Valley. Below are previous updates.
+          42 Silicon Valley is now permanently closed. Check out the latest
+          blog post for more information.
         </p>
       </section>
 
       <section className="scroll-block">
-        <ul>
-          {allPostsData.map(({ id, date, title }) => (
+        <ul className='blog-list-container'>
+          {allPostsData.map(({ id, date, title, excerpt, coverImage, ogImage }) => (
             <li key={id} className="blog-item">
               <Link href={`/Updates/posts/${id}`} passHref>
                 <a href={`/Updates/posts/${id}`}>
-                  <span>
-                    <p className="blog-item-p">{title}</p>
-                    <span className="blog-item-date">
-                      <Date dateString={date} />
+                  <div className='blog-item-container float'>
+                    <span className='mini-img-container blog-item-img'>
+                      <img
+                        src={coverImage}
+                      />
                     </span>
-                  </span>
+                    <span className='blog-item-title'>
+                      <h4>{title}</h4>
+                    </span>
+                    <span className="blog-item-date">
+                        <Date dateString={date} />
+                    </span>
+                    <span className='blog-item-excerpt'>
+                      <p className="blog-item-p">{excerpt}</p>
+                    </span>
+                  </div>
                 </a>
               </Link>
               <br />
@@ -55,7 +65,7 @@ export async function getServerSideProps(context) {
     props: {
       allPostsData,
       content: {
-        status: "CLOSED - UNTIL FURTHER NOTICE",
+        status: "PERMANENTLY CLOSED - FOREVER",
       },
     },
   };
