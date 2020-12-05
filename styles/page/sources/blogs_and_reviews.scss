@@ -1,0 +1,19 @@
+.btn-link-container {
+    display: grid;
+    grid-gap: 1rem;
+}
+
+@media screen and (max-width: 992px) {
+    div {
+        .foggy {
+            width: 80vw;
+        }
+    }
+    /*
+    section {
+        .bar p {
+            width: 80% !important;
+        }
+    }
+    */
+}

@@ -1,4 +1,5 @@
 import Head from "next/head";
+import GoBack from '../../components/GoBack'
 
 export default function Interviews() {
   return (
@@ -29,7 +30,7 @@ export default function Interviews() {
           height="315"
           src="https://www.youtube-nocookie.com/embed/ZFZ2R1Xa0vs"
           frameBorder="1"
-          //allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          className='yt-iframe'
           allowFullScreen
         ></iframe>
       </span>
@@ -40,7 +41,7 @@ export default function Interviews() {
           height="315"
           src="https://www.youtube-nocookie.com/embed/x5WaYn4s7yA"
           frameBorder="1"
-          //allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          className='yt-iframe'
           allowFullScreen
         ></iframe>
       </span>
@@ -51,11 +52,15 @@ export default function Interviews() {
           height="315"
           src="https://www.youtube-nocookie.com/embed/RQwGU_AQsY4"
           frameBorder="1"
-          //allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          className='yt-iframe'
           allowFullScreen
         ></iframe>
       </span>
       <span className="buffy-the-buffer" />
+
+      <section className="block">
+        <GoBack name={'Sources'}/>
+      </section>
     </>
   );
 }

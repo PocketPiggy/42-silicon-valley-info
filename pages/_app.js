@@ -91,7 +91,7 @@ export default function MyApp({ Component, pageProps }) {
       };
   }, []);
 
-  const minScreenSize = useMediaQuery({ query: "(min-device-width: 992px)" });
+  const minScreenSize = useMediaQuery({ query: "(min-device-width: 1280px)" });
 
   return (
     <>

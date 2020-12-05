@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from 'next/link';
+import GoBack from '../../components/GoBack'
 
 export default function GithubRepos(){
   return (
@@ -16,6 +17,11 @@ export default function GithubRepos(){
       <section className='block'>
         <h1>Criticisms</h1>
       </section>
+
+      <section className="block">
+        <GoBack name={'Sources'}/>
+      </section>
+
 
       <span className="buffy-the-buffer"></span>
     </>

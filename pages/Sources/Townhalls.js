@@ -1,4 +1,5 @@
 import Head from "next/head";
+import GoBack from '../../components/GoBack'
 
 export default function Dorms() {
   return (
@@ -82,6 +83,10 @@ export default function Dorms() {
             allowFullScreen
           ></iframe>
         </span>
+      </section>
+
+      <section className="block">
+        <GoBack name={'Sources'}/>
       </section>
 
       <span className="buffy-the-buffer"></span>

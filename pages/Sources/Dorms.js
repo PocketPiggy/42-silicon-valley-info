@@ -130,6 +130,7 @@ export default function Dorms() {
             height="315"
             src="https://www.youtube-nocookie.com/embed/FZKCEfh6aY8"
             frameBorder="1"
+            className='yt-iframe'
             allowFullScreen
           ></iframe>
         </span>
@@ -139,11 +140,12 @@ export default function Dorms() {
             height="315"
             src="https://www.youtube-nocookie.com/embed/9L-IgxWu9GU"
             frameBorder="1"
+            className='yt-iframe'
             allowFullScreen
           ></iframe>
         </span>
       </section>
-      <GoBack name={'hallo'}/>
+      <GoBack name={'Sources'}/>
 
       <span className="buffy-the-buffer"></span>
     </>

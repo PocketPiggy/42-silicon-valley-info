@@ -1,4 +1,8 @@
 import Head from "next/head";
+import Button from "react-bootstrap/Button";
+import Link from "next/link";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import GoBack from "../../components/GoBack";
 
 export default function BlogsAndReviews() {
   return (
@@ -16,7 +20,7 @@ export default function BlogsAndReviews() {
           href="https://42sv.info/InfoSources/Blogs_and_reviews"
         />
       </Head>
-      <section className="scroll-block" id="block-1">
+      <section className="scroll-block bar" id="block-1">
         <h1>Blogs and Reviews</h1>
         <p>
           A good chunk of my research comes from these sources and others, but
@@ -27,10 +31,10 @@ export default function BlogsAndReviews() {
           <a>Kristofk's survival guide</a> as well as <a>Skunz's video</a>. Most
           of all the others are more for if you want to know more about the in's
           and out's of 42 Silicon Valley and 42 Paris though they aren't
-          necessary.",
+          necessary.
         </p>
       </section>
-      <section className="scroll-block" id="block-2">
+      <section className="scroll-block bar" id="block-2">
         <h3>Kristofk's 42 Survival guide</h3>
         <p>
           A guide on what was covered in his Piscine, as well as general
@@ -49,10 +53,13 @@ export default function BlogsAndReviews() {
           target="blank"
           rel="noopener noreferrer"
         >
-          Source
+          <Button variant="light" className="btn-next">
+            Source
+          </Button>
         </a>
       </section>
-      <section className="scroll-block" id="block-3">
+
+      <section className="scroll-block bar" id="block-3">
         <h3>Skunz's Piscine: What to expect</h3>
         <p>
           A straight to the point 5-minute video. The most important take away
@@ -65,12 +72,13 @@ export default function BlogsAndReviews() {
             height="315"
             src="https://www.youtube-nocookie.com/embed/NZZo114BSnY"
             frameBorder="1"
-            //allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            className="yt-iframe"
             allowFullScreen
           ></iframe>
         </span>
       </section>
-      <section className="scroll-block" id="block-4">
+
+      <section className="scroll-block bar" id="block-4">
         <h3>Gcamerli's 42 Bootcamp</h3>
         <p>
           This was the first source I came across when I was just starting my
@@ -90,10 +98,12 @@ export default function BlogsAndReviews() {
           target="blank"
           rel="noopener noreferrer"
         >
-          Source
+          <Button variant="light" className="btn-next">
+            Source
+          </Button>
         </a>
       </section>
-      <section className="scroll-block" id="block-5">
+      <section className="scroll-block bar" id="block-5">
         <h3>Michael Brave's: Piscine to Cadet</h3>
         <p>
           Michael Brave wrote a lot about 42 Silicon Valley, one of the first
@@ -109,24 +119,37 @@ export default function BlogsAndReviews() {
             alt="Medium article post with authors face underneath title."
           />
         </span>
+
+        <div className='btn-link-container'>
         <a href="https://medium.com/@themichaelbrave/why-im-taking-a-chance-on-42-222a698761d3">
-          Why I'm taking a chance on 42
+          <Button variant="light" className="btn-next">
+            Why I'm taking a chance on 42
+          </Button>
         </a>
         <a href="https://medium.com/@themichaelbrave/i-have-a-place-in-the-dorms-at-42-3b1fc9c4e2c0">
-          Piscine Dorms
+          <Button variant="light" className="btn-next">
+            Piscine Dorms
+          </Button>
         </a>
         <a href="https://medium.com/@themichaelbrave/my-piscine-experience-all-in-one-post-85671e0bf307">
-          Full Piscine Experience
+          <Button variant="light" className="btn-next">
+            Full Piscine Experience
+          </Button>
         </a>
         <a href="https://medium.com/@themichaelbrave/lessons-learned-after-a-month-of-code-at-42s-piscine-679afb17fbData.MBrave.links.four">
-          Lessons Learned
+          <Button variant="light" className="btn-next">
+            Lessons Learned
+          </Button>
         </a>
         <a href="https://medium.com/@themichaelbrave/life-as-a-cadet-at-42-silicon-valley-8-months-in-9d86204bf078Data.MBrave.links.five">
-          Cadet Life @ 42 Silicon Valley
+          <Button variant="light" className="btn-next">
+            Cadet Life @ 42 Silicon Valley
+          </Button>
         </a>
+        </div>
       </section>
 
-      <section className="scroll-block" id="block-6">
+      <section className="scroll-block bar" id="block-6">
         <h3>Jraleman 42 SV blogs</h3>
         <p>
           A former student from 42 Silicon Valley, he briefly lists his reasons
@@ -139,21 +162,29 @@ export default function BlogsAndReviews() {
             alt="Medium article post with squirtle pokemon as profile picture and picture of 42 silicon valley labs."
           />
         </span>
+        <div className='btn-link-container'>
         <a
           href="https://github.com/jraleman/42_Piscine-C"
           target="blank"
           rel="noopener noreferrer"
         >
-          Piscine Github repo
+          <Button variant="light" className="btn-next">
+            Piscine Github repo
+          </Button>
         </a>
         <a href="https://medium.com/@jraleman/42-silicon-valley-piscine-or-how-i-learned-to-stop-worrying-and-love-the-code-6b72bd41317a">
-          How I learned to stop worrying and love the code
+          <Button variant="light" className="btn-next">
+            How I learned to stop worrying
+          </Button>
         </a>
         <a href="https://medium.com/@jraleman/42-silicon-valley-the-good-the-bad-and-the-ugly-b80fbb6d5d2f">
-          42 Silicon Valley: The good, the bad and the ugly?
+          <Button variant="light" className="btn-next">
+            The good, the bad and the ugly?
+          </Button>
         </a>
+        </div>
       </section>
-      <section className="scroll-block" id="block-7">
+      <section className="scroll-block bar" id="block-7">
         <h3>Victoria Nguyen's: From applying to Cadet</h3>
         <p>
           These microblogs with detailed information, straight to the point
@@ -165,36 +196,46 @@ export default function BlogsAndReviews() {
             alt="Medium article post with authors face underneath title; screencap of 42 silicon valley website landing page."
           />
         </span>
+        <div className='btn-link-container'>
         <a
           href="https://medium.com/my-journey-at-42-silicon-valley-as-a-non-cs-major/applying-to-42-silicon-valley-e79eaf56e375"
           target="blank"
           rel="noopener noreferrer"
         >
-          Applying
+          <Button variant="light" className="btn-next">
+            Applying
+          </Button>
         </a>
         <a
           href="https://medium.com/my-journey-at-42-silicon-valley-as-a-non-cs-major/42-silicon-valley-piscines-dorm-application-process-3d167846255d"
           target="blank"
           rel="noopener noreferrer"
         >
-          Dorm Application
+          <Button variant="light" className="btn-next">
+            Dorm Application
+          </Button>
         </a>
         <a
           href="https://medium.com/my-journey-at-42-silicon-valley-as-a-non-cs-major/from-acceptance-to-42-silicon-valleys-piscine-what-should-you-know-f2427efd8034"
           target="blank"
           rel="noopener noreferrer"
         >
-          Acceptance
+          <Button variant="light" className="btn-next">
+            Acceptance
+          </Button>
         </a>
         <a
           href="https://medium.com/my-journey-at-42-silicon-valley-as-a-non-cs-major/acceptance-into-42-silicon-valley-from-pisciner-to-cadet-418b092fb464"
           target="blank"
           rel="noopener noreferrer"
         >
-          Piscine to Cadet
+          <Button variant="light" className="btn-next">
+            Piscine to Cadet
+          </Button>
         </a>
+        </div>
       </section>
-      <section className="scroll-block" id="block-8">
+      <section className="scroll-block bar" id="block-8">
         <h3>Coding Girl's 42 experience</h3>
         <p>
           Ms. Anna's experiences at 42 Paris. Very detailed vlogs on not only
@@ -211,10 +252,12 @@ export default function BlogsAndReviews() {
           target="blank"
           rel="noopener noreferrer"
         >
-          Link to playlist
+          <Button variant="light" className="btn-next">
+            Link to playlist
+          </Button>
         </a>
       </section>
-      <section className="scroll-block" id="block-9">
+      <section className="scroll-block bar" id="block-9">
         <h3>Zedechariaz's Reddit AMA</h3>
         <p>
           An ask me anything thread on the /r/learnprogramming subreddit about
@@ -233,10 +276,12 @@ export default function BlogsAndReviews() {
           target="blank"
           rel="noopener noreferrer"
         >
-          Source
+          <Button variant="light" className="btn-next">
+            Source
+          </Button>
         </a>
       </section>
-      <section className="scroll-block" id="block-10">
+      <section className="scroll-block bar" id="block-10">
         <h3>Ekaterina's 42 Paris blogs</h3>
         <p>
           Short and to the point. They're a bit scattered and not as detailed as
@@ -253,8 +298,14 @@ export default function BlogsAndReviews() {
           target="blank"
           rel="noopener noreferrer"
         >
-          Source
+          <Button variant="light" className="btn-next">
+            Source
+          </Button>
         </a>
+      </section>
+
+      <section className="block">
+        <GoBack name={"Sources"} />
       </section>
 
       <span className="buffy-the-buffer"></span>

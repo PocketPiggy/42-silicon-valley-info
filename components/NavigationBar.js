@@ -65,15 +65,27 @@ export default function NavigationBar() {
                         </NavDropdown>
 
                         <NavDropdown title="Sources">
+                            <Link href="/Sources" passHref>
+                                <NavDropdown.Item>All Sources</NavDropdown.Item>
+                            </Link>
+
+                            <Link href="/Sources/Blogs_and_reviews" passHref>
+                                <NavDropdown.Item>
+                                    Blogs & Reviews
+                                </NavDropdown.Item>
+                            </Link>
+
+                            <Link href="/Sources/Dorms" passHref>
+                                <NavDropdown.Item>Dorms</NavDropdown.Item>
+                            </Link>
+
                             <Link href="/Sources/TownHalls" passHref>
                                 <NavDropdown.Item>Town Halls</NavDropdown.Item>
                             </Link>
-                            <Link
-                                href="/Sources/Blogs_and_reviews"
-                                passHref
-                            >
+
+                            <Link href="/Sources/Github_repos" passHref>
                                 <NavDropdown.Item>
-                                    Blogs & Reviews
+                                    Github Repos
                                 </NavDropdown.Item>
                             </Link>
 
@@ -85,11 +97,16 @@ export default function NavigationBar() {
                                     Campus Differences
                                 </NavDropdown.Item>
                             </Link>
+
+
+                            <Link href="/Sources/Criticisms" passHref>
+                                <NavDropdown.Item>
+                                    Criticisms
+                                </NavDropdown.Item>
+                            </Link>
+
                             <Link href="/Sources/Interviews" passHref>
                                 <NavDropdown.Item>Interviews</NavDropdown.Item>
-                            </Link>
-                            <Link href="/Sources/Dorms" passHref>
-                                <NavDropdown.Item>Dorms</NavDropdown.Item>
                             </Link>
                         </NavDropdown>
 

@@ -1,4 +1,5 @@
 import Head from "next/head";
+import GoBack from '../../components/GoBack'
 
 export default function DifferencesBetweenCampuses() {
   return (
@@ -92,6 +93,11 @@ export default function DifferencesBetweenCampuses() {
           self-paced it can be done faster.
         </p>
       </section>
+
+      <section className="block">
+        <GoBack name={'Sources'}/>
+      </section>
+
 
       <span className="buffy-the-buffer"></span>
     </>
