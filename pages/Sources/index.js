@@ -44,10 +44,6 @@ export default function InfoIndex() {
         <FatCard cardData={SelectCard("Sources", "Townhall_meetings")} />
         <FatCard cardData={SelectCard("Sources", "Github_repos")} />
         <FatCard cardData={SelectCard("Sources", "Campus_differences")} />
-        <FatCard cardData={SelectCard("Sources", "Criticisms")} />
-      </div>
-
-      <div className='fatcards-container-1'>
         <FatCard cardData={SelectCard("Sources", "Interviews")} />
       </div>
 

@@ -11,7 +11,7 @@ export default function Interviews() {
           content="Three interviews about 42 Silicon valley, how it operates, and what
           42's goal is about. All given by then COO Brittany Bir."
         />
-        <link rel="canonical" href="https://42sv.info/InfoSources/Interviews" />
+        <link rel="canonical" href="https://42sv.info/Sources/Interviews" />
       </Head>
       <h1>42 Silicon Valley Interviews</h1>
       <p>

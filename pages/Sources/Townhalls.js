@@ -1,5 +1,6 @@
 import Head from "next/head";
 import GoBack from '../../components/GoBack'
+import Button from "react-bootstrap/Button";
 
 export default function Dorms() {
   return (
@@ -11,7 +12,7 @@ export default function Dorms() {
           content="42 Silicon Valley has town halls for current students. Here is a list
           of the pubicly known ones, covering both videos and Github notes."
         />
-        <link rel="canonical" href="https://42sv.info/InfoSources/Townhalls" />
+        <link rel="canonical" href="https://42sv.info/Sources/Townhalls" />
       </Head>
 
       <section className="scroll-block" id="block-1">
@@ -25,8 +26,6 @@ export default function Dorms() {
           of writing) pandemic, they have resorted to virtual townhalls instead.
           Reading and listening through these made it more clear about the day
           to day experiences of cadets, both positive and negative.
-        </p>
-        <p>
           Unfortunately, the last town hall was June 12th, 2020 and there hasn't
           been another public one at least, since.
         </p>
@@ -50,7 +49,9 @@ export default function Dorms() {
           target="blank"
           rel="noopener noreferrer"
         >
-          Source
+        <Button variant="light" className="btn-next">
+            Source
+        </Button>
         </a>
       </section>
 
@@ -69,7 +70,7 @@ export default function Dorms() {
             height="315"
             src="https://www.youtube-nocookie.com/embed/86kkvx05ZUY"
             frameBorder="1"
-            //allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            className="yt-iframe"
             allowFullScreen
           ></iframe>
         </span>
@@ -79,7 +80,7 @@ export default function Dorms() {
             height="315"
             src="https://www.youtube-nocookie.com/embed/5qQnQqnK4ZE"
             frameBorder="1"
-            //allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            className="yt-iframe"
             allowFullScreen
           ></iframe>
         </span>

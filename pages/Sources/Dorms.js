@@ -11,7 +11,7 @@ export default function Dorms() {
           content="All known public information about the dorms in 42 Silicon
           Valley, which includes the rules, deposit fees and more."
         />
-        <link rel="canonical" href="https://42sv.info/InfoSources/Dorms" />
+        <link rel="canonical" href="https://42sv.info/Sources/Dorms" />
       </Head>
       <section className="scroll-block" id="block-1">
         <h1>Dorms</h1>

@@ -17,7 +17,7 @@ export default function BlogsAndReviews() {
         />
         <link
           rel="canonical"
-          href="https://42sv.info/InfoSources/Blogs_and_reviews"
+          href="https://42sv.info/Sources/Blogs_and_reviews"
         />
       </Head>
       <section className="scroll-block bar" id="block-1">

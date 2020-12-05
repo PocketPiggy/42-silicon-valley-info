@@ -99,12 +99,6 @@ export default function NavigationBar() {
                             </Link>
 
 
-                            <Link href="/Sources/Criticisms" passHref>
-                                <NavDropdown.Item>
-                                    Criticisms
-                                </NavDropdown.Item>
-                            </Link>
-
                             <Link href="/Sources/Interviews" passHref>
                                 <NavDropdown.Item>Interviews</NavDropdown.Item>
                             </Link>
