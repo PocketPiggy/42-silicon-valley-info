@@ -43,11 +43,59 @@
 }
 
 .contact-p {
-    text-align: center;
+    text-align: left;
+    width: 55%;
 }
 
 @keyframes heartbeat {
     0% {
         box-shadow: 0;
     }
+}
+
+@media screen and (max-width: 450px) {
+#contact-form {
+    border-radius: $rounded-c;
+    width: 95vw;
+    height: 30rem;
+    margin-top: 3rem;
+    box-shadow: $box-shadow;
+    background-color: $menu-color;
+
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 85vw;
+        margin: 0 auto;
+    }
+
+    label {
+        color: $text-color;
+        font-size: $h3-size;
+        font-weight: bold;
+        margin: 2rem 0 2rem 0;
+        justify-content: center;
+    }
+
+    .contact-box {
+        margin: .5rem 0 1rem 0;
+    }
+
+    .contact-message {
+        margin: .5rem 0 1rem 0;
+        height: 8rem;
+        border-radius: $rounded-c;
+    }
+
+    .contact-submit {
+        width: 6rem;
+        border-radius: $rounded-c;
+        box-shadow: $img-shadow;
+        &:hover {
+            animation: heartbeat .75s;
+            box-shadow: $box-shadow;
+        }
+    }
+}
+
 }

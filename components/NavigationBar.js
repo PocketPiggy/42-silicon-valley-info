@@ -75,7 +75,7 @@ export default function NavigationBar() {
                                 </NavDropdown.Item>
                             </Link>
 
-                            <Link href="/sources/orms" passHref>
+                            <Link href="/sources/dorms" passHref>
                                 <NavDropdown.Item>Dorms</NavDropdown.Item>
                             </Link>
 

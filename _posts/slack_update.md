@@ -17,12 +17,15 @@ cannonical: "https://42sv.info/updates/posts/slack-update"
 It's been over two months since the last public update for 42 Silicon Valley. This goes for both social media and their main website. Though, directly from their slack, their last post was:
 </p>
 
-<p class='blog-p-quote'>
+<div class='blog-transcription'>
+
 "Unfortunately, the Fremont campus has cancelled all piscines for an unknown period of time due to COVID-19.
 When the campus does open back up, I believe the only requirements for cadets living off-campus will be to stay ahead of the black hole.
+
 Unfortunately, the public health situation here is not very good, so it will probably be al ong time before we re-open. I would sugget that your friend should find another way to study programming for now.
+
 Hope that helps!"
-</p>
+</div>
 
 <span class='blog-img'>
 <img src='/images/updates/october/oct12_slack.png' alt='Screencap of 42 silicon valley slack message.'/>

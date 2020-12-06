@@ -42,14 +42,14 @@ export default function About() {
         <p>
           A brief introduction of myself: I was waiting for the April 2020
           Piscine but it was cancelled in February due to 42SV needing to update
-          'update their techinical infrastructure.' This lead to all Piscines
+          "update their techinical infrastructure." This lead to all Piscines
           being cancelled for 2020 until further notice. Then Covid-19 shortly
-          after and the campus was shut down in March.
+          after and the campus was shut down in March. Sometime between August
+          and October of 2020, the 42 campus was shut down permanently.
         </p>
         <p>
-          In the meantime, I've decided to continue self teaching, moving away
-          from C and towards web development. I'm currently eagerly waiting on
-          news for the next Piscine, which hopefully will be early next year.
+          Due to 42 SV shutting down permanently, I've decided to dive directly
+          into web development and put C on hold for now.
         </p>
         <span className="fivehead">
           <FiveHead />

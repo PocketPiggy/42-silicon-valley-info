@@ -2,6 +2,7 @@ import Head from "next/head";
 import FatCard from "../components/FatCard";
 import SelectCard from "../components/SelectCard";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Index() {
   return (
@@ -37,6 +38,14 @@ export default function Index() {
           bare minimum, consider looking over what the Piscine actually covers.
           (Hint: It's not web development!)
         </p>
+
+        <span className='home-updates'>
+            <p>
+              <Link href='./updates' passHref name='updates'>
+              Click here to find current updates about 42 Silicon Valley.
+              </Link>
+            </p>
+        </span>
 
         <section className="fat-card-container">
           <span className="card-1">

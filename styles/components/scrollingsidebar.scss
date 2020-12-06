@@ -1,14 +1,15 @@
 #scrolling-sidebar {
-    border: 1px solid blue;
+    //border: 1px solid blue;
     position: fixed;
     z-index: 9001;
     top: 0%;
     right: 0%;
     height: 90vh;
-    width: 17vw;
+    //width: 17vw;
+    width: 15%;
     position: fixed;
     margin-top: 8.4vh;
-    margin-right: 1vw;
+    //margin-right: .5vw;
     text-align: left !important;
     overflow: hidden;
     font-weight: bold;
@@ -17,6 +18,9 @@
         display: flex;
         flex-direction: column;
         text-align: left !important;
+        background-color: grey;
+        padding-bottom: 1rem;
+        border-radius: 4px;
         .sidebar-item {
         }
     }
@@ -28,7 +32,8 @@
 }
 
 .side-p {
-    font-size: $xs-p-size;
+    //font-size: $xs-p-size;
+    font-size: 12px;
     text-align: left !important;
     color: $text-color;
 }

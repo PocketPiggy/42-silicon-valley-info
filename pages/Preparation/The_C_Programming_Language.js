@@ -140,7 +140,7 @@ export default function Clang() {
         </div>
       </section>
 
-      <section className="scroll-block" id="block-6">
+      <section className="scroll-block">
         <Link href="./putting_it_all_together" passHref>
           <Button variant="primary" className="btn-next">
             Putting it all Together{" "}
@@ -163,7 +163,6 @@ export async function getStaticProps(context) {
         { stop: "3", title: "C: A Modern Approach" },
         { stop: "4", title: "The C Programming Language" },
         { stop: "5", title: "Miscellaneous resources" },
-        { stop: "6", title: "Putting it all together" },
       ],
     },
   };
