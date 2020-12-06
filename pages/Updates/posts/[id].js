@@ -25,8 +25,8 @@ export default function Post({ postData }) {
       </section>
 
       <div className="back-btn">
-        <Link href="/Updates" passHref>
-          <a href="/Updates">
+        <Link href="/updates" passHref>
+          <a href="/updates">
             <Button variant="danger" className="return-btn">
               Back to updates
             </Button>

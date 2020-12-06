@@ -10,23 +10,23 @@ export default function Footer() {
                     target="blank"
                     rel="noopener noreferrer"
                 >
-                    <span className='bgc'>
-                    <img
-                        src="/Images/Components/Footer/nextjs.svg"
-                        height="30"
-                        width="80"
-                        alt="Next.js Logo"
-                    />
+                    <span className="bgc">
+                        <img
+                            src="/images/components/footer/nextjs.svg"
+                            height="30"
+                            width="80"
+                            alt="Next.js Logo"
+                        />
                     </span>
-                </a>
-                {" "}and{" "}
+                </a>{" "}
+                and{" "}
                 <a
                     href="https://reactjs.org"
                     target="blank"
                     rel="noopener noreferrer"
                 >
                     <img
-                        src="/Images/Components/Footer/react.svg"
+                        src="/images/components/footer/react.svg"
                         height="30"
                         width="80"
                         alt="React.js Logo"

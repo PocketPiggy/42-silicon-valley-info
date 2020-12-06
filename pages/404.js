@@ -1,7 +1,8 @@
 import { useRouter } from "next/router";
 import Button from "react-bootstrap/Button";
-import Head from 'next/head';
-import GoBack from '../components/GoBack';
+import Head from "next/head";
+import GoBack from "../components/GoBack";
+import Image from "next/image";
 
 export default function FourOhFour() {
   //    This will erase the 404 page url from history and replacing it
@@ -18,11 +19,11 @@ export default function FourOhFour() {
       <Head>
         <title>404 - Not found</title>
         <meta
-    name="description"
-    content="Oops...well this is awkward. This is not the page you're looking
+          name="description"
+          content="Oops...well this is awkward. This is not the page you're looking
           for. Back to 42 Silicon Valley home."
-/>
-<link rel="canonical" href="https://42sv.info/404"/>
+        />
+        <link rel="canonical" href="https://42sv.info/404" />
       </Head>
       <section className="scroll-block" id="block-1">
         <h1> 404 - Not found </h1>
@@ -30,10 +31,11 @@ export default function FourOhFour() {
           Oops...well this is awkward. This is not the page you're looking for.
         </p>
         <span className="img-container">
-          <img
-            src="/Images/Page/404/fourbi_oh_fournobi.gif"
+          <Image
+            src="/images/404/fourbi_oh_fournobi.gif"
             alt="Animation of Obiwan-Kenobi doing a jedi mind trick."
             title="Fourbi Oh Fournobi"
+            unsized
           />
         </span>
         <div className="back-btn" onClick={goBack}>
@@ -41,7 +43,7 @@ export default function FourOhFour() {
             Return home
           </Button>
         </div>
-        <GoBack name={"Let's a gogo!"}/>
+        <GoBack name={"Let's a gogo!"} />
       </section>
 
       <span className="buffy-the-buffer"></span>

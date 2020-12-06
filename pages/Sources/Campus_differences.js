@@ -1,5 +1,6 @@
 import Head from "next/head";
-import GoBack from '../../components/GoBack'
+import GoBack from "../../components/GoBack";
+import Image from "next/image";
 
 export default function DifferencesBetweenCampuses() {
   return (
@@ -13,7 +14,7 @@ export default function DifferencesBetweenCampuses() {
         />
         <link
           rel="canonical"
-          href="https://42sv.info/Sources/Differences_between_campuses"
+          href="https://42sv.info/sources/differences_between_campuses"
         />
       </Head>
       <section className="block" id="block-1">
@@ -95,9 +96,8 @@ export default function DifferencesBetweenCampuses() {
       </section>
 
       <section className="block">
-        <GoBack name={'Sources'}/>
+        <GoBack name={"Sources"} />
       </section>
-
 
       <span className="buffy-the-buffer"></span>
     </>

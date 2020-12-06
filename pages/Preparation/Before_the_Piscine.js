@@ -16,14 +16,14 @@ export default function BeforeThePiscine() {
         />
         <link
           rel="canonical"
-          href="https://42sv.info/Preparation/Before_the_Piscine"
+          href="https://42sv.info/preparation/before_the_piscine"
         />
       </Head>
       <section className="scroll-block" id="block-1">
         <h1>Before the Piscine</h1>
         <span className="img-container">
           <img
-            src="/Images/Page/Preparation/before_the_piscine/42sv-labs-piscine.jpg"
+            src="/images/preparation/before_the_piscine/42sv-labs-piscine.jpg"
             alt="A bunch of people, Pisciners, crowding around computers during the piscine."
             title="Looks like fun, eh?"
           />
@@ -69,7 +69,7 @@ export default function BeforeThePiscine() {
 
         <span className="img-container">
           <img
-            src="/Images/Page/Preparation/before_the_piscine/42-paris-labs.jpg"
+            src="/images/preparation/before_the_piscine/42-paris-labs.jpg"
             alt="Hundreds of iMacs with lots of students using them in the 42 Paris lab."
             title="That's a lot of iMacs..."
           />
@@ -79,7 +79,7 @@ export default function BeforeThePiscine() {
 
       <section className="scroll-block" id="block-3">
         <h3>Piscine material</h3>
-        <p className='pp'>
+        <p className="pp">
           Some people have said that 'you can't prepare for the Piscine'. I
           don't quite agree with that, especially since the Piscine curriculum
           is freely available on the internet if you know where to{" "}
@@ -127,7 +127,7 @@ export default function BeforeThePiscine() {
         </p>
         <span className="img-container">
           <img
-            src="/Images/Page/Preparation/before_the_piscine/42-paris-niel-labs.jpeg"
+            src="/images/preparation/before_the_piscine/42-paris-niel-labs.jpeg"
             alt="Lots of students crowding around 42 founder Xavier Niel."
             title="All those people there, to learn how to code."
           />
@@ -136,7 +136,7 @@ export default function BeforeThePiscine() {
       </section>
 
       <section className="block">
-        <Link href="./CLI_and_Zsh" passHref>
+        <Link href="./cli_and_zsh" passHref>
           <Button variant="primary" className="btn-next">
             CLI & Zsh <FontAwesomeIcon icon="arrow-alt-circle-right" />
           </Button>
@@ -148,7 +148,7 @@ export default function BeforeThePiscine() {
   );
 }
 
-export async function getServerSideProps(context) {
+export async function getStaticProps(context) {
   return {
     props: {
       scroll: [

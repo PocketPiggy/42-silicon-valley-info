@@ -14,7 +14,7 @@ export default function Updates({ content, allPostsData }) {
           information in regards to opening, closing, or a big curriculum
           change."
         />
-        <link rel="canonical" href="https://42sv.info/Updates" />
+        <link rel="canonical" href="https://42sv.info/updates" />
       </Head>
       <section className="scroll-block">
         <h1>Updates</h1>
@@ -29,8 +29,8 @@ export default function Updates({ content, allPostsData }) {
         <ul className='blog-list-container'>
           {allPostsData.map(({ id, date, title, excerpt, coverImage, ogImage }) => (
             <li key={id} className="blog-item">
-              <Link href={`/Updates/posts/${id}`} passHref>
-                <a href={`/Updates/posts/${id}`}>
+              <Link href={`/updates/posts/${id}`} passHref>
+                <a href={`/updates/posts/${id}`}>
                   <div className='blog-item-container float'>
                     <span className='mini-img-container blog-item-img'>
                       <img
@@ -59,7 +59,7 @@ export default function Updates({ content, allPostsData }) {
   );
 }
 
-export async function getServerSideProps(context) {
+export async function getStaticProps(context) {
   const allPostsData = getSortedPostsData();
   return {
     props: {

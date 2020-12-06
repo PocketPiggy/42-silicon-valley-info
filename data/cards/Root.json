@@ -1,16 +1,16 @@
 {
   "Before_the_piscine": {
     "title": "Before the Piscine",
-    "imgSrc": "/Images/Page/Home/42_piscine_intro.jpeg",
+    "imgSrc": "/images/home/42_piscine_intro.jpeg",
     "imgAlt": "A crowded room full of people in a meeting before the Piscine.",
     "text": "What is the Piscine? What do you need to prepare for it?",
-    "link": "/Preparation/Before_the_Piscine"
+    "link": "/preparation/before_the_piscine"
   },
   "About_42SV": {
     "title": "About 42 Silicon Valley",
-    "imgSrc": "/Images/Page/Infosources/42sv_campus.jpg",
+    "imgSrc": "/images/sources/42sv_campus.jpg",
     "imgAlt": "Front entrance of 42 Silicon Valley, with trees surrounding the doorway.",
     "text": "From dorms to what to expect as a student and everything in between.",
-    "link": "/Sources"
+    "link": "/sources"
   }
 }

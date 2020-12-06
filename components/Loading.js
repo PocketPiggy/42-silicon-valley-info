@@ -4,7 +4,7 @@ export default function Loading(){
             <span className="loader-container">
                 <img
                     className='loader'
-                    src='/Images/Components/Loading/42Loading.jpg' />
+                    src='/images/components/loading/42Loading.jpg' />
             </span>
         </div>
     )

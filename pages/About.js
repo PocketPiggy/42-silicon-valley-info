@@ -35,7 +35,7 @@ export default function About() {
           42 Silicon Valley and the Piscine.  From C to web development, now
           waiting for the next Piscine."
         />
-        <link rel="canonical" href="https://42sv.info/About" />
+        <link rel="canonical" href="https://42sv.info/about" />
       </Head>
       <section className="scroll-block" id="block-1">
         <h1>About</h1>

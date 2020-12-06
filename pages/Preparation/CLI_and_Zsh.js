@@ -18,7 +18,7 @@ export default function CLIAndZsh() {
         />
         <link
           rel="canonical"
-          href="https://42sv.info/Preparation/CLI_and_Zsh"
+          href="https://42sv.info/preparation/cli_and_zsh"
         />
       </Head>
 
@@ -26,7 +26,7 @@ export default function CLIAndZsh() {
         <h1>CLI and Zsh/Bash</h1>
         <span className="img-container">
           <img
-            src="/Images/Page/Preparation/cli/zsh_tweaked.png"
+            src="/images/preparation/cli/zsh_tweaked.png"
             alt="iTerm2 terminal displaying more information, like time with different fonts and git status."
             title="A setup using iTerm2 & powerlevel10k theme for Zsh."
           />
@@ -82,7 +82,7 @@ export default function CLIAndZsh() {
 
         <span className="img-container">
           <img
-            src="/Images/Page/Preparation/cli/bash_default.png"
+            src="/images/preparation/cli/bash_default.png"
             alt="A default terminal displaying bash, uncustomized."
             title="Basic Bash"
           />
@@ -94,8 +94,8 @@ export default function CLIAndZsh() {
         <h3>Windows/Windows 10</h3>
         <p>If you're using Windows, you have a couple of options:</p>
 
-        <ul className='fa-ul'>
-          <li className='pp-item spacesu'>
+        <ul className="fa-ul">
+          <li className="pp-item spacesu">
             {" "}
             <FontAwesomeIcon icon="chevron-right" /> Install a Linux distro
             (like Ubuntu) to your hard drive and dual boot. If you've ever
@@ -103,14 +103,14 @@ export default function CLIAndZsh() {
             will be no problem.
           </li>
 
-          <li className='pp-item spacesu'>
+          <li className="pp-item spacesu">
             {" "}
             <FontAwesomeIcon icon="chevron-right" /> Download Cygwin (CLI) or a
             console emulator like Cmder. Out of the box, Cmder is probably
             easier to set up and use overall.
           </li>
 
-          <li className='pp-item spacesu'>
+          <li className="pp-item spacesu">
             {" "}
             <FontAwesomeIcon icon="chevron-right" /> You can install Windows
             Subsystem for Linux (WSL/WSL2). This is for Windows 10 only. This
@@ -120,7 +120,7 @@ export default function CLIAndZsh() {
             and fixing possible bugs.
           </li>
 
-          <li className='pp-item spacesu'>
+          <li className="pp-item spacesu">
             {" "}
             <FontAwesomeIcon icon="chevron-right" /> Install a virtual machine.
             Pretty straightforward and reliable. You get to keep running
@@ -131,7 +131,7 @@ export default function CLIAndZsh() {
 
         <span className="img-container">
           <img
-            src="/Images/Page/Preparation/cli/cygwin.png"
+            src="/images/preparation/cli/cygwin.png"
             alt="Terminal showing off different unix commands working on Windows."
             title="A default cygwin example."
           />
@@ -181,7 +181,7 @@ export default function CLIAndZsh() {
       </section>
 
       <section className="block">
-        <Link href="./Text_Editor" passHref>
+        <Link href="./text_editor" passHref>
           <Button variant="primary" className="btn-next">
             Text Editor <FontAwesomeIcon icon="arrow-alt-circle-right" />
           </Button>
@@ -193,7 +193,7 @@ export default function CLIAndZsh() {
   );
 }
 
-export async function getServerSideProps(context) {
+export async function getStaticProps(context) {
   return {
     props: {
       scroll: [

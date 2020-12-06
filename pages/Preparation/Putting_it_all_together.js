@@ -16,7 +16,7 @@ export default function PuttingItAllTogether() {
         />
         <link
           rel="canonical"
-          href="https://42sv.info/Preparation/Putting_it_all_together"
+          href="https://42sv.info/preparation/putting_it_all_together"
         />
       </Head>
 
@@ -24,7 +24,7 @@ export default function PuttingItAllTogether() {
         <h1>Putting it all Together</h1>
         <span className="img-container">
           <img
-            src="/Images/Page/Preparation/putting_it_all_together/42campus.jpeg"
+            src="/images/preparation/putting_it_all_together/42campus.jpeg"
             alt="Entrance of the 42 Silicon Valley campus."
             title="Maybe the beginning of your coding journey."
           />
@@ -71,7 +71,7 @@ export default function PuttingItAllTogether() {
 
         <span className="img-container">
           <img
-            src="/Images/Page/Preparation/putting_it_all_together/42examlogin.jpg"
+            src="/images/preparation/putting_it_all_together/42examlogin.jpg"
             alt="A student in the labs of 42 Silicon Valley taking the exam, with the instructions on the computer screen."
             title="Glad that the instructions are easy to find now."
           />
@@ -125,7 +125,7 @@ export default function PuttingItAllTogether() {
 
         <span className="img-container">
           <img
-            src="/Images/Page/Preparation/putting_it_all_together/moulinette.png"
+            src="/images/preparation/putting_it_all_together/moulinette.png"
             alt="Score results w/ peer reviews from the Moulinette from day 8 of the Piscine."
             title="Example results from Piscine corrections."
           />
@@ -150,24 +150,20 @@ export default function PuttingItAllTogether() {
 
         <ul className="fa-ul piscine-prep">
           <li className="pp-item">
-            <FontAwesomeIcon icon="chevron-right" />
-            {" "} They don't give up easy
+            <FontAwesomeIcon icon="chevron-right" /> They don't give up easy
           </li>
           <li className="pp-item">
-            <FontAwesomeIcon icon="chevron-right" />
-            {" "} They see things through to the end
+            <FontAwesomeIcon icon="chevron-right" /> They see things through to
+            the end
           </li>
           <li className="pp-item">
-            <FontAwesomeIcon icon="chevron-right" />
-            {" "} They're somewhat sociable
+            <FontAwesomeIcon icon="chevron-right" /> They're somewhat sociable
           </li>
           <li className="pp-item">
-            <FontAwesomeIcon icon="chevron-right" />
-            {" "} They can work with others
+            <FontAwesomeIcon icon="chevron-right" /> They can work with others
           </li>
           <li className="pp-item">
-            <FontAwesomeIcon icon="chevron-right" />
-            {" "} They're resourceful
+            <FontAwesomeIcon icon="chevron-right" /> They're resourceful
           </li>
         </ul>
         <p>
@@ -195,7 +191,7 @@ export default function PuttingItAllTogether() {
         </p>
         <span className="img-container">
           <img
-            src="/Images/Page/Preparation/putting_it_all_together/students.jpg"
+            src="/images/preparation/putting_it_all_together/students.jpg"
             alt="A group of students crowding around a copmuter and collaborating."
             title="Be polite, social and study hard!"
           />
@@ -220,13 +216,11 @@ export default function PuttingItAllTogether() {
 
         <span className="wide-load">
           <img
-            src="/Images/Page/Preparation/putting_it_all_together/day09.png"
+            src="/images/preparation/putting_it_all_together/day09.png"
             alt="Gaetan, an instructor, explaining at a 42 Townhall meeting response why day09 was created."
             title="Kind of devious but the best lessons are learned the hard way."
           />
-          <p className='img-subtext'>
-            Straight from the horse's mouth.
-          </p>
+          <p className="img-subtext">Straight from the horse's mouth.</p>
         </span>
 
         <p>
@@ -250,7 +244,7 @@ export default function PuttingItAllTogether() {
         </p>
         <span className="img-container">
           <img
-            src="/Images/Page/Preparation/putting_it_all_together/stress.jpg"
+            src="/images/preparation/putting_it_all_together/stress.jpg"
             alt="A programmer sitting in front of three computers holding his head in his hands in frustration."
             title="Programming is difficult, make sure to manage your stress."
           />
@@ -259,7 +253,6 @@ export default function PuttingItAllTogether() {
           </p>
         </span>
       </section>
-
 
       <section className="scroll-block" id="block-7">
         <h3> Conclusion </h3>
@@ -272,41 +265,41 @@ export default function PuttingItAllTogether() {
           Piscine, don't forget your towel and good luck!
         </p>
 
+        <div className="last-block">
+          <Link href="/sources" passHref>
+            <Button variant="primary" className="btn-next">
+              <FontAwesomeIcon icon="arrow-alt-circle-left" /> More 42
+              Information
+            </Button>
+          </Link>
 
-      <div className="last-block">
-        <Link href="/Sources" passHref>
-          <Button variant="primary" className="btn-next">
-            <FontAwesomeIcon icon="arrow-alt-circle-left" />
-            {" "} More 42 Information
-          </Button>
-        </Link>
+          <a href="https://42.us.org" target="blank" rel="noopener noreferrer">
+            <Button variant="primary" className="btn-next">
+              42 Silicon Valley{" "}
+              <FontAwesomeIcon icon="arrow-alt-circle-right" />
+            </Button>
+          </a>
+        </div>
 
-        <a href="https://42.us.org" target="blank" rel="noopener noreferrer">
-          <Button variant="primary" className="btn-next">
-            42 Silicon Valley <FontAwesomeIcon icon="arrow-alt-circle-right" />
-          </Button>
-        </a>
-      </div>
-
-      <span className="img-container">
-        <img
-          src="/Images/Page/Preparation/putting_it_all_together/marvin_dont_panic.jpg"
-          alt="Marvin from hitcher's guide to the galaxy pointing to title text
+        <span className="img-container">
+          <img
+            src="/images/preparation/putting_it_all_together/marvin_dont_panic.jpg"
+            alt="Marvin from hitcher's guide to the galaxy pointing to title text
           saying don't panic."
-          title="Don't panic!"
+            title="Don't panic!"
+          />
+        </span>
+
+        <span
+          className="don't-inspect-this-lol"
+          style={{ margin: "1rem 0 1rem 0" }}
         />
-      </span>
-
-        <span className="don't-inspect-this-lol"
-            style={{margin: "1rem 0 1rem 0"}}/>
-
       </section>
-
     </>
   );
 }
 
-export async function getServerSideProps(context) {
+export async function getStaticProps(context) {
   return {
     props: {
       scroll: [

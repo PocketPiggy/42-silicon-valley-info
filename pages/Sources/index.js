@@ -14,7 +14,7 @@ export default function InfoIndex() {
           information regarding the Piscine, dorms, student life and how it 42
           SV compares to 42 Paris."
         />
-        <link rel="canonical" href="https://42sv.info/Sources" />
+        <link rel="canonical" href="https://42sv.info/sources" />
       </Head>
 
       <section className="block">

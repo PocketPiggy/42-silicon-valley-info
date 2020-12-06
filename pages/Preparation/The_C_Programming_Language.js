@@ -18,15 +18,15 @@ export default function Clang() {
         />
         <link
           rel="canonical"
-          href="https://42sv.info/Preparation/The_C_Programming_Language"
+          href="https://42sv.info/preparation/the_c_programming_language"
         />
       </Head>
 
       <section className="scroll-block" id="block-1">
         <h1>The C Programming Language</h1>
-        <span className="img-container">
+        <span className="img-container test-imgy">
           <img
-            src="/Images/Page/Preparation/c_lang/dennis_ritchie.jpg"
+            src="/images/preparation/c_lang/dennis_ritchie.jpg"
             alt="Dennis Ritchie holding an award and smiling at the camera."
             title="The creator of C and co-developer of Unix."
           />
@@ -70,9 +70,9 @@ export default function Clang() {
           student. Most students will recommend it in general.
         </p>
 
-        <div className='cards-container-2'>
-            <Card cardData={SelectCard("CLang", "Card-1")} />
-            <Card cardData={SelectCard("CLang", "Card-2")} />
+        <div className="cards-container-2">
+          <Card cardData={SelectCard("CLang", "Card-1")} />
+          <Card cardData={SelectCard("CLang", "Card-2")} />
         </div>
       </section>
 
@@ -87,8 +87,8 @@ export default function Clang() {
           the book and everything is explained in detail.
         </p>
 
-        <div className='cards-container-1'>
-            <Card cardData={SelectCard("CLang", "Card-3")} />
+        <div className="cards-container-1">
+          <Card cardData={SelectCard("CLang", "Card-3")} />
         </div>
       </section>
 
@@ -114,8 +114,8 @@ export default function Clang() {
           in general.
         </p>
 
-        <div className='cards-container-1'>
-            <Card cardData={SelectCard("CLang", "Card-4")} />
+        <div className="cards-container-1">
+          <Card cardData={SelectCard("CLang", "Card-4")} />
         </div>
       </section>
 
@@ -130,18 +130,18 @@ export default function Clang() {
           There's also a stack overflow post on a list of different C books if
           none that I've shown so far interest you.
         </p>
-        <div className='cards-container'>
-            <Card cardData={SelectCard("CLang", "Card-5")} />
-            <Card cardData={SelectCard("CLang", "Card-6")} />
-            <Card cardData={SelectCard("CLang", "Card-7")} />
-            <Card cardData={SelectCard("CLang", "Card-8")} />
-            <Card cardData={SelectCard("CLang", "Card-9")} />
-            <Card cardData={SelectCard("CLang", "Card-10")} />
+        <div className="cards-container">
+          <Card cardData={SelectCard("CLang", "Card-5")} />
+          <Card cardData={SelectCard("CLang", "Card-6")} />
+          <Card cardData={SelectCard("CLang", "Card-7")} />
+          <Card cardData={SelectCard("CLang", "Card-8")} />
+          <Card cardData={SelectCard("CLang", "Card-9")} />
+          <Card cardData={SelectCard("CLang", "Card-10")} />
         </div>
       </section>
 
       <section className="scroll-block" id="block-6">
-        <Link href="./Putting_it_all_together" passHref>
+        <Link href="./putting_it_all_together" passHref>
           <Button variant="primary" className="btn-next">
             Putting it all Together{" "}
             <FontAwesomeIcon icon="arrow-alt-circle-right" />

@@ -17,7 +17,7 @@ export default function BlogsAndReviews() {
         />
         <link
           rel="canonical"
-          href="https://42sv.info/Sources/Blogs_and_reviews"
+          href="https://42sv.info/sources/blogs_and_reviews"
         />
       </Head>
       <section className="scroll-block bar" id="block-1">
@@ -44,7 +44,7 @@ export default function BlogsAndReviews() {
         </p>
         <span className="img-container">
           <img
-            src="/Images/Page/Infosources/blogreview/kristofk.png"
+            src="/images/sources/blogreview/kristofk.png"
             alt="Article with sidebar on right side for quick navigation."
           />
         </span>
@@ -89,7 +89,7 @@ export default function BlogsAndReviews() {
         </p>
         <span className="img-container">
           <img
-            src="/Images/Page/Infosources/blogreview/gcamer.png"
+            src="/images/sources/blogreview/gcamer.png"
             alt="Landing page with picture from HHGTTG; marvin watching the sunset."
           />
         </span>
@@ -115,37 +115,37 @@ export default function BlogsAndReviews() {
         </p>
         <span className="img-container">
           <img
-            src="/Images/Page/Infosources/blogreview/mbrave.png"
+            src="/images/sources/blogreview/mbrave.png"
             alt="Medium article post with authors face underneath title."
           />
         </span>
 
-        <div className='btn-link-container'>
-        <a href="https://medium.com/@themichaelbrave/why-im-taking-a-chance-on-42-222a698761d3">
-          <Button variant="light" className="btn-next">
-            Why I'm taking a chance on 42
-          </Button>
-        </a>
-        <a href="https://medium.com/@themichaelbrave/i-have-a-place-in-the-dorms-at-42-3b1fc9c4e2c0">
-          <Button variant="light" className="btn-next">
-            Piscine Dorms
-          </Button>
-        </a>
-        <a href="https://medium.com/@themichaelbrave/my-piscine-experience-all-in-one-post-85671e0bf307">
-          <Button variant="light" className="btn-next">
-            Full Piscine Experience
-          </Button>
-        </a>
-        <a href="https://medium.com/@themichaelbrave/lessons-learned-after-a-month-of-code-at-42s-piscine-679afb17fbData.MBrave.links.four">
-          <Button variant="light" className="btn-next">
-            Lessons Learned
-          </Button>
-        </a>
-        <a href="https://medium.com/@themichaelbrave/life-as-a-cadet-at-42-silicon-valley-8-months-in-9d86204bf078Data.MBrave.links.five">
-          <Button variant="light" className="btn-next">
-            Cadet Life @ 42 Silicon Valley
-          </Button>
-        </a>
+        <div className="btn-link-container">
+          <a href="https://medium.com/@themichaelbrave/why-im-taking-a-chance-on-42-222a698761d3">
+            <Button variant="light" className="btn-next">
+              Why I'm taking a chance on 42
+            </Button>
+          </a>
+          <a href="https://medium.com/@themichaelbrave/i-have-a-place-in-the-dorms-at-42-3b1fc9c4e2c0">
+            <Button variant="light" className="btn-next">
+              Piscine Dorms
+            </Button>
+          </a>
+          <a href="https://medium.com/@themichaelbrave/my-piscine-experience-all-in-one-post-85671e0bf307">
+            <Button variant="light" className="btn-next">
+              Full Piscine Experience
+            </Button>
+          </a>
+          <a href="https://medium.com/@themichaelbrave/lessons-learned-after-a-month-of-code-at-42s-piscine-679afb17fbData.MBrave.links.four">
+            <Button variant="light" className="btn-next">
+              Lessons Learned
+            </Button>
+          </a>
+          <a href="https://medium.com/@themichaelbrave/life-as-a-cadet-at-42-silicon-valley-8-months-in-9d86204bf078Data.MBrave.links.five">
+            <Button variant="light" className="btn-next">
+              Cadet Life @ 42 Silicon Valley
+            </Button>
+          </a>
         </div>
       </section>
 
@@ -158,30 +158,30 @@ export default function BlogsAndReviews() {
         </p>
         <span className="img-container">
           <img
-            src="/Images/Page/Infosources/blogreview/jraleman.png"
+            src="/images/sources/blogreview/jraleman.png"
             alt="Medium article post with squirtle pokemon as profile picture and picture of 42 silicon valley labs."
           />
         </span>
-        <div className='btn-link-container'>
-        <a
-          href="https://github.com/jraleman/42_Piscine-C"
-          target="blank"
-          rel="noopener noreferrer"
-        >
-          <Button variant="light" className="btn-next">
-            Piscine Github repo
-          </Button>
-        </a>
-        <a href="https://medium.com/@jraleman/42-silicon-valley-piscine-or-how-i-learned-to-stop-worrying-and-love-the-code-6b72bd41317a">
-          <Button variant="light" className="btn-next">
-            How I learned to stop worrying
-          </Button>
-        </a>
-        <a href="https://medium.com/@jraleman/42-silicon-valley-the-good-the-bad-and-the-ugly-b80fbb6d5d2f">
-          <Button variant="light" className="btn-next">
-            The good, the bad and the ugly?
-          </Button>
-        </a>
+        <div className="btn-link-container">
+          <a
+            href="https://github.com/jraleman/42_Piscine-C"
+            target="blank"
+            rel="noopener noreferrer"
+          >
+            <Button variant="light" className="btn-next">
+              Piscine Github repo
+            </Button>
+          </a>
+          <a href="https://medium.com/@jraleman/42-silicon-valley-piscine-or-how-i-learned-to-stop-worrying-and-love-the-code-6b72bd41317a">
+            <Button variant="light" className="btn-next">
+              How I learned to stop worrying
+            </Button>
+          </a>
+          <a href="https://medium.com/@jraleman/42-silicon-valley-the-good-the-bad-and-the-ugly-b80fbb6d5d2f">
+            <Button variant="light" className="btn-next">
+              The good, the bad and the ugly?
+            </Button>
+          </a>
         </div>
       </section>
       <section className="scroll-block bar" id="block-7">
@@ -192,47 +192,47 @@ export default function BlogsAndReviews() {
         </p>
         <span className="img-container">
           <img
-            src="/Images/Page/Infosources/blogreview/vnguyen.png"
+            src="/images/sources/blogreview/vnguyen.png"
             alt="Medium article post with authors face underneath title; screencap of 42 silicon valley website landing page."
           />
         </span>
-        <div className='btn-link-container'>
-        <a
-          href="https://medium.com/my-journey-at-42-silicon-valley-as-a-non-cs-major/applying-to-42-silicon-valley-e79eaf56e375"
-          target="blank"
-          rel="noopener noreferrer"
-        >
-          <Button variant="light" className="btn-next">
-            Applying
-          </Button>
-        </a>
-        <a
-          href="https://medium.com/my-journey-at-42-silicon-valley-as-a-non-cs-major/42-silicon-valley-piscines-dorm-application-process-3d167846255d"
-          target="blank"
-          rel="noopener noreferrer"
-        >
-          <Button variant="light" className="btn-next">
-            Dorm Application
-          </Button>
-        </a>
-        <a
-          href="https://medium.com/my-journey-at-42-silicon-valley-as-a-non-cs-major/from-acceptance-to-42-silicon-valleys-piscine-what-should-you-know-f2427efd8034"
-          target="blank"
-          rel="noopener noreferrer"
-        >
-          <Button variant="light" className="btn-next">
-            Acceptance
-          </Button>
-        </a>
-        <a
-          href="https://medium.com/my-journey-at-42-silicon-valley-as-a-non-cs-major/acceptance-into-42-silicon-valley-from-pisciner-to-cadet-418b092fb464"
-          target="blank"
-          rel="noopener noreferrer"
-        >
-          <Button variant="light" className="btn-next">
-            Piscine to Cadet
-          </Button>
-        </a>
+        <div className="btn-link-container">
+          <a
+            href="https://medium.com/my-journey-at-42-silicon-valley-as-a-non-cs-major/applying-to-42-silicon-valley-e79eaf56e375"
+            target="blank"
+            rel="noopener noreferrer"
+          >
+            <Button variant="light" className="btn-next">
+              Applying
+            </Button>
+          </a>
+          <a
+            href="https://medium.com/my-journey-at-42-silicon-valley-as-a-non-cs-major/42-silicon-valley-piscines-dorm-application-process-3d167846255d"
+            target="blank"
+            rel="noopener noreferrer"
+          >
+            <Button variant="light" className="btn-next">
+              Dorm Application
+            </Button>
+          </a>
+          <a
+            href="https://medium.com/my-journey-at-42-silicon-valley-as-a-non-cs-major/from-acceptance-to-42-silicon-valleys-piscine-what-should-you-know-f2427efd8034"
+            target="blank"
+            rel="noopener noreferrer"
+          >
+            <Button variant="light" className="btn-next">
+              Acceptance
+            </Button>
+          </a>
+          <a
+            href="https://medium.com/my-journey-at-42-silicon-valley-as-a-non-cs-major/acceptance-into-42-silicon-valley-from-pisciner-to-cadet-418b092fb464"
+            target="blank"
+            rel="noopener noreferrer"
+          >
+            <Button variant="light" className="btn-next">
+              Piscine to Cadet
+            </Button>
+          </a>
         </div>
       </section>
       <section className="scroll-block bar" id="block-8">
@@ -243,7 +243,7 @@ export default function BlogsAndReviews() {
         </p>
         <span className="img-container">
           <img
-            src="/Images/Page/Infosources/blogreview/codinggirl.jpg"
+            src="/images/sources/blogreview/codinggirl.jpg"
             alt="Youtube thumbnail of girl looking exhausted, captions say day 1 42, I feel exhausted."
           />
         </span>
@@ -267,7 +267,7 @@ export default function BlogsAndReviews() {
         </p>
         <span className="img-container">
           <img
-            src="/Images/Page/Infosources/blogreview/zedechariaz.png"
+            src="/images/sources/blogreview/zedechariaz.png"
             alt="Screenshot of the reddit thread, lots of text."
           />
         </span>
@@ -289,7 +289,7 @@ export default function BlogsAndReviews() {
         </p>
         <span className="img-container">
           <img
-            src="/Images/Page/Infosources/blogreview/ekaterina.png"
+            src="/images/sources/blogreview/ekaterina.png"
             alt="Blog formatted website with author touching behind her hair and smiling."
           />
         </span>
@@ -313,7 +313,7 @@ export default function BlogsAndReviews() {
   );
 }
 
-export async function getServerSideProps(context) {
+export async function getStaticProps(context) {
   return {
     props: {
       scroll: [

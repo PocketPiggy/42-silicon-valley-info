@@ -43,7 +43,7 @@ export default function Contact() {
           content="Questions? Concerns? Bugs or did I get information wrong
           about 42 Silicon Valley? Feel free send me an email."
         />
-        <link rel="canonical" href="https://42sv.info/Contact" />
+        <link rel="canonical" href="https://42sv.info/contact" />
       </Head>
       <section className="scroll-block" id="block-1">
         <h1>Contact</h1>

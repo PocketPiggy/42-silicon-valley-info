@@ -1,5 +1,5 @@
 import Head from "next/head";
-import GoBack from '../../components/GoBack'
+import GoBack from "../../components/GoBack";
 
 export default function Interviews() {
   return (
@@ -11,7 +11,7 @@ export default function Interviews() {
           content="Three interviews about 42 Silicon valley, how it operates, and what
           42's goal is about. All given by then COO Brittany Bir."
         />
-        <link rel="canonical" href="https://42sv.info/Sources/Interviews" />
+        <link rel="canonical" href="https://42sv.info/sources/interviews" />
       </Head>
       <h1>42 Silicon Valley Interviews</h1>
       <p>
@@ -24,51 +24,45 @@ export default function Interviews() {
         COO Brittany Bir.
       </p>
 
-      <section className='scroll-block'>
-      <span className="yt-container">
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube-nocookie.com/embed/ZFZ2R1Xa0vs"
-          frameBorder="1"
-          className='yt-iframe'
-          allowFullScreen
-        ></iframe>
-      </span>
+      <section className="scroll-block">
+        <span className="yt-container">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube-nocookie.com/embed/ZFZ2R1Xa0vs"
+            frameBorder="1"
+            className="yt-iframe"
+            allowFullScreen
+          ></iframe>
+        </span>
 
-      <span className="yt-container">
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube-nocookie.com/embed/x5WaYn4s7yA"
-          frameBorder="1"
-          className='yt-iframe'
-          allowFullScreen
-        ></iframe>
-      </span>
+        <span className="yt-container">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube-nocookie.com/embed/x5WaYn4s7yA"
+            frameBorder="1"
+            className="yt-iframe"
+            allowFullScreen
+          ></iframe>
+        </span>
 
-      <span className="yt-container">
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube-nocookie.com/embed/RQwGU_AQsY4"
-          frameBorder="1"
-          className='yt-iframe'
-          allowFullScreen
-        ></iframe>
-      </span>
+        <span className="yt-container">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube-nocookie.com/embed/RQwGU_AQsY4"
+            frameBorder="1"
+            className="yt-iframe"
+            allowFullScreen
+          ></iframe>
+        </span>
       </section>
 
       <section className="block">
-        <GoBack name={'Sources'}/>
+        <GoBack name={"Sources"} />
       </section>
       <span className="buffy-the-buffer" />
     </>
   );
-}
-
-export async function getServerSideProps(context) {
-  return {
-    props: {},
-  };
 }

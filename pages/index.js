@@ -48,16 +48,8 @@ export default function Index() {
         </section>
 
         <span className="mini-img-container">
-          {/*
-          <img
-            src="/Images/Page/Home/Marvin.jpg"
-            alt="Marvin the Android from 'The Hitchhiker's guide to the galaxy', looking depressed."
-            title="Well I wish you'd just tell me rather than try to engage my
-            enthusiasm. 42 Silicon Valley BornToCode"
-          />
-          */}
           <Image
-            src="/Images/Page/Home/Marvin.jpg"
+            src="/images/home/marvin.jpg"
             alt="Marvin the Android from 'The Hitchhiker's guide to the galaxy', looking depressed."
             title="Well I wish you'd just tell me rather than try to engage my
             enthusiasm. 42 Silicon Valley BornToCode"

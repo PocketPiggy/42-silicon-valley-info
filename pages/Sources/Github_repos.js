@@ -10,7 +10,7 @@ export default function GithubRepos() {
         <title>42 Silicon Valley - Github Repos</title>
         <meta name="description" content="All piscine related material for the
         42/42 SV program. PDFs, coding norms, and more." />
-        <link rel="canonical" href="https://42sv.info/Sources/Github_repos" />
+        <link rel="canonical" href="https://42sv.info/sources/github_repos" />
       </Head>
 
       <section className="block">

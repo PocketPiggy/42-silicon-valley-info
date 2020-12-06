@@ -25,7 +25,7 @@ export default function NavigationBar() {
                     <Nav>
                         <NavDropdown title="Preparation" id="preparation-drop">
                             <Link
-                                href="/Preparation/Before_the_Piscine"
+                                href="/preparation/before_the_piscine"
                                 passHref
                             >
                                 <NavDropdown.Item>
@@ -33,20 +33,20 @@ export default function NavigationBar() {
                                 </NavDropdown.Item>
                             </Link>
 
-                            <Link href="/Preparation/CLI_and_Zsh" passHref>
+                            <Link href="/preparation/cli_and_zsh" passHref>
                                 <NavDropdown.Item>CLI & Zsh</NavDropdown.Item>
                             </Link>
 
-                            <Link href="/Preparation/Text_Editor" passHref>
+                            <Link href="/preparation/text_editor" passHref>
                                 <NavDropdown.Item>Text Editor</NavDropdown.Item>
                             </Link>
 
-                            <Link href="/Preparation/Git" passHref>
+                            <Link href="/preparation/git" passHref>
                                 <NavDropdown.Item>Git</NavDropdown.Item>
                             </Link>
 
                             <Link
-                                href="/Preparation/The_C_Programming_Language"
+                                href="/preparation/the_c_programming_language"
                                 passHref
                             >
                                 <NavDropdown.Item>
@@ -55,7 +55,7 @@ export default function NavigationBar() {
                             </Link>
 
                             <Link
-                                href="/Preparation/Putting_it_all_together"
+                                href="/preparation/putting_it_all_together"
                                 passHref
                             >
                                 <NavDropdown.Item>
@@ -65,32 +65,32 @@ export default function NavigationBar() {
                         </NavDropdown>
 
                         <NavDropdown title="Sources">
-                            <Link href="/Sources" passHref>
+                            <Link href="/sources" passHref>
                                 <NavDropdown.Item>All Sources</NavDropdown.Item>
                             </Link>
 
-                            <Link href="/Sources/Blogs_and_reviews" passHref>
+                            <Link href="/sources/blogs_and_reviews" passHref>
                                 <NavDropdown.Item>
                                     Blogs & Reviews
                                 </NavDropdown.Item>
                             </Link>
 
-                            <Link href="/Sources/Dorms" passHref>
+                            <Link href="/sources/orms" passHref>
                                 <NavDropdown.Item>Dorms</NavDropdown.Item>
                             </Link>
 
-                            <Link href="/Sources/TownHalls" passHref>
+                            <Link href="/sources/townhalls" passHref>
                                 <NavDropdown.Item>Town Halls</NavDropdown.Item>
                             </Link>
 
-                            <Link href="/Sources/Github_repos" passHref>
+                            <Link href="/sources/github_repos" passHref>
                                 <NavDropdown.Item>
                                     Github Repos
                                 </NavDropdown.Item>
                             </Link>
 
                             <Link
-                                href="/Sources/Differences_between_campuses"
+                                href="/sources/differences_between_campuses"
                                 passHref
                             >
                                 <NavDropdown.Item>
@@ -99,20 +99,20 @@ export default function NavigationBar() {
                             </Link>
 
 
-                            <Link href="/Sources/Interviews" passHref>
+                            <Link href="/sources/interviews" passHref>
                                 <NavDropdown.Item>Interviews</NavDropdown.Item>
                             </Link>
                         </NavDropdown>
 
-                        <Link href="/Updates" passHref>
+                        <Link href="/updates" passHref>
                             <Nav.Link>Updates</Nav.Link>
                         </Link>
 
-                        <Link href="/About" passHref>
+                        <Link href="/about" passHref>
                             <Nav.Link>About</Nav.Link>
                         </Link>
 
-                        <Link href="/Contact" passHref>
+                        <Link href="/contact" passHref>
                             <Nav.Link>Contact</Nav.Link>
                         </Link>
                     </Nav>

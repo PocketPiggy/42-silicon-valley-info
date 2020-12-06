@@ -1,42 +1,42 @@
 {
     "Card-1": {
         "title": "Linux CLI FYAM",
-        "imgSrc": "/Images/Page/Preparation/cli/LCLFYAM.png",
+        "imgSrc": "/images/preparation/cli/LCLFYAM.png",
         "imgAlt": "Wiki formatted links with a penguin in top left corner.",
         "text": "An online book for linux command lines. Good reference material.",
         "aHref": "https://lym.readthedocs.io/en/latest/"
     },
     "Card-2": {
         "title": "Wikibooks: Bash shell scripting",
-        "imgSrc": "/Images/Page/Preparation/cli/wb-bss.png",
+        "imgSrc": "/images/preparation/cli/wb-bss.png",
         "imgAlt": "Picture of wikibooks logo top left, with wiki formatted links.",
         "text": "Another online book for Bash. Good reference material.",
         "aHref": "https://en.wikibooks.org/wiki/Bash_Shell_Scripting"
     },
     "Card-3": {
         "title": "Ryan's Linux Cheetsheet",
-        "imgSrc": "/Images/Page/Preparation/cli/rt-lcs.png",
+        "imgSrc": "/images/preparation/cli/rt-lcs.png",
         "imgAlt": "",
         "text": "A cheetsheet with many useful commands. Also has other resources.",
         "aHref": "https://ryanstutorials.net/linuxtutorial/cheatsheet.php"
     },
     "Card-4": {
         "title": "Explain Shell",
-        "imgSrc": "/Images/Page/Preparation/cli/explainshell.png",
+        "imgSrc": "/images/preparation/cli/explainshell.png",
         "imgAlt": "Landing page of explainshell.com, with website logo header and a search box.",
         "text": "Extremely useful for deciphering scripts and commands bit by bit. Recommended.",
         "aHref": "https://explainshell.com/"
     },
     "Card-5": {
         "title": "Freecodecamp: Zsh",
-        "imgSrc": "/Images/Page/Preparation/cli/fcc-zsh.png",
+        "imgSrc": "/images/preparation/cli/fcc-zsh.png",
         "imgAlt": "Screen shot of the beginning of the article; shows an example of a terminal window.",
         "text": "A quick walkthrough on the basics of installing and setting up Zsh.",
         "aHref": "https://www.freecodecamp.org/news/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156/"
     },
     "Card-6": {
         "title": "The Odin Project: CLI Basics",
-        "imgSrc": "/Images/Page/Preparation/cli/top-cli.png",
+        "imgSrc": "/images/preparation/cli/top-cli.png",
         "imgAlt": "Beginning of the lesson for the CLI basics; has odin logo top left, and sidebar for current progress.",
         "text": "A step by step guide on the very basics of the CLI. Lots of other helpful links included inside.",
         "aHref": "https://www.theodinproject.com/courses/web-development-101/lessons/command-line-basics-web-development-101"

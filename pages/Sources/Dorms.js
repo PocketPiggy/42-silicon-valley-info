@@ -1,5 +1,5 @@
 import Head from "next/head";
-import GoBack from '../../components/GoBack'
+import GoBack from "../../components/GoBack";
 
 export default function Dorms() {
   return (
@@ -11,13 +11,13 @@ export default function Dorms() {
           content="All known public information about the dorms in 42 Silicon
           Valley, which includes the rules, deposit fees and more."
         />
-        <link rel="canonical" href="https://42sv.info/Sources/Dorms" />
+        <link rel="canonical" href="https://42sv.info/sources/dorms" />
       </Head>
       <section className="scroll-block" id="block-1">
         <h1>Dorms</h1>
         <span className="img-container">
           <img
-            src="/Images/Page/Infosources/dorm/dorm_ex.jpeg"
+            src="/images/sources/dorm/dorm_ex.jpeg"
             alt="Desk with a chair, sunny window, air conditioner and two beds."
           />
         </span>
@@ -65,7 +65,7 @@ export default function Dorms() {
 
         <span className="img-container">
           <img
-            src="/Images/Page/Infosources/dorm/42_dorm_entrance.jpeg"
+            src="/images/sources/dorm/42_dorm_entrance.jpeg"
             alt="Dorms entrance with grass in front with a banner displaying
           'Nostromo' at the top of the building."
           />
@@ -118,9 +118,9 @@ export default function Dorms() {
           Below are the only two decent quality videos I could find with clear
           visuals of the dorms at 42 Silicon Valley. IMO, they seem to be okay
           for what they are: a place to sleep. Like a college dorm, don't expect
-          anything fancy. The beds seem to be bunk, there's a bathroom and there's
-          usually a single desk in every room. A quick reminder that the 42
-          Silicon Valley campus was bought from DeVry University, around the
+          anything fancy. The beds seem to be bunk, there's a bathroom and
+          there's usually a single desk in every room. A quick reminder that the
+          42 Silicon Valley campus was bought from DeVry University, around the
           time when DeVry was having monetary problems.
         </p>
 
@@ -130,7 +130,7 @@ export default function Dorms() {
             height="315"
             src="https://www.youtube-nocookie.com/embed/FZKCEfh6aY8"
             frameBorder="1"
-            className='yt-iframe'
+            className="yt-iframe"
             allowFullScreen
           ></iframe>
         </span>
@@ -140,19 +140,19 @@ export default function Dorms() {
             height="315"
             src="https://www.youtube-nocookie.com/embed/9L-IgxWu9GU"
             frameBorder="1"
-            className='yt-iframe'
+            className="yt-iframe"
             allowFullScreen
           ></iframe>
         </span>
       </section>
-      <GoBack name={'Sources'}/>
+      <GoBack name={"Sources"} />
 
       <span className="buffy-the-buffer"></span>
     </>
   );
 }
 
-export async function getServerSideProps(context) {
+export async function getStaticProps(context) {
   return {
     props: {
       scroll: [

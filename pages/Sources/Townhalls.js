@@ -1,5 +1,5 @@
 import Head from "next/head";
-import GoBack from '../../components/GoBack'
+import GoBack from "../../components/GoBack";
 import Button from "react-bootstrap/Button";
 
 export default function Dorms() {
@@ -12,7 +12,7 @@ export default function Dorms() {
           content="42 Silicon Valley has town halls for current students. Here is a list
           of the pubicly known ones, covering both videos and Github notes."
         />
-        <link rel="canonical" href="https://42sv.info/Sources/Townhalls" />
+        <link rel="canonical" href="https://42sv.info/sources/townhalls" />
       </Head>
 
       <section className="scroll-block" id="block-1">
@@ -40,7 +40,7 @@ export default function Dorms() {
         </p>
         <span className="img-container">
           <img
-            src="/Images/Page/Infosources/townhall/townhall-gh.png"
+            src="/images/sources/townhall/townhall-gh.png"
             alt="Screencap of the last github notes of 42 Silicon valley town hall."
           />
         </span>
@@ -49,9 +49,9 @@ export default function Dorms() {
           target="blank"
           rel="noopener noreferrer"
         >
-        <Button variant="light" className="btn-next">
+          <Button variant="light" className="btn-next">
             Source
-        </Button>
+          </Button>
         </a>
       </section>
 
@@ -87,7 +87,7 @@ export default function Dorms() {
       </section>
 
       <section className="block">
-        <GoBack name={'Sources'}/>
+        <GoBack name={"Sources"} />
       </section>
 
       <span className="buffy-the-buffer"></span>
@@ -95,7 +95,7 @@ export default function Dorms() {
   );
 }
 
-export async function getServerSideProps(context) {
+export async function getStaticProps(context) {
   return {
     props: {
       scroll: [

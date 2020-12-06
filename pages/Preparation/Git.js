@@ -16,14 +16,14 @@ export default function Git() {
           it will be used in tandem at 42 Silicon Valley and what the
           Vogsphere is."
         />
-        <link rel="canonical" href="https://42sv.info/Preparation/Git" />
+        <link rel="canonical" href="https://42sv.info/preparation/git" />
       </Head>
 
       <section className="scroll-block" id="block-1">
         <h1>Git</h1>
         <span className="img-container">
           <img
-            src="/Images/Page/Preparation/git/git_xkcd.png"
+            src="/images/preparation/git/git_xkcd.png"
             alt="An XKCD comic talking about git and how to use it as a joke."
             title="Seriously, always an XKCD."
           />
@@ -60,7 +60,7 @@ export default function Git() {
         </p>
         <span className="img-container">
           <img
-            src="/Images/Page/Preparation/git/git_joke.jpg"
+            src="/images/preparation/git/git_joke.jpg"
             alt="Comic of two people in front of an eisle."
           />
           <p className="img-subtext">
@@ -123,7 +123,7 @@ export default function Git() {
       </section>
 
       <section className="block">
-        <Link href="./The_C_Programming_Language" passHref>
+        <Link href="./the_c_programming_language" passHref>
           <Button variant="primary" className="btn-next">
             The C Language <FontAwesomeIcon icon="arrow-alt-circle-right" />
           </Button>
@@ -135,7 +135,7 @@ export default function Git() {
   );
 }
 
-export async function getServerSideProps(context) {
+export async function getStaticProps(context) {
   return {
     props: {
       scroll: [

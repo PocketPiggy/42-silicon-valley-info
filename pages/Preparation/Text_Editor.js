@@ -15,14 +15,17 @@ export default function TextEditor() {
           content="At 42 Silicon Valley, you have a choice of Vim or Emacs. This will
           guide you on how to hit the ground running with Vim."
         />
-        <link rel="canonical" href="https://42sv.info/Preparation/Text_Editor" />
+        <link
+          rel="canonical"
+          href="https://42sv.info/preparation/text_editor"
+        />
       </Head>
 
       <section className="scroll-block" id="block-1">
         <h1> Text Editor - Vim </h1>
         <span className="img-container">
           <img
-            src="/Images/Page/Preparation/text_editor/vim_default.png"
+            src="/images/preparation/text_editor/vim_default.png"
             alt="Default splash screen of vim, information about version and simple keybind instructions."
             title=":q!"
           />
@@ -50,7 +53,7 @@ export default function TextEditor() {
 
         <span className="img-container">
           <img
-            src="/Images/Page/Preparation/text_editor/real_programmers.png"
+            src="/images/preparation/text_editor/real_programmers.png"
             alt="XKCD comic with multiple panels talking about which text editor real programmers use."
             title="Always an XKCD for everything."
           />
@@ -124,7 +127,7 @@ export default function TextEditor() {
         </p>
         <span className="img-container">
           <img
-            src="/Images/Page/Preparation/text_editor/vim_tweaked.png"
+            src="/images/preparation/text_editor/vim_tweaked.png"
             alt="A sample of some javascript code with vim plugins enabled."
             title="Making Vim a little like VScode."
           />
@@ -153,21 +156,21 @@ export default function TextEditor() {
         </p>
 
         <div className="cards-container">
-            <Card cardData={SelectCard("TextEditor", "Card-1")} />
-            <Card cardData={SelectCard("TextEditor", "Card-2")} />
-            <Card cardData={SelectCard("TextEditor", "Card-3")} />
-            <Card cardData={SelectCard("TextEditor", "Card-4")} />
-            <Card cardData={SelectCard("TextEditor", "Card-5")} />
-            <Card cardData={SelectCard("TextEditor", "Card-6")} />
+          <Card cardData={SelectCard("TextEditor", "Card-1")} />
+          <Card cardData={SelectCard("TextEditor", "Card-2")} />
+          <Card cardData={SelectCard("TextEditor", "Card-3")} />
+          <Card cardData={SelectCard("TextEditor", "Card-4")} />
+          <Card cardData={SelectCard("TextEditor", "Card-5")} />
+          <Card cardData={SelectCard("TextEditor", "Card-6")} />
         </div>
         <div className="cards-container-2">
-            <Card cardData={SelectCard("TextEditor", "Card-7")} />
-            <Card cardData={SelectCard("TextEditor", "Card-8")} />
+          <Card cardData={SelectCard("TextEditor", "Card-7")} />
+          <Card cardData={SelectCard("TextEditor", "Card-8")} />
         </div>
       </section>
 
       <section className="block">
-        <Link href="./Git" passHref>
+        <Link href="./git" passHref>
           <Button variant="primary" className="btn-next">
             Git <FontAwesomeIcon icon="arrow-alt-circle-right" />
           </Button>
@@ -179,7 +182,7 @@ export default function TextEditor() {
   );
 }
 
-export async function getServerSideProps(context) {
+export async function getStaticProps(context) {
   return {
     props: {
       scroll: [
