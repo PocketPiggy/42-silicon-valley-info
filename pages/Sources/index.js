@@ -32,7 +32,7 @@ export default function InfoIndex() {
           information as well as my findings from personally talking to current
           and past students. If you have any questions, feel free to contact me
           over{" "}
-          <Link href="/Contact" passHref>
+          <Link href="/contact" passHref>
             here.
           </Link>
         </p>

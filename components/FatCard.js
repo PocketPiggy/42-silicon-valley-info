@@ -7,7 +7,7 @@ export default function Card(props) {
             <div className="f-card-content">
                 <div className="hemi-1 vl">
                     <div className="f-card-img">
-                        <img src={props.imgSrc} alt={props.alt} />
+                        <img src={props.imgSrc} alt={props.imgAlt} />
                     </div>
                 </div>
 
@@ -22,7 +22,7 @@ export default function Card(props) {
                     <div className="f-card-link">
                         <Link href={props.link} passHref>
                             <Button variant="primary" className="btn-next">
-                                Read more
+                                More info
                             </Button>
                         </Link>
                     </div>

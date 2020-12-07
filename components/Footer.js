@@ -39,6 +39,7 @@ export default function Footer() {
                     href="https://twitter.com/Pocket_Piggy"
                     target="blank"
                     rel="noopener noreferrer"
+                    aria-label="pocket piggy's twitter"
                 >
                     <FontAwesomeIcon
                         icon={["fab", "twitter-square"]}
@@ -50,6 +51,7 @@ export default function Footer() {
                     href="https://github.com/PocketPiggy/"
                     target="blank"
                     rel="noopener noreferrer"
+                    aria-label="pocket piggy's github page"
                 >
                     <FontAwesomeIcon
                         icon={["fab", "github-square"]}
@@ -61,6 +63,7 @@ export default function Footer() {
                     href="https://github.com/PocketPiggy/42-Silicon-Valley-Information-Trove"
                     target="blank"
                     rel="noopener noreferrer"
+                    aria-label="github repo for this website"
                 >
                     <FontAwesomeIcon
                         icon="code-branch"

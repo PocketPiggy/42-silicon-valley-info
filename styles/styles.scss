@@ -28,6 +28,13 @@ body {
     }
 }
 
+//  Bootstrap's primary button doesn't pass contrast accessibilitiy
+.btn-primary {
+    background-color: #0056B3;
+    border-color: #0056B3;
+}
+
+
 div {
     &.foggy {
         animation: fadeIn .5s linear;

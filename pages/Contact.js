@@ -22,13 +22,13 @@ export default function Contact() {
       .then(
         (result) => {
           alert("Message sent!");
-          console.log(result.text);
+          //console.log(result.text);
         },
         (error) => {
           alert(
             "Uh oh. Something went wrong. Email me directly at pocketpiggy@protonmail.com"
           );
-          console.log(error.text);
+          //console.log(error.text);
         }
       );
     e.target.reset();

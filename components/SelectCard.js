@@ -31,7 +31,8 @@ export default function SelectCard(page, card) {
             result = Root;
             break;
         default:
-            result = "Something broke."
+            //result = "Something broke."
+            result = null;
             break;
     }
     return result[card];
