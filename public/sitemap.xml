@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://42sv.info/</loc>
+  <lastmod>2020-12-07T02:20:00+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://42sv.info/updates</loc>
+  <lastmod>2020-12-07T02:20:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://42sv.info/about</loc>
+  <lastmod>2020-12-07T02:20:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://42sv.info/contact</loc>
+  <lastmod>2020-12-07T02:20:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://42sv.info/preparation/before_the_piscine</loc>
+  <lastmod>2020-12-07T02:20:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://42sv.info/sources</loc>
+  <lastmod>2020-12-07T02:20:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://42sv.info/updates/posts/42sv_closed_forever</loc>
+  <lastmod>2020-12-07T02:20:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://42sv.info/updates/posts/slack_update</loc>
+  <lastmod>2020-12-07T02:20:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://42sv.info/updates/posts/remainder_2020_cancelled</loc>
+  <lastmod>2020-12-07T02:20:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://42sv.info/updates/posts/all_cancelled</loc>
+  <lastmod>2020-12-07T02:20:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://42sv.info/updates/posts/42sv_shutting_down</loc>
+  <lastmod>2020-12-07T02:20:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://42sv.info/updates/posts/new_curriculum</loc>
+  <lastmod>2020-12-07T02:20:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://42sv.info/preparation/cli_and_zsh</loc>
+  <lastmod>2020-12-07T02:20:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://42sv.info/sources/blogs_and_reviews</loc>
+  <lastmod>2020-12-07T02:20:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://42sv.info/sources/dorms</loc>
+  <lastmod>2020-12-07T02:20:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://42sv.info/sources/townhalls</loc>
+  <lastmod>2020-12-07T02:20:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://42sv.info/sources/github_repos</loc>
+  <lastmod>2020-12-07T02:20:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://42sv.info/sources/campus_differences</loc>
+  <lastmod>2020-12-07T02:20:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://42sv.info/sources/interviews</loc>
+  <lastmod>2020-12-07T02:20:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://42sv.info/preparation/text_editor</loc>
+  <lastmod>2020-12-07T02:20:00+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://42sv.info/preparation/git</loc>
+  <lastmod>2020-12-07T02:20:00+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://42sv.info/preparation/the_c_programming_language</loc>
+  <lastmod>2020-12-07T02:20:00+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://42sv.info/preparation/putting_it_all_together</loc>
+  <lastmod>2020-12-07T02:20:00+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+
+
+</urlset>
