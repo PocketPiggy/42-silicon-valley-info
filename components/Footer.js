@@ -60,7 +60,7 @@ export default function Footer() {
                 </a>
 
                 <a
-                    href="https://github.com/PocketPiggy/42-Silicon-Valley-Information-Trove"
+                    href="https://github.com/PocketPiggy/42-silicon-valley-info"
                     target="blank"
                     rel="noopener noreferrer"
                     aria-label="github repo for this website"
