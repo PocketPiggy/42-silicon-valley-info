@@ -75,11 +75,9 @@ export default function MyApp({ Component, pageProps }) {
   useEffect(() => {
     const loadStart = () => {
       fadeOut();
-      //console.log("Starting...");
       return delayStart();
     };
     const loadEnd = () => {
-      //console.log("Done.");
       return delayEnd();
     };
 
@@ -102,7 +100,6 @@ export default function MyApp({ Component, pageProps }) {
   //  the fadeIn CSS animations regardless, which is enough for this website.
   function fadeOut() {
     const foggyContainer = document.getElementById('foggy-container');
-    //console.log('foggyContainer!');
     foggyContainer.style.animation = "fadeOut 1.6s linear";
   }
 
