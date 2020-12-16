@@ -3,6 +3,7 @@ title: "Remainder of 2020 - Cancelled & Shutdown"
 date: "2020-08-05"
 excerpt: "The October Piscine and start dates - Cancelled!"
 coverImage: "/images/updates/august/5-8-2020_tweet.png"
+imgAlt: "42sv tweet of remainder of 2020 cancelled & shutdown."
 author:
     name: PocketPiggy
     picture: "/images/updates/profile.jpg"
@@ -11,7 +12,7 @@ ogImage:
 meta: "The last known tweet by 42 Silicon Valley, saying that all
     future Piscines and start dates for 2020 are cancelled and the campus is
     closed until further notice."
-cannonical: "https://42sv.info/updates/posts/remainder-2020-cancelled"
+cannonical: "https://42sv.info/updates/posts/remainder_2020_cancelled"
 ---
 
 <p class='blog-p'>

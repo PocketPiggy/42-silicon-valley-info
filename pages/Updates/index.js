@@ -27,14 +27,14 @@ export default function Updates({ content, allPostsData }) {
 
       <section className="scroll-block">
         <ul className='blog-list-container'>
-          {allPostsData.map(({ id, date, title, excerpt, coverImage, ogImage }) => (
+          {allPostsData.map(({ id, date, title, excerpt, coverImage, ogImage, imgAlt }) => (
             <li key={id} className="blog-item">
               <Link href={`/updates/posts/${id}`} passHref>
                 <a href={`/updates/posts/${id}`}>
                   <div className='blog-item-container float'>
                     <span className='mini-img-container blog-item-img'>
                       <img
-                        src={coverImage}
+                        src={coverImage} alt={imgAlt}
                       />
                     </span>
                     <span className='blog-item-title'>

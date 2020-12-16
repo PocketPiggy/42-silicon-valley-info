@@ -23,7 +23,7 @@ export default function Card(props) {
             >
                 <div className="card-content">
                     <div className="card-img">
-                        <img src={props.imgSrc} alt={props.alt} />
+                        <img src={props.imgSrc} alt={props.imgAlt} />
                     </div>
                     <div className="card-title">
                         <p className="card-title">{props.title}</p>

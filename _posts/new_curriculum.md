@@ -3,6 +3,7 @@ title: "New Curriculum - Piscine cancelled"
 date: "2020-02-27"
 excerpt: "Accepted into Piscine - 4 weeks later cancelled!"
 coverImage: "/images/updates/february/Cancelled_email.png"
+imgAlt: "42sv piscine cancellation email."
 author:
     name: PocketPiggy
     picture: "/images/updates/profile.jpg"
@@ -11,7 +12,7 @@ ogImage:
 meta: "42 Silicon Valley has decided to cancel all upcomming Piscines, including
     the April 2020 Piscine due to make upgrades to their curriculum and
     infrastructure."
-cannonical: "https://42sv.info/updates/posts/new-curriculum"
+cannonical: "https://42sv.info/updates/posts/new_curriculum"
 ---
 
 <p class='blog-p'>

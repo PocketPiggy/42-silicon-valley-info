@@ -3,6 +3,7 @@ title: "42 Silicon Valley - Closed forever"
 date: "2020-11-30"
 excerpt: "Yes, it's true. 42 Silicon Valley is shutting down - for good."
 coverImage: "/images/updates/november/closed-cvr-image.png"
+imgAlt: "Forwarded email of 42 sv closing forever."
 author:
     name: PocketPipggy
     picture: "/images/updates/profile.jpg"
@@ -10,7 +11,7 @@ ogImage:
     url: "/images/updates/november/closed-cvr-image.png"
 meta: "Yes it's true, 42 silicon valley is shutting down, this time for good.
     For a multiple of reasons, it's finally done."
-cannonical: "https://42sv.info/updates/posts/42sv-closed-forever"
+cannonical: "https://42sv.info/updates/posts/42sv_closed_forever"
 ---
 
 <p class='blog-p'>

@@ -14,7 +14,7 @@ export default function DifferencesBetweenCampuses() {
         />
         <link
           rel="canonical"
-          href="https://42sv.info/sources/differences_between_campuses"
+          href="https://42sv.info/sources/campus_differences"
         />
       </Head>
       <section className="block" id="block-1">

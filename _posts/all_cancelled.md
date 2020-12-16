@@ -3,6 +3,7 @@ title: "May & July - Both cancelled"
 date: "2020-04-14"
 excerpt: "42 Silicon Valley, has decided to close not only the campus."
 coverImage: "/images/updates/april/14-4-2020_tweet.png"
+imgAlt: "Linked tweet of 42sv shutting down in may & july update."
 author:
     name: PocketPiggy
     picture: "/images/updates/profile.jpg"
@@ -10,7 +11,7 @@ ogImage:
     url: "/images/updates/april/14-4-2020_tweet.png"
 meta: "42 Silicon valley has now decided to cancel the July 20th start date and
     the July Piscine."
-cannonical: "https://42sv.info/updates/posts/all-cancelled"
+cannonical: "https://42sv.info/updates/posts/all_cancelled"
 ---
 
 <p class='blog-p'>

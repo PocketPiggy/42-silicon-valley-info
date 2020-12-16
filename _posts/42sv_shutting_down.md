@@ -3,6 +3,7 @@ title: "42 Silicon Valley - Shutting down"
 date: "2020-03-11"
 excerpt: "Covid is really starting to take affect in the United States."
 coverImage: "/images/updates/march/11-3-2020_tweet.jpg"
+imgAlt: "Linked tweet of 42sv shutting down."
 author:
     name: PocketPipggy
     picture: "/images/updates/profile.jpg"
@@ -10,7 +11,7 @@ ogImage:
     url: "/images/updates/march/11-3-2020_tweet.jpg"
 meta: "With Covid-19 starting to take affect in the United States, 42 Silicon
     Valley has decided to shut down their campus immediately."
-cannonical: "https://42sv.info/updates/posts/42sv-shutting-down"
+cannonical: "https://42sv.info/updates/posts/42sv_shutting_down"
 ---
 
 <p class='blog-p'>
