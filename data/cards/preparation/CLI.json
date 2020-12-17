@@ -16,7 +16,7 @@
     "Card-3": {
         "title": "Ryan's Linux Cheetsheet",
         "imgSrc": "/images/preparation/cli/rt-lcs.png",
-        "imgAlt": "",
+        "imgAlt": "Screenshot of landing page for Ryan's cheatsheet.",
         "text": "A cheetsheet with many useful commands. Also has other resources.",
         "aHref": "https://ryanstutorials.net/linuxtutorial/cheatsheet.php"
     },
