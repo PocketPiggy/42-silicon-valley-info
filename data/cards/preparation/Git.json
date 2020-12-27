@@ -9,8 +9,8 @@
     "Card-2": {
         "title": "Freecodecamp: git",
         "imgSrc": "/images/preparation/git/fcc-git.png",
-        "imgAlt": "Another thorough explanation and example of git in use.",
-        "text": "Article with a picture of a forrest in the background.",
+        "imgAlt": "Article with a picture of a forrest in the background.",
+        "text": "Another thorough explanation and example of git in use.",
         "aHref": "https://www.freecodecamp.org/news/what-is-github-what-is-git-and-how-to-use-these-developer-tools/"
     },
     "Card-3": {
