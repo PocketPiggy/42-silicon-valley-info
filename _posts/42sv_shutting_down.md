@@ -5,7 +5,7 @@ excerpt: "Covid is really starting to take affect in the United States."
 coverImage: "/images/updates/march/11-3-2020_tweet.jpg"
 imgAlt: "Linked tweet of 42sv shutting down."
 author:
-    name: PocketPipggy
+    name: PocketPiggy
     picture: "/images/updates/profile.jpg"
 ogImage:
     url: "/images/updates/march/11-3-2020_tweet.jpg"

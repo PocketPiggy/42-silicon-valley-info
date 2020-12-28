@@ -5,7 +5,7 @@ excerpt: "Yes, it's true. 42 Silicon Valley is shutting down - for good."
 coverImage: "/images/updates/november/closed-cvr-image.png"
 imgAlt: "Forwarded email of 42 sv closing forever."
 author:
-    name: PocketPipggy
+    name: PocketPiggy
     picture: "/images/updates/profile.jpg"
 ogImage:
     url: "/images/updates/november/closed-cvr-image.png"
